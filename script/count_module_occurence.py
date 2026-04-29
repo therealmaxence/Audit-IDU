@@ -8,9 +8,9 @@ from pathlib import Path
 
 MODULE_CODE_RE = re.compile(r"\b([A-Z]{3,}\d{3}(?:_[A-Z0-9-]+)*)\b")
 
-DEFAULT_DATA_DIR     = Path(__file__).parent / "data" / "json"
-DEFAULT_VARIANTS_FILE = Path(__file__).parent / "normalized_data" / "audit_variants.json"
-DEFAULT_OUTPUT_FILE  = Path(__file__).parent / "normalized_data" / "count_module_occurence.json"
+DEFAULT_DATA_DIR     = Path(__file__).parent / "../data" / "json"
+DEFAULT_VARIANTS_FILE = Path(__file__).parent / "../normalized_data" / "audit_variants.json"
+DEFAULT_OUTPUT_FILE  = Path(__file__).parent / "../normalized_data" / "count_module_occurence.json"
 
 TARGET_FILES = {"ADECal_IDU3.json", "ADECal_IDU4.json", "ADECal_IDU5.json"}
 

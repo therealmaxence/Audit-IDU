@@ -10,8 +10,8 @@ from typing import DefaultDict
 
 MODULE_CODE_RE = re.compile(r"\b([A-Z]{3,}\d{3}(?:_[A-Z0-9-]+)*)\b")
 MODULE_ROOT_RE = re.compile(r"^([A-Z]{3,}\d{3})")
-DEFAULT_DATA_DIR = Path(__file__).parent / "data/json"
-OUTPUT_DATA_DIR = Path(__file__).parent / "normalized_data"
+DEFAULT_DATA_DIR = Path(__file__).parent / "../data/json"
+OUTPUT_DATA_DIR = Path(__file__).parent / "../normalized_data"
 
 
 def extract_module_codes_from_text(text: str) -> set[str]:

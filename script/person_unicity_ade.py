@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-"""
-ics_calendar.py
-Reads all .ics files from data/ics/, parses events, extracts+normalizes
-instructor names from DESCRIPTION fields, detects scheduling conflicts,
-and outputs a self-contained HTML calendar (calendar.html).
-
-Usage:
-    python ics_calendar.py
-    python ics_calendar.py --ics-dir path/to/ics --output my_calendar.html
-"""
-
 import os
 import re
 import sys
@@ -195,7 +183,6 @@ def find_conflicts(events: list[dict]) -> set[int]:
 def main():
     parser = argparse.ArgumentParser(description='ICS → HTML calendar by instructor')
     parser.add_argument('--ics-dir', default='data/ics', help='Folder with .ics files (default: data/ics)')
-    parser.add_argument('--output',  default='calendar.html',  help='Output HTML file (default: calendar.html)')
     args = parser.parse_args()
 
     ics_dir = Path(args.ics_dir)
