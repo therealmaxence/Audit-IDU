@@ -16,11 +16,11 @@ def verif_seance_all_modules(ade, modules):
             res.append(module)
     return res
 
-def get_type_cours(description):
+def get_Type_cours(description):
     first_line = description.split('\n')[0]
-    for type_str in ('CM', 'TD', 'TP'):
-        if f'({type_str})' in first_line:
-            return type_str
+    for Type_str in ('CM', 'TD', 'TP'):
+        if f'({Type_str})' in first_line:
+            return Type_str
     return None
 
 def get_duree_heures(starts, ends):
@@ -30,32 +30,31 @@ def get_duree_heures(starts, ends):
 
 def normaliser_titre(seance):
 
-    if seance.get('code') is None:
+    if seance['Code'] is None:
         return None
     
-    type_seance = seance.get('Type', seance.get('type')) 
-    return f"{seance['code']}_{type_seance}"
+    Type_seance = seance['Type']
+    return f"{seance['Code']}_{Type_seance}"
 
 def verif_volume_horaire(ade, nom_module, volume_CM, volume_TD, volume_TP):
     count = {'CM': 0.0, 'TD': 0.0, 'TP': 0.0}
     seen = set()
 
     for seance in ade:
-        if seance['code'] != nom_module:
+        if seance['Code'] != nom_module:
             continue
 
-        if seance['type'] is None:
+        if seance['Type'] is None:
             continue
 
         date_jour = seance['Starts'][:10]  # "2025-11-24"
         titre_norm = normaliser_titre(seance)
-        type_seance = seance['type']
-        groupe = seance['groupe']
+        Type_seance = seance['Type']
+        groupe = seance['Group']
 
-        if type_seance == 'TP' and re.match(r'^G[12]$', groupe):
+        if Type_seance == 'TP' and re.match(r'^G[12]$', groupe):
             cle = titre_norm 
         else:
-            # Comportement normal : on différencie par date
             cle = (titre_norm, date_jour)
         cle = (titre_norm, date_jour)
 
@@ -63,12 +62,37 @@ def verif_volume_horaire(ade, nom_module, volume_CM, volume_TD, volume_TP):
             continue
         seen.add(cle)
 
-        count[seance['type']] += get_duree_heures(seance['Starts'], seance['Ends'])
+        count[seance['Type']] += get_duree_heures(seance['Starts'], seance['Ends'])
 
     if count['CM'] >= volume_CM and count['TD'] >= volume_TD and count['TP'] >= volume_TP:
         return "OK"
     else:
         return f"Volume horaire incorrect pour {nom_module} : CM={count['CM']}h (attendu {volume_CM}h), TD={count['TD']}h (attendu {volume_TD}h), TP={count['TP']}h (attendu {volume_TP}h)"
+    
+def proportion_volume_horaire_correct(ade, modules):
+    total_modules = 0
+    modules_corrects = 0
+
+    for module in modules[2]['data']:
+        code_brut = module['code_module']
+        match = re.match(r'^[^_\s]+', code_brut)
+        
+        if match:
+            nom_module = match.group(0)
+            total_modules += 1
+            if verif_volume_horaire(ade, nom_module, float(module['cm']), float(module['td']), float(module['tp'])) == "OK":
+                modules_corrects += 1
+
+    if total_modules > 0:
+        proportion = modules_corrects / total_modules
+    else:
+        proportion = 0.0
+
+    return {
+        "proportion": proportion,
+        "total_modules": total_modules,
+        "modules_corrects": modules_corrects
+    }
 
 def proportion_module_present(ade, modules):
 
@@ -106,13 +130,13 @@ def proportion_module_present(ade, modules):
 
 if __name__ == "__main__":
     
-    with open('data/ADECal_IDU3.json', 'r') as f:
+    with open('data\df\ADECal_IDU3_preprocessed.json', 'r') as f:
         ade3 = json.load(f)
-    with open('data/ADECal_IDU4.json', 'r') as f:
+    with open('data\df\ADECal_IDU4_preprocessed.json', 'r') as f:
         ade4 = json.load(f)
-    with open('data/ADECal_IDU5.json', 'r') as f:
+    with open('data\df\ADECal_IDU5_preprocessed.json', 'r') as f:
         ade5 = json.load(f)
-    with open('data/MAQUETTE_IDU.json', 'r') as f:
+    with open('data\json\MAQUETTE_IDU.json', 'r') as f:
         modules = json.load(f)
 
 
@@ -120,4 +144,5 @@ if __name__ == "__main__":
 
     testNom = "INFO501"
 
-    print(verif_volume_horaire(ade3, testNom, 12, 10.5, 16))
+    for ade in [ade3, ade4, ade5]:
+        print(proportion_volume_horaire_correct(ade, modules))
