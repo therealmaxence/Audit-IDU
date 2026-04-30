@@ -1,36 +1,54 @@
 import pandas as pd
 import re
-from helpers import preprocess_data, save_data
+from helpers import preprocess_data, save_data, load_data, detect_group, detect_type
 
-def load_data(file_path):
-    return pd.read_json(file_path, orient='records')
+def verif_seance_module(ade, nom_module):
+    for seance in ade:
+        match = re.match(r'^[^_\s]+', seance['Title'])
+        if match and match.group(0) == nom_module:
+            return True
+    return False
 
-def detect_type(row):
-    text = row.get('Title', '') + ' ' + row.get('Description', '')
-    text = text.upper()
 
-    def base_regex(pattern):
-        return r'(\b|_)' + pattern + r'(\b|_)'
+def proportion_module_present(ade: list[dict], modules: list[dict]) -> dict:
+    """
+    Compute the fraction of official modules that have at least one session
+    in *ade*.  *modules* must be the raw parsed MAQUETTE_IDU.json list
+    (the table entry with the 'data' key is extracted automatically).
 
-    if re.search(base_regex(r'EXAMEN'), text):
-        return 'CM'
-    elif re.search(base_regex(r'CM'), text):
-        return 'CM'
-    elif re.search(base_regex(r'TD'), text):
-        return 'TD'
-    elif re.search(base_regex(r'TP'), text):
-        return 'TP'
-    else:
-        return None
+    Returns a dict with keys: proportion, presents, absents, invalides.
+    """
+    # Accept either the raw wrapper list or the flat data list directly
+    data: list[dict] = []
+    if isinstance(modules, list):
+        for entry in modules:
+            if isinstance(entry, dict) and entry.get('type') == 'table' and 'data' in entry:
+                data = entry['data']
+                break
+        if not data:
+            # Assume it's already the flat list
+            data = modules
 
-def detect_group(row):
-    description = row.get('Description', '').upper()
-    
-    match = re.search(r'IDU-[345]-([A-Z]+\d?)', description)
-    if match:
-        return match.group(1)
+    presents:  list[str] = []
+    absents:   list[str] = []
+    invalides: list[str] = []
 
-    return None
+    for module in data:
+        code_brut = module.get('code_module', '')
+        match     = re.match(r'^[^_\s]+', code_brut)
+        if match:
+            nom = match.group(0)
+            (presents if verif_seance_module(ade, nom) else absents).append(nom)
+        else:
+            invalides.append(code_brut)
+
+    total = len(presents) + len(absents)
+    return {
+        "proportion": len(presents) / total if total else 0.0,
+        "presents":   presents,
+        "absents":    absents,
+        "invalides":  invalides,
+    }
 
 if __name__ == "__main__":
     # Tests

@@ -20,6 +20,7 @@ import json
 import os
 import re
 import sys
+import pandas as pd
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -285,6 +286,10 @@ def walk_count(obj, counter: DefaultDict[str, int], excluded_keys: set[str] | No
 # ---------------------------------------------------------------------------
 # 5 – Preprocess / typing  (requires pandas)
 # ---------------------------------------------------------------------------
+
+def load_data(file_path):
+    return pd.read_json(file_path, orient='records')
+
 
 def detect_type(row: dict) -> str | None:
     """
