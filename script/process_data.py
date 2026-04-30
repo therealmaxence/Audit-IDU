@@ -29,4 +29,5 @@ if __name__ == "__main__":
 
     testNom = "INFO501"
 
-    print(verif_volume_horaire(ade3, testNom, 12, 10.5, 16))
+    for ade in [ade3, ade4, ade5]:
+        print(proportion_volume_horaire_correct(ade, modules))

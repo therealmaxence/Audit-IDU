@@ -53,3 +53,7 @@ if __name__ == "__main__":
     print(IDU3_data[(IDU3_data['Type'] == 'TP') & (IDU3_data['Group'].isnull())][['Title', 'Description', 'Duration']])
     print(IDU4_data[(IDU4_data['Type'] == 'TP') & (IDU4_data['Group'].isnull())][['Title', 'Description', 'Duration']])
     print(IDU5_data[(IDU5_data['Type'] == 'TP') & (IDU5_data['Group'].isnull())][['Title', 'Description', 'Duration']])
+
+    save_data(IDU3_data, 'data/df/ADECal_IDU3_preprocessed.json')
+    save_data(IDU4_data, 'data/df/ADECal_IDU4_preprocessed.json')
+    save_data(IDU5_data, 'data/df/ADECal_IDU5_preprocessed.json')
