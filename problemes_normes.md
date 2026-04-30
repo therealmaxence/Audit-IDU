@@ -5,3 +5,9 @@ IDU5 : Groupe de TP = Promo
 Nommage groupe : G1 ou G2 pour tout le monde et pas A1 ou A2
 
 Seance TD/TP : Les Séances de TP attendues en INFO501 sont planifiées en TD/TP au lieu de TP or on considere les TD/TP en tant que TD donc manque de TP comptés
+
+Soutien anglais : pas de type
+
+Sequences dépendances coupées : visibles dans dependances_restantes.json
+
+Non conformités : visibles dans non_conformites.json

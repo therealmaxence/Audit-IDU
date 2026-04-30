@@ -48,6 +48,7 @@ def preprocess_data(df):
     TP_mask = df['Type'] == 'TP'
     df.loc[TP_mask, 'Group'] = df[TP_mask].apply(detect_group, axis=1)
 
+    # Extrait l'année (3, 4 ou 5)
     df['Year'] = pd.Series(pd.NA, index=df.index, dtype='Int64')
     semester = df.loc[with_code_mask, 'Code'].str[4].astype(int)
     df.loc[with_code_mask, 'Year'] = semester.apply(lambda x: ceil(x / 2)).astype('Int64')
@@ -66,6 +67,9 @@ def keep_important_only(df):
         # Conserver : toutes les lignes hors IDU3, ou les non-TP, ou les TP dont le groupe est null ou = first_group
         mask = (df['Year'] != 3) | (df['Type'] != 'TP') | ((df['Type'] == 'TP') & (df['Group'].isnull() | (df['Group'] == groups[0])))
         df = df[mask]
+
+    # Ajoute les numéros
+    df['Numero'] = (df.groupby(['Code', 'Type']).cumcount() + 1).astype('Int64')
 
     return df
 
