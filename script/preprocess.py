@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+from helpers import preprocess_data
 
 def load_data(file_path):
     return pd.read_json(file_path, orient='records')
@@ -30,24 +31,6 @@ def detect_group(row):
         return match.group(1)
 
     return None
-
-def preprocess_data(df):
-    # Calcul la durée
-    df['Duration'] = pd.to_datetime(df['Ends']) - pd.to_datetime(df['Starts'])
-    
-    # Extrait le code du cours
-    df['Code'] = df['Title'].str.extract(r'([A-Za-z]{4}\d{3})', expand=False)
-
-    # Extrait le type de cours
-    with_code_mask = df['Code'].notnull()
-    df.loc[with_code_mask, 'Type'] = df[with_code_mask].apply(detect_type, axis=1)
-
-    # Extrait le groupe de TP
-    TP_mask = df['Type'] == 'TP'
-    df.loc[TP_mask, 'Group'] = df[TP_mask].apply(detect_group, axis=1)
-
-    return df
-
 
 if __name__ == "__main__":
     # Tests

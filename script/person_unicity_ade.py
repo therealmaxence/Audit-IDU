@@ -7,6 +7,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from collections import defaultdict
 
+ 
+from helpers import load_all_ics, find_conflicts
+
 # ---------------------------------------------------------------------------
 # ICS parsing
 # ---------------------------------------------------------------------------
@@ -123,58 +126,6 @@ def parse_ics_file(path: Path) -> list[dict]:
         })
 
     return events
-
-
-def load_all_ics(folder: Path) -> list[dict]:
-    all_events = []
-    ics_files = sorted(folder.glob('*.ics'))
-    if not ics_files:
-        print(f"[warning] No .ics files found in {folder}", file=sys.stderr)
-    for f in ics_files:
-        try:
-            evts = parse_ics_file(f)
-            print(f"  {f.name}: {len(evts)} events")
-            all_events.extend(evts)
-        except Exception as e:
-            print(f"  [error] {f.name}: {e}", file=sys.stderr)
-    return all_events
-
-
-# ---------------------------------------------------------------------------
-# Conflict detection
-# ---------------------------------------------------------------------------
-
-def find_conflicts(events: list[dict]) -> set[int]:
-    """
-    Returns indices of events where two events share a teacher and overlap.
-    Prints the exact details of the conflict to the console.
-    """
-    conflicts = set()
-    for i, a in enumerate(events):
-        for j, b in enumerate(events):
-            if j <= i:
-                continue
-            
-            shared = set(a['teachers']) & set(b['teachers']) - {'(no instructor)'}
-            
-            # If they share a teacher AND the times overlap
-            if shared and a['start'] < b['end'] and b['start'] < a['end']:
-                conflicts.add(i)
-                conflicts.add(j)
-                
-                # Format dates nicely for printing
-                d1_start = a['start'].strftime('%Y-%m-%d %H:%M')
-                d1_end = a['end'].strftime('%H:%M')
-                d2_start = b['start'].strftime('%Y-%m-%d %H:%M')
-                d2_end = b['end'].strftime('%H:%M')
-                
-                for teacher in shared:
-                    print(f"\n⚠ OVERLAP DETECTED for {teacher}:")
-                    print(f"   Event 1: [{d1_start} to {d1_end}] {a['summary']} (File: {a['source_file']})")
-                    print(f"   Event 2: [{d2_start} to {d2_end}] {b['summary']} (File: {b['source_file']})")
-                    print("-" * 60)
-                    
-    return conflicts
 
 # ---------------------------------------------------------------------------
 # CLI

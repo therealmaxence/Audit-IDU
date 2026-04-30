@@ -6,6 +6,12 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
+from helpers import (
+    safe_read_json,
+    extract_codes,
+    walk_count,
+)
+
 MODULE_CODE_RE = re.compile(r"\b([A-Z]{3,}\d{3}(?:_[A-Z0-9-]+)*)\b")
 
 DEFAULT_DATA_DIR     = Path(__file__).parent / "../data" / "json"
@@ -13,41 +19,7 @@ DEFAULT_VARIANTS_FILE = Path(__file__).parent / "../normalized_data" / "audit_va
 DEFAULT_OUTPUT_FILE  = Path(__file__).parent / "../normalized_data" / "count_module_occurence.json"
 
 TARGET_FILES = {"ADECal_IDU3.json", "ADECal_IDU4.json", "ADECal_IDU5.json"}
-
-
-# ---------------------------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------------------------
-
-def extract_codes(text: str) -> list[str]:
-    """Return every module code found in a string (may contain duplicates)."""
-    return [m.group(1) for m in MODULE_CODE_RE.finditer(text.upper())]
-
-
 EXCLUDED_KEYS = {"description"}
-
-
-def walk_count(obj, counter: defaultdict) -> None:
-    """Recursively walk a JSON object and count every module code occurrence."""
-    if isinstance(obj, dict):
-        for key, value in obj.items():
-            if isinstance(value, str) and key.lower() not in EXCLUDED_KEYS:
-                for code in extract_codes(value):
-                    counter[code] += 1
-            walk_count(value, counter)
-    elif isinstance(obj, list):
-        for item in obj:
-            walk_count(item, counter)
-
-
-def safe_read_json(path: Path):
-    try:
-        with path.open("r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception as exc:
-        print(f"[WARN] Impossible de lire {path.name}: {exc}")
-        return None
-
 
 # ---------------------------------------------------------------------------
 # Main

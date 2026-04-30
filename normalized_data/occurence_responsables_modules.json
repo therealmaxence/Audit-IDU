@@ -1,0 +1,3992 @@
+[
+  {
+    "code_module": "INFO501_PACY",
+    "responsable": "Mian Ammar",
+    "total_sessions": 23,
+    "present": 21,
+    "absent": 2,
+    "presence_rate": 91.3,
+    "present_events": [
+      {
+        "summary": "INFO501_TPPG",
+        "start": "2025-11-13T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_TDG",
+        "start": "2025-12-10T14:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_TDG",
+        "start": "2025-12-15T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_TDG",
+        "start": "2025-11-12T14:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_ET_SNI-IDU",
+        "start": "2026-01-15T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_TDG",
+        "start": "2025-12-01T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_CM_SNI-IDU",
+        "start": "2025-10-16T14:45:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_CM_SNI-IDU",
+        "start": "2025-11-28T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_CM_SNI-IDU",
+        "start": "2025-12-10T15:45:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_CM_SNI-IDU",
+        "start": "2025-11-03T15:45:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_TPPG",
+        "start": "2025-12-16T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_TDG",
+        "start": "2025-10-23T06:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_CM_SNI-IDU",
+        "start": "2025-12-15T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_TPPG",
+        "start": "2026-01-08T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_CM_SNI-IDU",
+        "start": "2026-01-09T15:45:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_TPPG",
+        "start": "2025-12-05T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_TDG",
+        "start": "2025-11-28T15:45:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_ET_SNI-IDU_tier_tps",
+        "start": "2026-01-15T13:45:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_CM_SNI-IDU",
+        "start": "2026-01-09T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_CM_SNI-IDU",
+        "start": "2025-12-01T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO501_TDG",
+        "start": "2025-12-11T14:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "INFO501_ET_2emeSession",
+        "start": "2026-03-30T12:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "INFO501_ET_2emeSession_tiersTemps",
+        "start": "2026-03-30T14:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "INFO502_PACY",
+    "responsable": "Vernier Flavien",
+    "total_sessions": 16,
+    "present": 7,
+    "absent": 9,
+    "presence_rate": 43.8,
+    "present_events": [
+      {
+        "summary": "INFO502_TPG2",
+        "start": "2025-10-15T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO502_Ex",
+        "start": "2025-11-04T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO502_Ex_Tiers_Temps",
+        "start": "2025-11-04T08:30:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO502_Ex_Session2",
+        "start": "2026-03-23T14:30:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO502_Ex_session2_tier_tps",
+        "start": "2026-03-23T16:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO502_TPG2",
+        "start": "2025-10-02T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO502_TPG2",
+        "start": "2025-10-01T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "INFO502_TDG",
+        "start": "2025-09-17T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mian Ammar"
+        ]
+      },
+      {
+        "summary": "INFO502_TDG",
+        "start": "2025-09-25T12:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mian Ammar"
+        ]
+      },
+      {
+        "summary": "INFO502_CM",
+        "start": "2025-09-03T08:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Yan Yajing"
+        ]
+      },
+      {
+        "summary": "INFO502_TPG1",
+        "start": "2025-10-02T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "INFO502_TPG1",
+        "start": "2025-10-15T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "INFO502_TPG1",
+        "start": "2025-09-29T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "INFO502_CM",
+        "start": "2025-09-16T14:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Yan Yajing"
+        ]
+      },
+      {
+        "summary": "INFO502_TDG",
+        "start": "2025-09-18T14:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mian Ammar"
+        ]
+      },
+      {
+        "summary": "INFO502_CM",
+        "start": "2025-09-05T06:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Yan Yajing"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "INFO634_IDU",
+    "responsable": "Cimpan Sorana",
+    "total_sessions": 0,
+    "present": 0,
+    "absent": 0,
+    "presence_rate": null,
+    "present_events": [],
+    "absent_events": []
+  },
+  {
+    "code_module": "INFO733_IDU",
+    "responsable": "Salamatian Kavé",
+    "total_sessions": 0,
+    "present": 0,
+    "absent": 0,
+    "presence_rate": null,
+    "present_events": [],
+    "absent_events": []
+  },
+  {
+    "code_module": "ISOC531_IDU",
+    "responsable": "Salamatian Kavé",
+    "total_sessions": 26,
+    "present": 0,
+    "absent": 26,
+    "presence_rate": 0.0,
+    "present_events": [],
+    "absent_events": [
+      {
+        "summary": "ISOC531_CM",
+        "start": "2025-10-02T12:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-10-03T12:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-11-27T14:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-12-05T14:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_CM",
+        "start": "2025-11-21T14:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-10-08T08:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-10-08T06:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-10-21T06:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-12-08T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-10-17T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-10-21T08:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-11-27T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_TPG1",
+        "start": "2026-01-05T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_CM",
+        "start": "2025-09-08T06:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-12-05T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_CM",
+        "start": "2025-12-08T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-10-03T11:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-09-10T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_CM",
+        "start": "2025-12-04T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-10-17T13:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC531_CM",
+        "start": "2025-09-22T06:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC531_CM",
+        "start": "2025-09-29T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC531_TPG2",
+        "start": "2026-01-05T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC531_CM",
+        "start": "2025-09-05T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC531_CM",
+        "start": "2025-09-08T08:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC531_TDG",
+        "start": "2025-09-10T13:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "PROJ531_IDU",
+    "responsable": "Alloui Ilham",
+    "total_sessions": 22,
+    "present": 12,
+    "absent": 10,
+    "presence_rate": 54.5,
+    "present_events": [
+      {
+        "summary": "PROJ531_TDG_4",
+        "start": "2025-12-08T14:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "PROJ531_TDG_1",
+        "start": "2025-11-07T14:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "PROJ531_TPG1",
+        "start": "2025-12-10T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "PROJ531_CM",
+        "start": "2025-11-07T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "PROJ531_CM",
+        "start": "2025-12-03T15:45:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "PROJ531_TPG1",
+        "start": "2026-01-06T13:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "PROJ531_TPG1",
+        "start": "2026-01-06T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "PROJ531_TPG1",
+        "start": "2025-12-02T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "PROJ531_TPG1",
+        "start": "2026-01-07T12:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "PROJ531_CM",
+        "start": "2025-11-06T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "PROJ531_TPG1",
+        "start": "2026-01-07T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "PROJ531_TPG1",
+        "start": "2026-01-08T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "PROJ531_TPG2",
+        "start": "2026-01-06T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "PROJ531_TDG_3",
+        "start": "2025-11-27T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "PROJ531_TPG2",
+        "start": "2025-12-10T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "PROJ531_TPG2",
+        "start": "2025-12-04T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "PROJ531_TPG2",
+        "start": "2026-01-06T13:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "PROJ531_TPG2",
+        "start": "2026-01-07T12:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "PROJ531_TPG2",
+        "start": "2026-01-07T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "PROJ531_TPG2",
+        "start": "2026-01-08T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "PROJ531_CM",
+        "start": "2025-11-25T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "PROJ531_TDG_2",
+        "start": "2025-11-25T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "INFO631_IDU",
+    "responsable": "Vernier Flavien",
+    "total_sessions": 25,
+    "present": 19,
+    "absent": 6,
+    "presence_rate": 76.0,
+    "present_events": [
+      {
+        "summary": "INFO631_INGE_TDG",
+        "start": "2026-02-26T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_TPG2",
+        "start": "2026-03-11T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_CM",
+        "start": "2026-01-20T15:30:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_CM",
+        "start": "2026-02-03T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_TPG1",
+        "start": "2026-03-03T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_TDG",
+        "start": "2026-01-22T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_TPG1",
+        "start": "2026-03-13T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_CT",
+        "start": "2026-05-18T13:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_CM",
+        "start": "2026-02-10T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_TDG",
+        "start": "2026-02-24T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_TPG1",
+        "start": "2026-03-25T07:30:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_CT_1/3_Temps",
+        "start": "2026-05-18T14:30:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_TDG",
+        "start": "2026-01-26T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_TPG1",
+        "start": "2026-03-10T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_CM",
+        "start": "2026-01-20T13:45:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_TPG2",
+        "start": "2026-03-17T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_TPG2",
+        "start": "2026-03-24T13:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_TPG2",
+        "start": "2026-03-03T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO631_INGE_TDG",
+        "start": "2026-02-23T14:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "INFO631_INGE_CM",
+        "start": "2026-04-01T13:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Yan Yajing"
+        ]
+      },
+      {
+        "summary": "INFO631_INGE_TPG2",
+        "start": "2026-05-11T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Yan Yajing"
+        ]
+      },
+      {
+        "summary": "INFO631_INGE_CM",
+        "start": "2026-04-13T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Yan Yajing"
+        ]
+      },
+      {
+        "summary": "INFO631_INGE_TDG",
+        "start": "2026-04-16T08:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Yan Yajing"
+        ]
+      },
+      {
+        "summary": "INFO631_INGE_TPG1",
+        "start": "2026-05-11T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Yan Yajing"
+        ]
+      },
+      {
+        "summary": "INFO631_INGE_TDG",
+        "start": "2026-04-16T06:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Yan Yajing"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "MATH531_IDU",
+    "responsable": "Vernier Flavien",
+    "total_sessions": 25,
+    "present": 16,
+    "absent": 9,
+    "presence_rate": 64.0,
+    "present_events": [
+      {
+        "summary": "MATH531_TDG_6-8",
+        "start": "2025-12-15T14:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_CM8-exam",
+        "start": "2026-01-15T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_CM",
+        "start": "2025-12-16T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_CM",
+        "start": "2025-12-15T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_CM",
+        "start": "2025-12-11T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_TPG2",
+        "start": "2025-12-11T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_TDG_6-8",
+        "start": "2025-12-11T15:45:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_CM",
+        "start": "2025-11-06T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_TPG2",
+        "start": "2025-11-28T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_CM",
+        "start": "2025-12-01T14:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_CM8-Exam_TiersTps",
+        "start": "2026-01-15T08:30:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_CM",
+        "start": "2025-11-04T09:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_CM",
+        "start": "2026-01-09T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_TPG2",
+        "start": "2025-12-12T12:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_TPG2",
+        "start": "2025-12-17T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "MATH531_TDG_6-8",
+        "start": "2025-12-16T14:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "MATH531_TPG1",
+        "start": "2025-11-28T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Ferrer Romain"
+        ]
+      },
+      {
+        "summary": "MATH531_TDG_1-5",
+        "start": "2025-11-14T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Ferrer Romain"
+        ]
+      },
+      {
+        "summary": "MATH531_TDG_1-5",
+        "start": "2025-11-20T13:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Ferrer Romain"
+        ]
+      },
+      {
+        "summary": "MATH531_TPG1",
+        "start": "2025-12-11T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Ferrer Romain"
+        ]
+      },
+      {
+        "summary": "MATH531_TPG1",
+        "start": "2025-12-12T12:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Ferrer Romain"
+        ]
+      },
+      {
+        "summary": "MATH531_TPG1",
+        "start": "2025-12-17T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Ferrer Romain"
+        ]
+      },
+      {
+        "summary": "MATH531_TDG_1-5",
+        "start": "2025-11-27T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Ferrer Romain"
+        ]
+      },
+      {
+        "summary": "MATH531_TDG_1-5",
+        "start": "2025-12-01T15:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Ferrer Romain"
+        ]
+      },
+      {
+        "summary": "MATH531_TDG_1-5",
+        "start": "2025-11-05T15:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Ferrer Romain"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "INFO632_IDU",
+    "responsable": "Monnet Sébastien",
+    "total_sessions": 24,
+    "present": 17,
+    "absent": 7,
+    "presence_rate": 70.8,
+    "present_events": [
+      {
+        "summary": "INFO632_INGE_CM",
+        "start": "2026-02-12T12:30:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_CM",
+        "start": "2026-03-23T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_TDG",
+        "start": "2026-04-22T06:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_CM",
+        "start": "2026-03-23T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_TPG2",
+        "start": "2026-05-13T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_TPG1",
+        "start": "2026-04-28T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_TDG",
+        "start": "2026-04-27T08:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_TPG1",
+        "start": "2026-05-13T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_CM",
+        "start": "2026-01-22T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_CM",
+        "start": "2026-04-22T08:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_TPG1",
+        "start": "2026-04-03T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_TDG",
+        "start": "2026-05-06T13:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_TDG",
+        "start": "2026-03-17T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_CM",
+        "start": "2026-04-20T13:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_TPG2",
+        "start": "2026-03-31T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_CM",
+        "start": "2026-02-27T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO632_INGE_TPG2",
+        "start": "2026-04-28T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "INFO632_INGE_TDG",
+        "start": "2026-04-13T13:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Richard Valentin"
+        ]
+      },
+      {
+        "summary": "INFO632_INGE_TPG2",
+        "start": "2026-04-15T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Richard Valentin"
+        ]
+      },
+      {
+        "summary": "INFO632_INGE_TDG",
+        "start": "2026-04-17T08:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Richard Valentin"
+        ]
+      },
+      {
+        "summary": "INFO632_INGE_TPG1",
+        "start": "2026-04-17T12:30:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Richard Valentin"
+        ]
+      },
+      {
+        "summary": "INFO632_INGE_TDG",
+        "start": "2026-04-17T06:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Richard Valentin"
+        ]
+      },
+      {
+        "summary": "INFO632_INGE_TDG",
+        "start": "2026-03-30T06:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Richard Valentin"
+        ]
+      },
+      {
+        "summary": "INFO632_INGE_TDG",
+        "start": "2026-04-13T14:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Richard Valentin"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "ISOC631_IDU",
+    "responsable": "Salamatian Kavé",
+    "total_sessions": 23,
+    "present": 0,
+    "absent": 23,
+    "presence_rate": 0.0,
+    "present_events": [],
+    "absent_events": [
+      {
+        "summary": "ISOC631_INGE_TDG",
+        "start": "2026-04-29T13:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_TDG",
+        "start": "2026-04-20T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_TDG",
+        "start": "2026-05-05T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_TDG",
+        "start": "2026-05-18T08:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_CM",
+        "start": "2026-04-24T13:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_CM",
+        "start": "2026-03-20T09:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_CM",
+        "start": "2026-02-24T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_CM",
+        "start": "2026-05-04T08:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_TDG",
+        "start": "2026-03-09T07:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_TPG1",
+        "start": "2026-04-21T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_CM",
+        "start": "2026-04-20T06:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_TPG2",
+        "start": "2026-04-21T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_TDG",
+        "start": "2026-05-12T13:30:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_TPG1",
+        "start": "2026-05-05T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_CM",
+        "start": "2026-01-27T15:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_TDG",
+        "start": "2026-02-06T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_TPG2",
+        "start": "2026-05-06T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_CM",
+        "start": "2026-04-13T07:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_CM",
+        "start": "2026-05-12T06:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_TPG2",
+        "start": "2026-05-19T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_TDG",
+        "start": "2026-04-24T14:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_TPG1",
+        "start": "2026-05-20T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC631_INGE_CM",
+        "start": "2026-04-29T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "PROJ632_IDU",
+    "responsable": "Vernier Flavien",
+    "total_sessions": 8,
+    "present": 4,
+    "absent": 4,
+    "presence_rate": 50.0,
+    "present_events": [
+      {
+        "summary": "PROJ632_INGE_TDG_1-7_4h",
+        "start": "2026-02-13T08:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "PROJ632_INGE_TDG_1-7_4h",
+        "start": "2026-01-20T07:45:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "PROJ632_INGE_TDG_8_2h",
+        "start": "2026-03-24T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "PROJ632_INGE_TDG_1-7_4h",
+        "start": "2026-03-16T08:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "PROJ632_INGE_TDG_1-7_4h",
+        "start": "2026-02-23T08:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "PROJ632_INGE_TDG_1-7_4h",
+        "start": "2026-02-02T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "PROJ632_INGE_TDG_1-7_4h",
+        "start": "2026-01-27T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "PROJ632_INGE_TDG_1-7_4h",
+        "start": "2026-03-06T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "PROJ631_IDU",
+    "responsable": "Vernier Flavien",
+    "total_sessions": 12,
+    "present": 0,
+    "absent": 12,
+    "presence_rate": 0.0,
+    "present_events": [],
+    "absent_events": [
+      {
+        "summary": "PROJ631_IDU_02_4H2",
+        "start": "2026-01-28T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "PROJ631_IDU_11_2H2",
+        "start": "2026-05-12T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Cimpan Sorana"
+        ]
+      },
+      {
+        "summary": "PROJ631_IDU_12_4H8",
+        "start": "2026-05-19T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Cimpan Sorana"
+        ]
+      },
+      {
+        "summary": "PROJ631_IDU_03_4H3",
+        "start": "2026-02-02T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "PROJ631_IDU_04_3H1",
+        "start": "2026-03-12T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "PROJ631_IDU_10_2H1",
+        "start": "2026-04-27T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Alloui Ilham"
+        ]
+      },
+      {
+        "summary": "PROJ631_IDU_05_4H4",
+        "start": "2026-03-02T13:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "PROJ631_IDU_08_3H2",
+        "start": "2026-04-14T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "PROJ631_IDU_06_4H5",
+        "start": "2026-03-16T13:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "PROJ631_IDU_07_4H6",
+        "start": "2026-03-19T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "PROJ631_IDU_09_4H7",
+        "start": "2026-04-23T06:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Alloui Ilham"
+        ]
+      },
+      {
+        "summary": "PROJ631_IDU_01_4H1",
+        "start": "2026-01-21T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "DATA731_IDU",
+    "responsable": "Atto Abdou",
+    "total_sessions": 13,
+    "present": 0,
+    "absent": 13,
+    "presence_rate": 0.0,
+    "present_events": [],
+    "absent_events": [
+      {
+        "summary": "DATA731_INGE_CM",
+        "start": "2025-10-24T08:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "DATA731_INGE_TP1",
+        "start": "2025-11-20T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "DATA731_INGE_TP1",
+        "start": "2025-11-13T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "DATA731_INGE_CM",
+        "start": "2025-10-24T06:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "DATA731_INGE_TP1",
+        "start": "2026-01-09T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA731_INGE_TP1",
+        "start": "2025-11-26T12:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "DATA731_INGE_CM",
+        "start": "2025-12-10T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "DATA731_INGE_CM",
+        "start": "2025-11-27T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "DATA731_INGE_CM",
+        "start": "2025-11-07T14:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA731_INGE_TP1",
+        "start": "2025-11-05T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "DATA731_INGE_CM",
+        "start": "2025-11-17T14:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "DATA731_INGE_CM",
+        "start": "2025-12-17T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA731_INGE_TP1",
+        "start": "2025-12-03T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "INFO731_IDU",
+    "responsable": "Salamatian Kavé",
+    "total_sessions": 17,
+    "present": 0,
+    "absent": 17,
+    "presence_rate": 0.0,
+    "present_events": [],
+    "absent_events": [
+      {
+        "summary": "INFO731_INGE_CM",
+        "start": "2025-09-01T13:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_CM",
+        "start": "2025-11-24T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_TDTP",
+        "start": "2025-10-17T06:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_CM",
+        "start": "2025-09-26T13:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_TDTP",
+        "start": "2025-10-10T11:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_CM",
+        "start": "2025-12-01T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_TDTP",
+        "start": "2025-10-15T06:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_CM",
+        "start": "2025-10-03T11:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_Proj",
+        "start": "2025-10-22T06:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_Proj",
+        "start": "2026-01-14T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_TDTP",
+        "start": "2025-10-23T11:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_CM",
+        "start": "2025-09-05T07:45:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_TDTP",
+        "start": "2025-10-01T06:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_CM",
+        "start": "2025-09-22T11:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_CMEX",
+        "start": "2025-11-10T15:45:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_Proj",
+        "start": "2026-01-06T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "INFO731_INGE_CM",
+        "start": "2025-10-02T08:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "INFO732_IDU",
+    "responsable": "Cimpan Sorana",
+    "total_sessions": 16,
+    "present": 10,
+    "absent": 6,
+    "presence_rate": 62.5,
+    "present_events": [
+      {
+        "summary": "INFO732_INGE_TD",
+        "start": "2025-11-19T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO732_INGE_CM",
+        "start": "2025-11-06T08:45:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO732_INGE_TD",
+        "start": "2025-11-07T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO732_INGE_EX",
+        "start": "2026-01-07T08:45:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO732_INGE_EX_TIERS_TEMPS",
+        "start": "2026-01-07T10:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO732_INGE_TD",
+        "start": "2025-11-12T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO732_INGE_CM",
+        "start": "2025-11-18T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO732_INGE_CM",
+        "start": "2025-10-23T08:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO732_INGE_CM",
+        "start": "2025-11-10T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO732_INGE_TD",
+        "start": "2025-11-19T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "INFO732_INGE_TP1",
+        "start": "2025-12-04T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO732_INGE_TP1",
+        "start": "2025-11-28T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO732_INGE_TP1",
+        "start": "2025-11-14T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO732_INGE_TP1",
+        "start": "2025-12-08T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO732_INGE_TP1",
+        "start": "2025-12-04T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO732_INGE_TP1",
+        "start": "2026-01-12T11:45:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "PROJ731_IDU",
+    "responsable": "Cimpan Sorana",
+    "total_sessions": 5,
+    "present": 0,
+    "absent": 5,
+    "presence_rate": 0.0,
+    "present_events": [],
+    "absent_events": [
+      {
+        "summary": "PROJ731_INGE_APP",
+        "start": "2026-01-05T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Monnet Sébastien"
+        ]
+      },
+      {
+        "summary": "PROJ731_INGE_APP",
+        "start": "2025-11-24T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "PROJ731_INGE_APP",
+        "start": "2025-11-07T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "PROJ731_INGE_APP",
+        "start": "2026-01-08T12:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "PROJ731_INGE_APP",
+        "start": "2025-11-19T12:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "DATA732_IDU",
+    "responsable": "Cimpan Sorana",
+    "total_sessions": 16,
+    "present": 6,
+    "absent": 10,
+    "presence_rate": 37.5,
+    "present_events": [
+      {
+        "summary": "DATA732_INGE_CM",
+        "start": "2025-09-08T11:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "DATA732_INGE_CM",
+        "start": "2025-09-23T06:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "DATA732_INGE_CM",
+        "start": "2025-09-02T13:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "DATA732_INGE_CM",
+        "start": "2025-10-20T08:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "DATA732_INGE_TD",
+        "start": "2025-10-24T13:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "DATA732_INGE_CM",
+        "start": "2025-09-04T08:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "DATA732_INGE_Proj",
+        "start": "2025-11-06T12:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "DATA732_INGE_Proj",
+        "start": "2025-10-10T05:45:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Ferrer Romain"
+        ]
+      },
+      {
+        "summary": "DATA732_INGE_CM",
+        "start": "2025-10-16T12:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "DATA732_INGE_TD",
+        "start": "2025-10-16T06:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "DATA732_INGE_TD",
+        "start": "2025-09-09T08:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Ferrer Romain"
+        ]
+      },
+      {
+        "summary": "DATA732_INGE_CM",
+        "start": "2025-10-13T13:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "DATA732_INGE_TD",
+        "start": "2025-09-11T13:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Ferrer Romain"
+        ]
+      },
+      {
+        "summary": "DATA732_INGE_CM",
+        "start": "2025-10-07T13:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "DATA732_INGE_TD",
+        "start": "2025-10-07T08:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Ferrer Romain"
+        ]
+      },
+      {
+        "summary": "DATA732_INGE_Proj",
+        "start": "2025-11-10T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Ferrer Romain"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "INFO734_IDU",
+    "responsable": "Mian Ammar",
+    "total_sessions": 13,
+    "present": 13,
+    "absent": 0,
+    "presence_rate": 100.0,
+    "present_events": [
+      {
+        "summary": "INFO734_INGE_Proj",
+        "start": "2025-12-08T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO734_INGE_CM",
+        "start": "2025-12-03T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO734_INGE_CM",
+        "start": "2025-10-13T11:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO734_INGE_CM",
+        "start": "2025-11-03T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO734_INGE_CM",
+        "start": "2025-12-17T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO734_INGE_CM",
+        "start": "2025-12-10T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO734_INGE_Proj",
+        "start": "2025-12-17T12:30:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO734_INGE_Proj",
+        "start": "2026-01-06T12:30:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO734_INGE_Proj",
+        "start": "2026-01-07T12:30:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO734_INGE_CM",
+        "start": "2025-11-17T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO734_INGE_CM",
+        "start": "2025-10-20T11:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO734_INGE_Proj",
+        "start": "2025-10-22T11:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO734_INGE_Proj",
+        "start": "2025-11-27T12:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      }
+    ],
+    "absent_events": []
+  },
+  {
+    "code_module": "ISOC731_IDU",
+    "responsable": "Salamatian Kavé",
+    "total_sessions": 12,
+    "present": 0,
+    "absent": 12,
+    "presence_rate": 0.0,
+    "present_events": [],
+    "absent_events": [
+      {
+        "summary": "ISOC731_INGE_CM",
+        "start": "2025-11-20T14:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC731_INGE_CM",
+        "start": "2025-11-03T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC731_INGE_CM",
+        "start": "2025-11-17T15:45:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC731_INGE_CM",
+        "start": "2025-11-12T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC731_INGE_CM",
+        "start": "2025-11-28T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC731_INGE_CM",
+        "start": "2026-01-14T14:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC731_INGE_CM",
+        "start": "2025-09-02T08:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC731_INGE_Proj",
+        "start": "2025-11-26T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Mathieu Paul"
+        ]
+      },
+      {
+        "summary": "ISOC731_INGE_Proj",
+        "start": "2025-12-05T12:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "ISOC731_INGE_CM",
+        "start": "2025-12-10T15:45:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC731_INGE_CM",
+        "start": "2025-10-01T11:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "ISOC731_INGE_CM",
+        "start": "2025-09-26T11:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "DATA831_IDU",
+    "responsable": "Monnet Sébastien",
+    "total_sessions": 7,
+    "present": 2,
+    "absent": 5,
+    "presence_rate": 28.6,
+    "present_events": [
+      {
+        "summary": "DATA831_INGE_CM",
+        "start": "2026-02-11T14:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "DATA831_INGE_CM",
+        "start": "2026-02-03T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "DATA831_INGE_CM",
+        "start": "2026-01-28T14:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "DATA831_INGE_TDTP",
+        "start": "2026-03-02T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA831_INGE_TDTP",
+        "start": "2026-02-09T12:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "DATA831_INGE_CM",
+        "start": "2026-01-26T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "DATA831_INGE_TDTP",
+        "start": "2026-02-23T12:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "DATA832_IDU",
+    "responsable": "Benoit Alexandre",
+    "total_sessions": 15,
+    "present": 6,
+    "absent": 9,
+    "presence_rate": 40.0,
+    "present_events": [
+      {
+        "summary": "DATA832_INGE_TPTD_2h",
+        "start": "2026-03-11T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "DATA832_INGE_CM",
+        "start": "2026-03-04T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "DATA832_INGE_TD",
+        "start": "2026-03-04T14:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "DATA832_INGE_TD",
+        "start": "2026-03-05T09:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "DATA832_INGE_CM",
+        "start": "2026-03-11T09:30:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "DATA832_INGE_TPTD_2h",
+        "start": "2026-03-16T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "DATA832_INGE_TD",
+        "start": "2026-03-19T14:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA832_INGE_TPTD_2h",
+        "start": "2026-04-03T08:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA832_INGE_CM",
+        "start": "2026-03-16T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA832_INGE_CM",
+        "start": "2026-03-12T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA832_INGE_TD",
+        "start": "2026-03-12T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA832_INGE_TPTD_2h",
+        "start": "2026-03-19T12:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA832_INGE_TPPTD_2h",
+        "start": "2026-03-11T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "DATA832_INGE_CM",
+        "start": "2026-03-05T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA832_INGE_TPPTD_2h",
+        "start": "2026-03-25T08:45:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "INFO831_IDU",
+    "responsable": "Atto Abdou",
+    "total_sessions": 15,
+    "present": 0,
+    "absent": 15,
+    "presence_rate": 0.0,
+    "present_events": [],
+    "absent_events": [
+      {
+        "summary": "INFO831_INGE_CM",
+        "start": "2026-01-26T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "INFO831_INGE_CM",
+        "start": "2026-01-28T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "INFO831_INGE_CM",
+        "start": "2026-02-26T12:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "INFO831_INGE_Exam",
+        "start": "2026-04-14T14:45:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "INFO831_INGE_TD",
+        "start": "2026-01-26T14:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "INFO831_INGE_CM",
+        "start": "2026-02-11T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "INFO831_INGE_TP1",
+        "start": "2026-03-06T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "INFO831_INGE_TP1",
+        "start": "2026-03-12T12:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "INFO831_INGE_TD",
+        "start": "2026-02-13T12:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "INFO831_INGE_TP1",
+        "start": "2026-03-20T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "INFO831_INGE_TD",
+        "start": "2026-02-04T14:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "INFO831_INGE_TD",
+        "start": "2026-01-23T09:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "INFO831_INGE_TD",
+        "start": "2026-02-06T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "INFO831_INGE_CM",
+        "start": "2026-03-02T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      },
+      {
+        "summary": "INFO831_INGE_CM",
+        "start": "2026-02-04T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Atto Abdourrahmane"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "ISOC831_IDU",
+    "responsable": "Vernier Flavien",
+    "total_sessions": 8,
+    "present": 0,
+    "absent": 8,
+    "presence_rate": 0.0,
+    "present_events": [],
+    "absent_events": [
+      {
+        "summary": "ISOC831_Product_Management",
+        "start": "2026-04-16T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Chappart Julie"
+        ]
+      },
+      {
+        "summary": "ISOC831_Product_Management",
+        "start": "2026-04-13T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Chappart Julie"
+        ]
+      },
+      {
+        "summary": "ISOC831_Ingénieur BI",
+        "start": "2026-04-30T11:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "ISOC831_Sopra_PowerBI",
+        "start": "2026-02-04T07:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "ISOC831_Sopra_Urba_Archi",
+        "start": "2026-03-18T13:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Varloot Gabrielle"
+        ]
+      },
+      {
+        "summary": "ISOC831_Sopra_Consultant",
+        "start": "2026-04-17T06:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "ISOC831_Sopra_AdminLinux",
+        "start": "2026-03-05T12:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "ISOC831_Sopra_Urba_Archi",
+        "start": "2026-03-17T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Varloot Gabrielle"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "INFO832_IDU",
+    "responsable": "Vernier Flavien",
+    "total_sessions": 17,
+    "present": 17,
+    "absent": 0,
+    "presence_rate": 100.0,
+    "present_events": [
+      {
+        "summary": "INFO832_INGE_CM",
+        "start": "2026-02-23T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_TPTD",
+        "start": "2026-04-29T12:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_CM",
+        "start": "2026-04-13T11:30:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_CM",
+        "start": "2026-04-16T11:30:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_TD",
+        "start": "2026-04-13T13:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_TD",
+        "start": "2026-03-04T09:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_CM",
+        "start": "2026-04-13T15:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_TD",
+        "start": "2026-03-10T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_TPTD",
+        "start": "2026-04-30T06:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_TD",
+        "start": "2026-03-16T14:30:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_TD",
+        "start": "2026-04-16T13:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_CM",
+        "start": "2026-03-31T06:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_TP1",
+        "start": "2026-03-27T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_CM",
+        "start": "2026-02-11T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_TP1",
+        "start": "2026-05-06T06:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_Exam",
+        "start": "2026-05-05T08:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO832_INGE_TD",
+        "start": "2026-04-03T06:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      }
+    ],
+    "absent_events": []
+  },
+  {
+    "code_module": "INFO833_IDU",
+    "responsable": "Monnet Sébastien",
+    "total_sessions": 19,
+    "present": 16,
+    "absent": 3,
+    "presence_rate": 84.2,
+    "present_events": [
+      {
+        "summary": "INFO833_INGE_TD",
+        "start": "2026-02-06T14:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_CM",
+        "start": "2026-03-03T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_TD",
+        "start": "2026-03-17T15:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_CM",
+        "start": "2026-03-09T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_TD",
+        "start": "2026-03-24T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_CM",
+        "start": "2026-03-19T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_CM",
+        "start": "2026-01-23T07:30:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_TD",
+        "start": "2026-03-10T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_CM",
+        "start": "2026-02-13T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_TD",
+        "start": "2026-02-23T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_TD",
+        "start": "2026-04-14T11:30:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_CM",
+        "start": "2026-02-03T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_TD",
+        "start": "2026-01-29T09:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_CM",
+        "start": "2026-03-31T08:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_TD",
+        "start": "2026-03-03T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO833_INGE_TD",
+        "start": "2026-03-30T11:30:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "INFO833_INGE_TP1",
+        "start": "2026-04-27T06:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO833_INGE_TP1",
+        "start": "2026-04-02T06:00:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO833_INGE_TP1",
+        "start": "2026-04-27T11:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "INFO834_IDU",
+    "responsable": "Alloui Ilham",
+    "total_sessions": 16,
+    "present": 16,
+    "absent": 0,
+    "presence_rate": 100.0,
+    "present_events": [
+      {
+        "summary": "INFO834_INGE_CM",
+        "start": "2026-03-02T14:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_TP1",
+        "start": "2026-04-17T11:30:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_CM",
+        "start": "2026-02-26T14:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_CM",
+        "start": "2026-01-19T14:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_TP1",
+        "start": "2026-02-25T12:30:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_TD",
+        "start": "2026-02-09T07:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_TD",
+        "start": "2026-03-24T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_CM",
+        "start": "2026-03-11T14:30:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_TP1",
+        "start": "2026-02-24T12:30:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_TD",
+        "start": "2026-02-06T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_TD",
+        "start": "2026-03-16T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_TP1",
+        "start": "2026-04-15T06:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_TD",
+        "start": "2026-03-09T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_TP1",
+        "start": "2026-03-27T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_TP1",
+        "start": "2026-04-01T06:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "INFO834_INGE_CM",
+        "start": "2026-01-28T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      }
+    ],
+    "absent_events": []
+  },
+  {
+    "code_module": "PROJ831_IDU",
+    "responsable": "Vernier Flavien",
+    "total_sessions": 6,
+    "present": 3,
+    "absent": 3,
+    "presence_rate": 50.0,
+    "present_events": [
+      {
+        "summary": "PROJ831_INGE_TPD",
+        "start": "2026-03-18T07:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "PROJ831_INGE_TPD",
+        "start": "2026-04-28T06:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "PROJ831_INGE_TPD",
+        "start": "2026-03-25T12:15:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "PROJ831_INGE_TPD",
+        "start": "2026-04-15T11:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Alloui Ilham"
+        ]
+      },
+      {
+        "summary": "PROJ831_INGE_TPD",
+        "start": "2026-04-03T11:15:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "Monnet Sébastien"
+        ]
+      },
+      {
+        "summary": "PROJ831_INGE_Auto",
+        "start": "2026-03-23T12:30:00+00:00",
+        "file": "ADECal_IDU4.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "INFO931_IDU",
+    "responsable": "Monnet Sébastien",
+    "total_sessions": 20,
+    "present": 0,
+    "absent": 20,
+    "presence_rate": 0.0,
+    "present_events": [],
+    "absent_events": [
+      {
+        "summary": "CM INFO931",
+        "start": "2025-09-29T11:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Zero Enrico"
+        ]
+      },
+      {
+        "summary": "TP INFO931",
+        "start": "2025-10-17T11:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Bozzi Alessandro"
+        ]
+      },
+      {
+        "summary": "CM INFO931",
+        "start": "2025-09-30T06:30:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Zero Enrico"
+        ]
+      },
+      {
+        "summary": "CM INFO931",
+        "start": "2025-10-01T06:30:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Zero Enrico"
+        ]
+      },
+      {
+        "summary": "CM INFO931",
+        "start": "2025-10-03T06:30:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Zero Enrico"
+        ]
+      },
+      {
+        "summary": "TD INFO931",
+        "start": "2025-10-15T08:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Bozzi Alessandro"
+        ]
+      },
+      {
+        "summary": "CM INFO931",
+        "start": "2025-10-16T06:30:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Bozzi Alessandro"
+        ]
+      },
+      {
+        "summary": "TP INFO931",
+        "start": "2025-10-06T11:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Bozzi Alessandro"
+        ]
+      },
+      {
+        "summary": "TD INFO931",
+        "start": "2025-10-14T08:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Bozzi Alessandro"
+        ]
+      },
+      {
+        "summary": "CM INFO931",
+        "start": "2025-10-14T06:30:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Bozzi Alessandro"
+        ]
+      },
+      {
+        "summary": "TP INFO931",
+        "start": "2025-10-02T06:30:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Zero Enrico"
+        ]
+      },
+      {
+        "summary": "TD INFO931",
+        "start": "2025-10-16T08:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Bozzi Alessandro"
+        ]
+      },
+      {
+        "summary": "TD INFO931",
+        "start": "2025-10-03T08:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Zero Enrico"
+        ]
+      },
+      {
+        "summary": "TD INFO931",
+        "start": "2025-10-13T13:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Bozzi Alessandro"
+        ]
+      },
+      {
+        "summary": "TD INFO931",
+        "start": "2025-09-29T13:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Zero Enrico"
+        ]
+      },
+      {
+        "summary": "TP INFO931",
+        "start": "2025-10-14T11:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Bozzi Alessandro"
+        ]
+      },
+      {
+        "summary": "TD INFO931",
+        "start": "2025-10-01T08:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Zero Enrico"
+        ]
+      },
+      {
+        "summary": "CM INFO931",
+        "start": "2025-10-13T11:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Bozzi Alessandro"
+        ]
+      },
+      {
+        "summary": "TD INFO931",
+        "start": "2025-09-30T08:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Zero Enrico"
+        ]
+      },
+      {
+        "summary": "CM INFO931",
+        "start": "2025-10-15T06:30:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Bozzi Alessandro"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "INFO932_IDU",
+    "responsable": "Monnet Sébastien",
+    "total_sessions": 16,
+    "present": 10,
+    "absent": 6,
+    "presence_rate": 62.5,
+    "present_events": [
+      {
+        "summary": "TD INFO932",
+        "start": "2026-01-27T09:00:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "TP INFO932",
+        "start": "2026-02-05T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "TP INFO932",
+        "start": "2026-02-05T07:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "TD INFO932",
+        "start": "2025-12-05T14:00:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "CM INFO932",
+        "start": "2025-10-10T06:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "TP INFO932",
+        "start": "2025-10-15T11:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "TP INFO932",
+        "start": "2026-01-30T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "CM INFO932",
+        "start": "2025-10-07T07:30:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "CM INFO932",
+        "start": "2025-12-05T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "TP INFO932",
+        "start": "2025-12-15T12:30:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "TP INFO932",
+        "start": "2025-12-18T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "TD INFO932",
+        "start": "2026-01-26T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "CM INFO932",
+        "start": "2026-01-29T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "TD INFO932",
+        "start": "2026-01-26T14:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "CM INFO932",
+        "start": "2025-12-17T07:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      },
+      {
+        "summary": "TD INFO932",
+        "start": "2025-12-17T08:45:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "PROJ931_IDU",
+    "responsable": "Monnet Sébastien",
+    "total_sessions": 0,
+    "present": 0,
+    "absent": 0,
+    "presence_rate": null,
+    "present_events": [],
+    "absent_events": []
+  },
+  {
+    "code_module": "DATA931_IDU",
+    "responsable": "Benoit Alexandre",
+    "total_sessions": 20,
+    "present": 10,
+    "absent": 10,
+    "presence_rate": 50.0,
+    "present_events": [
+      {
+        "summary": "DATA931_TD",
+        "start": "2025-12-03T14:00:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "DATA931_CM",
+        "start": "2025-12-03T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "DATA931_TD",
+        "start": "2026-01-28T14:00:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "DATA931_CM",
+        "start": "2025-12-01T07:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "DATA931_CM",
+        "start": "2026-01-28T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "DATA931_TD",
+        "start": "2026-02-02T09:00:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "DATA931_TD",
+        "start": "2025-12-01T09:00:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "DATA931_CM",
+        "start": "2026-02-02T07:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "DATA931_TP",
+        "start": "2025-12-05T07:00:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "DATA931_TP",
+        "start": "2026-02-04T07:00:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "DATA931_CM",
+        "start": "2025-10-08T06:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA931_TD",
+        "start": "2025-10-09T08:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA931_TD",
+        "start": "2025-10-08T08:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA931_TP",
+        "start": "2025-12-09T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA931_TD",
+        "start": "2025-12-08T14:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA931_CM",
+        "start": "2025-12-08T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA931_CM",
+        "start": "2025-10-09T06:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA931_TP",
+        "start": "2025-10-10T11:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA931_CM",
+        "start": "2025-12-09T07:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "DATA931_TD",
+        "start": "2025-12-09T09:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "ISOC931_IDU",
+    "responsable": "Benoit Alexandre",
+    "total_sessions": 18,
+    "present": 5,
+    "absent": 13,
+    "presence_rate": 27.8,
+    "present_events": [
+      {
+        "summary": "ISOC931_TP_Restitution",
+        "start": "2026-02-13T07:00:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "ISOC931_CM",
+        "start": "2025-10-08T11:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "ISOC931_TD",
+        "start": "2025-10-08T13:00:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "ISOC931_CM",
+        "start": "2026-01-27T07:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "ISOC931_TD",
+        "start": "2026-02-03T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "ISOC931_TD",
+        "start": "2025-12-10T09:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "ISOC931_TP",
+        "start": "2026-02-04T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "ISOC931_TP_Restitution",
+        "start": "2026-02-13T09:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "ISOC931_TD",
+        "start": "2026-01-29T09:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "ISOC931_TP_BU",
+        "start": "2025-12-19T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "ISOC931_TP_BU",
+        "start": "2025-12-19T07:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "ISOC931_CM",
+        "start": "2025-12-10T07:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "ISOC931_TD",
+        "start": "2026-01-28T09:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "ISOC931_TP",
+        "start": "2025-12-18T07:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "ISOC931_TD",
+        "start": "2026-01-30T07:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "ISOC931_CM",
+        "start": "2026-01-28T07:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "ISOC931_TD",
+        "start": "2026-01-29T07:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      },
+      {
+        "summary": "ISOC931_TD",
+        "start": "2026-01-30T09:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Gallet Matthieu"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "PROJ932_IDU",
+    "responsable": "Monnet Sébastien",
+    "total_sessions": 11,
+    "present": 4,
+    "absent": 7,
+    "presence_rate": 36.4,
+    "present_events": [
+      {
+        "summary": "PROJ932_TP",
+        "start": "2026-02-02T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "PROJ932_eval",
+        "start": "2026-02-13T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "PROJ932_Intro",
+        "start": "2025-09-29T08:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      },
+      {
+        "summary": "PROJ932_TP",
+        "start": "2025-10-03T11:15:00+00:00",
+        "file": "ADECal_IDU5.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "PROJ932_TP",
+        "start": "2026-01-27T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Alloui Ilham"
+        ]
+      },
+      {
+        "summary": "PROJ932_TP",
+        "start": "2025-12-11T07:00:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Alloui Ilham"
+        ]
+      },
+      {
+        "summary": "PROJ932_TP",
+        "start": "2025-10-01T11:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Alloui Ilham"
+        ]
+      },
+      {
+        "summary": "PROJ932_TP",
+        "start": "2025-10-13T06:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Alloui Ilham"
+        ]
+      },
+      {
+        "summary": "PROJ932_TP",
+        "start": "2025-12-03T07:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Arnaez Olivier"
+        ]
+      },
+      {
+        "summary": "PROJ932_TP",
+        "start": "2025-12-10T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Vernier Flavien"
+        ]
+      },
+      {
+        "summary": "PROJ932_TP",
+        "start": "2025-12-01T12:15:00+00:00",
+        "file": "ADECal_IDU5.ics",
+        "teachers_found": [
+          "Salamatian Mohammad-reza"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "INFO633_IDU",
+    "responsable": "Valet Lionel",
+    "total_sessions": 48,
+    "present": 18,
+    "absent": 30,
+    "presence_rate": 37.5,
+    "present_events": [
+      {
+        "summary": "INFO633_A11_G1",
+        "start": "2026-03-20T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_CC3",
+        "start": "2026-04-20T14:45:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_CC1_Tiers-temps",
+        "start": "2026-02-09T10:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_A15_G1",
+        "start": "2026-04-15T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_A13_G1",
+        "start": "2026-04-01T15:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_A01_G1",
+        "start": "2026-01-19T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_CC1",
+        "start": "2026-02-09T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_CC2_Tiers-temps",
+        "start": "2026-03-20T16:30:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_A03_G1",
+        "start": "2026-01-26T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_CC4",
+        "start": "2026-05-22T06:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_A08_G1",
+        "start": "2026-03-02T07:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_CC2",
+        "start": "2026-03-20T15:30:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_CC4_Tiers-temps",
+        "start": "2026-05-22T07:45:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_A16_G1",
+        "start": "2026-05-18T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_CC3_Tiers-temps",
+        "start": "2026-04-20T16:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_A10_G1",
+        "start": "2026-03-11T12:30:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_A05_G1",
+        "start": "2026-02-04T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      },
+      {
+        "summary": "INFO633_A06_G1",
+        "start": "2026-02-10T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics"
+      }
+    ],
+    "absent_events": [
+      {
+        "summary": "INFO633_P02_G1",
+        "start": "2026-04-28T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A14_G1",
+        "start": "2026-04-14T06:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A08_G2",
+        "start": "2026-02-26T10:30:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_P03_G2",
+        "start": "2026-05-05T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A07_G1",
+        "start": "2026-02-25T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A04_G2",
+        "start": "2026-02-03T09:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_P03_G1",
+        "start": "2026-05-06T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_P04_G1",
+        "start": "2026-05-13T11:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A01_G2",
+        "start": "2026-01-22T10:30:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A02_G2",
+        "start": "2026-01-26T07:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A10_G2",
+        "start": "2026-03-09T10:30:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A03_G2",
+        "start": "2026-01-29T10:30:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A02_G1",
+        "start": "2026-01-23T07:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A16_G2",
+        "start": "2026-05-18T09:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A09_G1",
+        "start": "2026-03-03T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A09_G2",
+        "start": "2026-03-02T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A04_G1",
+        "start": "2026-01-30T14:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A12_G2",
+        "start": "2026-03-24T12:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A13_G2",
+        "start": "2026-03-31T09:30:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A12_G1",
+        "start": "2026-03-25T12:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_P04_G2",
+        "start": "2026-05-13T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A05_G2",
+        "start": "2026-02-05T09:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_P02_G2",
+        "start": "2026-04-30T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_P01_G2",
+        "start": "2026-04-24T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A06_G2",
+        "start": "2026-02-12T10:30:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A15_G2",
+        "start": "2026-04-15T14:45:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A11_G2",
+        "start": "2026-03-20T08:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_P01_G1",
+        "start": "2026-04-24T06:00:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A14_G2",
+        "start": "2026-04-13T06:30:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      },
+      {
+        "summary": "INFO633_A07_G2",
+        "start": "2026-02-25T13:15:00+00:00",
+        "file": "ADECal_IDU3.ics",
+        "teachers_found": [
+          "(no instructor)"
+        ]
+      }
+    ]
+  },
+  {
+    "code_module": "PROJ832_IDU",
+    "responsable": "Monnet Sébastien",
+    "total_sessions": 6,
+    "present": 6,
+    "absent": 0,
+    "presence_rate": 100.0,
+    "present_events": [
+      {
+        "summary": "PROJ832_INGE_CM",
+        "start": "2026-01-21T14:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "PROJ832_INGE_Projet",
+        "start": "2026-05-04T06:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "PROJ832_INGE_Projet",
+        "start": "2026-04-14T06:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "PROJ832_INGE_Projet",
+        "start": "2026-05-04T13:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "PROJ832_INGE_Projet",
+        "start": "2026-04-29T06:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      },
+      {
+        "summary": "PROJ832_INGE_CM",
+        "start": "2026-01-28T09:00:00+00:00",
+        "file": "ADECal_IDU4.ics"
+      }
+    ],
+    "absent_events": []
+  }
+]

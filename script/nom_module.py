@@ -7,52 +7,19 @@ from collections import defaultdict
 from pathlib import Path
 from typing import DefaultDict
 
+from helpers import (
+    safe_read_json,
+    extract_module_codes_from_text,
+    module_root,
+    module_suffix,
+    walk_collect,
+    build_variants_by_root,
+)
 
 MODULE_CODE_RE = re.compile(r"\b([A-Z]{3,}\d{3}(?:_[A-Z0-9-]+)*)\b")
 MODULE_ROOT_RE = re.compile(r"^([A-Z]{3,}\d{3})")
 DEFAULT_DATA_DIR = Path(__file__).parent / "../data/json"
 OUTPUT_DATA_DIR = Path(__file__).parent / "../normalized_data"
-
-
-def extract_module_codes_from_text(text: str) -> set[str]:
-    return {match.group(1) for match in MODULE_CODE_RE.finditer(text.upper())}
-
-
-def module_root(code: str) -> str:
-    match = MODULE_ROOT_RE.match(code)
-    return match.group(1) if match else code
-
-
-def module_suffix(code: str) -> str:
-    """Return the part after the root (e.g. '_INGE_CM'), or '' if none."""
-    root = module_root(code)
-    return code[len(root):]
-
-
-def safe_read_json(path: Path):
-    try:
-        with path.open("r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception as exc:
-        print(f"[WARN] Impossible de lire {path.name}: {exc}")
-        return None
-
-
-def walk_collect(obj, source: str, out: DefaultDict[str, set[str]]) -> None:
-    if isinstance(obj, dict):
-        for key, value in obj.items():
-            key_l = key.lower()
-            if isinstance(value, str):
-                if key_l in {"code_module", "module_precedent", "module_suivant", "title"}:
-                    for code in extract_module_codes_from_text(value):
-                        out[source].add(code)
-                if key_l in {"description", "summary", "name", "nom"}:
-                    for code in extract_module_codes_from_text(value):
-                        out[source].add(code)
-            walk_collect(value, source, out)
-    elif isinstance(obj, list):
-        for item in obj:
-            walk_collect(item, source, out)
 
 
 def build_official_codes(data_dir: Path, collected: dict[str, set[str]]) -> set[str]:
@@ -63,20 +30,6 @@ def build_official_codes(data_dir: Path, collected: dict[str, set[str]]) -> set[
             official.update(collected.get(file_name, set()))
     official.update(collected.get("dependance_sequence_IDU.json", set()))
     return official
-
-
-def build_variants_by_root(all_codes: set[str]) -> dict[str, list[str]]:
-    """
-    Group all codes by their root (e.g. 'INFO633'), collecting every
-    distinct suffix found (e.g. ['', '_IDU', '_INGE_CM', '_P01_G1']).
-    Returns a dict sorted by root name, with suffixes sorted.
-    """
-    variants: DefaultDict[str, set[str]] = defaultdict(set)
-    for code in all_codes:
-        root = module_root(code)
-        suffix = module_suffix(code)
-        variants[root].add(suffix if suffix else "(racine)")
-    return {root: sorted(suffixes) for root, suffixes in sorted(variants.items())}
 
 
 def main() -> int:
