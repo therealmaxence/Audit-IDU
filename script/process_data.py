@@ -2,6 +2,24 @@ import re
 from datetime import datetime
 import json
 
+
+import re
+
+def get_annee_from_code(code):
+    match = re.match(r'^[A-Za-z]{4}(\d{3})', code)
+    
+    if match:
+        premier_chiffre = int(match.group(1)[0])
+        
+        if premier_chiffre in [5, 6]:
+            return 3
+        elif premier_chiffre in [7, 8]:
+            return 4
+        elif premier_chiffre == 9:
+            return 5
+            
+    return None
+
 def verif_seance_module(ade, nom_module):
     for seance in ade:
         match = re.match(r'^[^_\s]+', seance['Title'])
@@ -65,13 +83,44 @@ def verif_volume_horaire(ade, nom_module, volume_CM, volume_TD, volume_TP):
         count[seance['Type']] += get_duree_heures(seance['Starts'], seance['Ends'])
 
     if count['CM'] >= volume_CM and count['TD'] >= volume_TD and count['TP'] >= volume_TP:
-        return "OK"
+        return (True, f"OK pour {nom_module} : CM={count['CM']}h (attendu {volume_CM}h), TD={count['TD']}h (attendu {volume_TD}h), TP={count['TP']}h (attendu {volume_TP}h)")
     else:
-        return f"Volume horaire incorrect pour {nom_module} : CM={count['CM']}h (attendu {volume_CM}h), TD={count['TD']}h (attendu {volume_TD}h), TP={count['TP']}h (attendu {volume_TP}h)"
+        return (False, f"{nom_module} : CM={count['CM']}h (attendu {volume_CM}h), TD={count['TD']}h (attendu {volume_TD}h), TP={count['TP']}h (attendu {volume_TP}h)")
+
+def count_volume_horaire_toJson(ade, nom_module):
+    count = {'nom': nom_module, 'CM': 0.0, 'TD': 0.0, 'TP': 0.0}
+    seen = set()
+
+    for seance in ade:
+        if seance['Code'] != nom_module:
+            continue
+
+        if seance['Type'] is None:
+            continue
+
+        date_jour = seance['Starts'][:10]  # "2025-11-24"
+        titre_norm = normaliser_titre(seance)
+        Type_seance = seance['Type']
+        groupe = seance['Group']
+
+        if Type_seance == 'TP' and re.match(r'^G[12]$', groupe):
+            cle = titre_norm 
+        else:
+            cle = (titre_norm, date_jour)
+        cle = (titre_norm, date_jour)
+
+        if cle in seen:
+            continue
+        seen.add(cle)
+
+        count[seance['Type']] += get_duree_heures(seance['Starts'], seance['Ends'])
+
+    return count
     
-def proportion_volume_horaire_correct(ade, modules):
+def proportion_volume_horaire_correct(ade, modules, annee):
     total_modules = 0
     modules_corrects = 0
+    details_modules_incorrects = []
 
     for module in modules[2]['data']:
         code_brut = module['code_module']
@@ -79,10 +128,12 @@ def proportion_volume_horaire_correct(ade, modules):
         
         if match:
             nom_module = match.group(0)
-            total_modules += 1
-            if verif_volume_horaire(ade, nom_module, float(module['cm']), float(module['td']), float(module['tp'])) == "OK":
-                modules_corrects += 1
-
+            if get_annee_from_code(nom_module) == annee:
+                total_modules += 1
+                if verif_volume_horaire(ade, nom_module, float(module['cm']), float(module['td']), float(module['tp']))[0]:
+                    modules_corrects += 1
+                else:
+                    details_modules_incorrects.append(verif_volume_horaire(ade, nom_module, float(module['cm']), float(module['td']), float(module['tp']))[1])
     if total_modules > 0:
         proportion = modules_corrects / total_modules
     else:
@@ -91,10 +142,11 @@ def proportion_volume_horaire_correct(ade, modules):
     return {
         "proportion": proportion,
         "total_modules": total_modules,
-        "modules_corrects": modules_corrects
+        "modules_corrects": modules_corrects,
+        "détails_modules_incorrects": details_modules_incorrects
     }
 
-def proportion_module_present(ade, modules):
+def proportion_module_present(ade, modules, annee):
 
     modules_presents = []
     modules_absents = []
@@ -109,7 +161,7 @@ def proportion_module_present(ade, modules):
             
             if verif_seance_module(ade, nom_module):
                 modules_presents.append(nom_module)
-            else:
+            elif get_annee_from_code(nom_module) == annee:
                 modules_absents.append(nom_module)
         else:
             modules_invalides.append(code_brut)
@@ -130,19 +182,21 @@ def proportion_module_present(ade, modules):
 
 if __name__ == "__main__":
     
-    with open('data\df\ADECal_IDU3_preprocessed.json', 'r') as f:
+    with open(r'data\df\ADECal_IDU3_preprocessed.json', 'r') as f:
         ade3 = json.load(f)
-    with open('data\df\ADECal_IDU4_preprocessed.json', 'r') as f:
+    with open(r'data\df\ADECal_IDU4_preprocessed.json', 'r') as f:
         ade4 = json.load(f)
-    with open('data\df\ADECal_IDU5_preprocessed.json', 'r') as f:
+    with open(r'data\df\ADECal_IDU5_preprocessed.json', 'r') as f:
         ade5 = json.load(f)
-    with open('data\json\MAQUETTE_IDU.json', 'r') as f:
+    with open(r'data\json\MAQUETTE_IDU.json', 'r') as f:
         modules = json.load(f)
 
 
-    print(proportion_module_present(ade3, modules))
+   
+    annee = 3
+    # for ade in [ade3, ade4, ade5]:
+    #     print(proportion_module_present(ade, modules, annee))
+    #     print(proportion_volume_horaire_correct(ade, modules, annee))
+    #     annee += 1
 
-    testNom = "INFO501"
-
-    for ade in [ade3, ade4, ade5]:
-        print(proportion_volume_horaire_correct(ade, modules))
+    print(count_volume_horaire_toJson(ade4, 'DATA732'))
