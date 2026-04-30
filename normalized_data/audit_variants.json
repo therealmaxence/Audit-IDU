@@ -1,0 +1,652 @@
+[
+  {
+    "racine": "DATA731",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_TP1"
+    ]
+  },
+  {
+    "racine": "DATA732",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_PROJ",
+      "_INGE_TD"
+    ]
+  },
+  {
+    "racine": "DATA831",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_TDTP"
+    ]
+  },
+  {
+    "racine": "DATA832",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_TD",
+      "_INGE_TPPTD_2H",
+      "_INGE_TPTD_2H"
+    ]
+  },
+  {
+    "racine": "DATA931",
+    "variantes": [
+      "_CM",
+      "_TD",
+      "_TP"
+    ]
+  },
+  {
+    "racine": "DDRS501",
+    "variantes": [
+      "_CM_CONF_SNI-IDU",
+      "_CM_DG",
+      "_CM_ER",
+      "_CM_JLB",
+      "_CM_PERRINBAPTISTE",
+      "_CT",
+      "_CT_2EMESESSION",
+      "_CT_TIERTEMPS",
+      "_TDG_1-2",
+      "_TDG_3-6",
+      "_TDG_7-8"
+    ]
+  },
+  {
+    "racine": "DDRS502",
+    "variantes": [
+      "(racine)"
+    ]
+  },
+  {
+    "racine": "EASI501",
+    "variantes": [
+      "_CC",
+      "_CC_TIERS_TEMPS",
+      "_CM",
+      "_CM_7",
+      "_ET",
+      "_ET_2SESSION",
+      "_ET_TIERS_TEMPS",
+      "_EX_SESSION2_TIER_TPS",
+      "_TDG",
+      "_TPG1_1",
+      "_TPG1_2-3",
+      "_TPG2_1",
+      "_TPG2_2-3"
+    ]
+  },
+  {
+    "racine": "EASI541",
+    "variantes": [
+      "_CM_1-2",
+      "_CM_3_EX",
+      "_CM_3_EX_TIERSTPS",
+      "_CM_4_EX",
+      "_CM_4_EX_TIERTEMPS",
+      "_TDG_1-2",
+      "_TDG_3-7",
+      "_TDG_8",
+      "_TDG_9",
+      "_TPG1",
+      "_TPG2"
+    ]
+  },
+  {
+    "racine": "EEATS501",
+    "variantes": [
+      "(racine)"
+    ]
+  },
+  {
+    "racine": "EEATS541",
+    "variantes": [
+      "(racine)"
+    ]
+  },
+  {
+    "racine": "IGI641",
+    "variantes": [
+      "(racine)"
+    ]
+  },
+  {
+    "racine": "INFO501",
+    "variantes": [
+      "_CM_SNI-IDU",
+      "_ET_2EMESESSION",
+      "_ET_2EMESESSION_TIERSTEMPS",
+      "_ET_SNI-IDU",
+      "_ET_SNI-IDU_TIER_TPS",
+      "_TDG",
+      "_TPPG"
+    ]
+  },
+  {
+    "racine": "INFO502",
+    "variantes": [
+      "_CM",
+      "_EX",
+      "_EX_SESSION2",
+      "_EX_SESSION2_TIER_TPS",
+      "_EX_TIERS_TEMPS",
+      "_TDG",
+      "_TPG1",
+      "_TPG2"
+    ]
+  },
+  {
+    "racine": "INFO631",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_CT",
+      "_INGE_CT_1",
+      "_INGE_TDG",
+      "_INGE_TPG1",
+      "_INGE_TPG2"
+    ]
+  },
+  {
+    "racine": "INFO632",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_TDG",
+      "_INGE_TPG1",
+      "_INGE_TPG2"
+    ]
+  },
+  {
+    "racine": "INFO633",
+    "variantes": [
+      "_A01_G1",
+      "_A01_G2",
+      "_A02_G1",
+      "_A02_G2",
+      "_A03_G1",
+      "_A03_G2",
+      "_A04_G1",
+      "_A04_G2",
+      "_A05_G1",
+      "_A05_G2",
+      "_A06_G1",
+      "_A06_G2",
+      "_A07_G1",
+      "_A07_G2",
+      "_A08_G1",
+      "_A08_G2",
+      "_A09_G1",
+      "_A09_G2",
+      "_A10_G1",
+      "_A10_G2",
+      "_A11_G1",
+      "_A11_G2",
+      "_A12_G1",
+      "_A12_G2",
+      "_A13_G1",
+      "_A13_G2",
+      "_A14_G1",
+      "_A14_G2",
+      "_A15_G1",
+      "_A15_G2",
+      "_A16_G1",
+      "_A16_G2",
+      "_CC1",
+      "_CC1_TIERS-TEMPS",
+      "_CC2",
+      "_CC2_TIERS-TEMPS",
+      "_CC3",
+      "_CC3_TIERS-TEMPS",
+      "_CC4",
+      "_CC4_TIERS-TEMPS",
+      "_P01_G1",
+      "_P01_G2",
+      "_P02_G1",
+      "_P02_G2",
+      "_P03_G1",
+      "_P03_G2",
+      "_P04_G1",
+      "_P04_G2"
+    ]
+  },
+  {
+    "racine": "INFO641",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_CT",
+      "_INGE_CT_1",
+      "_INGE_TD_G_1-5",
+      "_INGE_TD_G_6",
+      "_INGE_TP_G1",
+      "_INGE_TP_G2"
+    ]
+  },
+  {
+    "racine": "INFO642",
+    "variantes": [
+      "(racine)"
+    ]
+  },
+  {
+    "racine": "INFO731",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_CMEX",
+      "_INGE_PROJ",
+      "_INGE_TDTP"
+    ]
+  },
+  {
+    "racine": "INFO732",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_EX",
+      "_INGE_EX_TIERS_TEMPS",
+      "_INGE_TD",
+      "_INGE_TP1"
+    ]
+  },
+  {
+    "racine": "INFO734",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_PROJ"
+    ]
+  },
+  {
+    "racine": "INFO743",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_EX",
+      "_INGE_IDU",
+      "_INGE_TD_SNI"
+    ]
+  },
+  {
+    "racine": "INFO831",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_EXAM",
+      "_INGE_TD",
+      "_INGE_TP1"
+    ]
+  },
+  {
+    "racine": "INFO832",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_EXAM",
+      "_INGE_TD",
+      "_INGE_TP1",
+      "_INGE_TPTD"
+    ]
+  },
+  {
+    "racine": "INFO833",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_TD",
+      "_INGE_TP1"
+    ]
+  },
+  {
+    "racine": "INFO834",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_TD",
+      "_INGE_TP1"
+    ]
+  },
+  {
+    "racine": "INFO931",
+    "variantes": [
+      "(racine)"
+    ]
+  },
+  {
+    "racine": "INFO932",
+    "variantes": [
+      "(racine)"
+    ]
+  },
+  {
+    "racine": "ISOC531",
+    "variantes": [
+      "_CM",
+      "_TDG",
+      "_TPG1",
+      "_TPG2"
+    ]
+  },
+  {
+    "racine": "ISOC631",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_TDG",
+      "_INGE_TPG1",
+      "_INGE_TPG2"
+    ]
+  },
+  {
+    "racine": "ISOC731",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_PROJ"
+    ]
+  },
+  {
+    "racine": "ISOC831",
+    "variantes": [
+      "(racine)",
+      "_PRODUCT_MANAGEMENT",
+      "_SOPRA_ADMINLINUX",
+      "_SOPRA_CONSULTANT",
+      "_SOPRA_POWERBI",
+      "_SOPRA_URBA_ARCHI"
+    ]
+  },
+  {
+    "racine": "ISOC931",
+    "variantes": [
+      "_CM",
+      "_TD",
+      "_TP",
+      "_TP_BU",
+      "_TP_RESTITUTION"
+    ]
+  },
+  {
+    "racine": "LANG500",
+    "variantes": [
+      "_PACY"
+    ]
+  },
+  {
+    "racine": "LANG501",
+    "variantes": [
+      "(racine)",
+      "_PACY"
+    ]
+  },
+  {
+    "racine": "LANG600",
+    "variantes": [
+      "_PACY"
+    ]
+  },
+  {
+    "racine": "LANG601",
+    "variantes": [
+      "(racine)",
+      "_PACY"
+    ]
+  },
+  {
+    "racine": "LANG602",
+    "variantes": [
+      "(racine)"
+    ]
+  },
+  {
+    "racine": "LANG700",
+    "variantes": [
+      "(racine)",
+      "_PACY"
+    ]
+  },
+  {
+    "racine": "LANG701",
+    "variantes": [
+      "(racine)",
+      "_PACY"
+    ]
+  },
+  {
+    "racine": "LANG702",
+    "variantes": [
+      "(racine)"
+    ]
+  },
+  {
+    "racine": "LANG800",
+    "variantes": [
+      "_PACY"
+    ]
+  },
+  {
+    "racine": "LANG801",
+    "variantes": [
+      "_PACY",
+      "_TOEIC_AVRIL"
+    ]
+  },
+  {
+    "racine": "LANG901",
+    "variantes": [
+      "(racine)"
+    ]
+  },
+  {
+    "racine": "MATH500",
+    "variantes": [
+      "(racine)",
+      "_IDU"
+    ]
+  },
+  {
+    "racine": "MATH501",
+    "variantes": [
+      "(racine)",
+      "_CC1",
+      "_CC1_2EME_SESSION",
+      "_CC1_TIERS_TEMPS",
+      "_CC2",
+      "_CC2_TIERS_TEMPS",
+      "_CM",
+      "_ET",
+      "_ET-2EMESESSION",
+      "_ET_TIERS_TEMPS",
+      "_TDG"
+    ]
+  },
+  {
+    "racine": "MATH531",
+    "variantes": [
+      "_CM",
+      "_CM8-EXAM",
+      "_CM8-EXAM_TIERSTPS",
+      "_TDG_1-5",
+      "_TDG_6-8",
+      "_TPG1",
+      "_TPG2"
+    ]
+  },
+  {
+    "racine": "MATH641",
+    "variantes": [
+      "(racine)",
+      "_INGE_CC",
+      "_INGE_CM",
+      "_INGE_CM-CC",
+      "_INGE_CT_SESSION1",
+      "_INGE_CT_SESSION1_1",
+      "_INGE_TD_G"
+    ]
+  },
+  {
+    "racine": "MATH741",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_ET",
+      "_INGE_EX",
+      "_INGE_EX_SESSION2",
+      "_INGE_TD_IDU"
+    ]
+  },
+  {
+    "racine": "PROJ531",
+    "variantes": [
+      "_CM",
+      "_TDG_1",
+      "_TDG_2",
+      "_TDG_3",
+      "_TDG_4",
+      "_TPG1",
+      "_TPG2"
+    ]
+  },
+  {
+    "racine": "PROJ631",
+    "variantes": [
+      "(racine)",
+      "_IDU_01_4H1",
+      "_IDU_02_4H2",
+      "_IDU_03_4H3",
+      "_IDU_04_3H1",
+      "_IDU_05_4H4",
+      "_IDU_06_4H5",
+      "_IDU_07_4H6",
+      "_IDU_08_3H2",
+      "_IDU_09_4H7",
+      "_IDU_10_2H1",
+      "_IDU_11_2H2",
+      "_IDU_12_4H8"
+    ]
+  },
+  {
+    "racine": "PROJ632",
+    "variantes": [
+      "(racine)",
+      "_INGE_TDG_1-7_4H",
+      "_INGE_TDG_8_2H"
+    ]
+  },
+  {
+    "racine": "PROJ731",
+    "variantes": [
+      "_IDU",
+      "_INGE_APP"
+    ]
+  },
+  {
+    "racine": "PROJ831",
+    "variantes": [
+      "(racine)",
+      "_INGE_AUTO",
+      "_INGE_TPD"
+    ]
+  },
+  {
+    "racine": "PROJ832",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_PROJET"
+    ]
+  },
+  {
+    "racine": "PROJ932",
+    "variantes": [
+      "_EVAL",
+      "_INTRO",
+      "_TP"
+    ]
+  },
+  {
+    "racine": "SHES501",
+    "variantes": [
+      "_BUS_SPORT_TDG",
+      "_SPORT_TDG"
+    ]
+  },
+  {
+    "racine": "SHES505",
+    "variantes": [
+      "_PRESENTATION_TDG",
+      "_SIMU_APRESM_TDG",
+      "_SIMU_MATIN_TDG",
+      "_SOUTENANCE-TDG"
+    ]
+  },
+  {
+    "racine": "SHES601",
+    "variantes": [
+      "(racine)",
+      "_PACY_CM",
+      "_PACY_TD1_IDU_G",
+      "_PACY_TD2-4_IDU_G",
+      "_PACY_TD5-6_IDU_G"
+    ]
+  },
+  {
+    "racine": "SHES602",
+    "variantes": [
+      "(racine)",
+      "_PACY_CM",
+      "_PACY_CT_SESSION1",
+      "_PACY_CT_SESSION1_TIERS_TPS",
+      "_PACY_IDU_TD_G"
+    ]
+  },
+  {
+    "racine": "SHES703",
+    "variantes": [
+      "(racine)"
+    ]
+  },
+  {
+    "racine": "SHES704",
+    "variantes": [
+      "(racine)",
+      "_TD_LEGOFF_PERRINE"
+    ]
+  },
+  {
+    "racine": "SHES802",
+    "variantes": [
+      "_INGE_CM_SMQ",
+      "_INGE_CM_SST",
+      "_INGE_TD-IDU-A-SMQ",
+      "_INGE_TD-IDU-A-SST",
+      "_INGE_TD-IDU-A-SST-1"
+    ]
+  },
+  {
+    "racine": "SHES803",
+    "variantes": [
+      "(racine)",
+      "_INGE_CM",
+      "_INGE_CM_PREPARATION",
+      "_INGE_TD-IDU-A"
+    ]
+  },
+  {
+    "racine": "SHES901",
+    "variantes": [
+      "(racine)",
+      "_PACY_CM",
+      "_PACY_CT",
+      "_PACY_CT_1",
+      "_PACY_TD"
+    ]
+  }
+]
