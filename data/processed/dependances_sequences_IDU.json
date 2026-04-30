@@ -1,0 +1,1700 @@
+[
+    [
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "TD",
+            "Numero": "4"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "TD",
+            "Numero": "5"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "CM",
+            "Numero": "6"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "TD",
+            "Numero": "6"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "CM",
+            "Numero": "7"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "CM",
+            "Numero": "8"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "TD",
+            "Numero": "7"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "TD",
+            "Numero": "8"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "CM",
+            "Numero": "9"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "TD",
+            "Numero": "9"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "TD",
+            "Numero": "10"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "ISOC631_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        }
+    ],
+    [
+        {
+            "Code": "INFO632_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "TD",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "TD",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "CM",
+            "Numero": "6"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "TD",
+            "Numero": "6"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "CM",
+            "Numero": "7"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "TD",
+            "Numero": "7"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "TD",
+            "Numero": "8"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "TP",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO632_IDU",
+            "Type": "TD",
+            "Numero": "9"
+        }
+    ],
+    [
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "CM",
+            "Numero": "6"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "CM",
+            "Numero": "7"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "CM",
+            "Numero": "8"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "TD",
+            "Numero": "4"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "CM",
+            "Numero": "9"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "CM",
+            "Numero": "10"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "TD",
+            "Numero": "5"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "TD",
+            "Numero": "6"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "ISOC731_IDU",
+            "Type": "TP",
+            "Numero": "4"
+        }
+    ],
+    [
+        {
+            "Code": "INFO734_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO734_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO734_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO734_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO734_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO734_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO734_IDU",
+            "Type": "CM",
+            "Numero": "6"
+        },
+        {
+            "Code": "INFO734_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO734_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO734_IDU",
+            "Type": "TP",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO734_IDU",
+            "Type": "TP",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO734_IDU",
+            "Type": "TP",
+            "Numero": "6"
+        },
+        {
+            "Code": "INFO734_IDU",
+            "Type": "CM",
+            "Numero": "7"
+        },
+        {
+            "Code": "INFO734_IDU",
+            "Type": "CM",
+            "Numero": "8"
+        }
+    ],
+    [
+        {
+            "Code": "DATA732_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "TD",
+            "Numero": "4"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "CM",
+            "Numero": "6"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "TD",
+            "Numero": "5"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "TP",
+            "Numero": "4"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "CM",
+            "Numero": "7"
+        },
+        {
+            "Code": "DATA732_IDU",
+            "Type": "CM",
+            "Numero": "8"
+        }
+    ],
+    [
+        {
+            "Code": "PROJ731_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "PROJ731_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "PROJ731_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "PROJ731_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "PROJ731_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "PROJ731_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "PROJ731_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        }
+    ],
+    [
+        {
+            "Code": "INFO732_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO732_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO732_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO732_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO732_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO732_IDU",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO732_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO732_IDU",
+            "Type": "TD",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO732_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO732_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO732_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO732_IDU",
+            "Type": "TP",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO732_IDU",
+            "Type": "TP",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO732_IDU",
+            "Type": "TP",
+            "Numero": "6"
+        },
+        {
+            "Code": "INFO732_IDU",
+            "Type": "Exam",
+            "Numero": "1"
+        }
+    ],
+    [
+        {
+            "Code": "INFO731_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "CM",
+            "Numero": "6"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "TD",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "TD",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "CM",
+            "Numero": "7"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "TD",
+            "Numero": "6"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "CM",
+            "Numero": "8"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "TD",
+            "Numero": "7"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "CM",
+            "Numero": "9"
+        },
+        {
+            "Code": "INFO731_IDU",
+            "Type": "TP",
+            "Numero": "4"
+        }
+    ],
+    [
+        {
+            "Code": "DATA731_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "DATA731_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "DATA731_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "DATA731_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "DATA731_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "DATA731_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "DATA731_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        },
+        {
+            "Code": "DATA731_IDU",
+            "Type": "CM",
+            "Numero": "6"
+        },
+        {
+            "Code": "DATA731_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "DATA731_IDU",
+            "Type": "TP",
+            "Numero": "4"
+        },
+        {
+            "Code": "DATA731_IDU",
+            "Type": "TP",
+            "Numero": "5"
+        },
+        {
+            "Code": "DATA731_IDU",
+            "Type": "CM",
+            "Numero": "7"
+        },
+        {
+            "Code": "DATA731_IDU",
+            "Type": "TP",
+            "Numero": "6"
+        },
+        {
+            "Code": "DATA731_IDU",
+            "Type": "CM",
+            "Numero": "8"
+        }
+    ],
+    [
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "TD",
+            "Numero": "4"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "TD",
+            "Numero": "5"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "TD",
+            "Numero": "6"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "TD",
+            "Numero": "7"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "TD",
+            "Numero": "8"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "TP",
+            "Numero": "4"
+        },
+        {
+            "Code": "ISOC931_IDU",
+            "Type": "TP",
+            "Numero": "5"
+        }
+    ],
+    [
+        {
+            "Code": "DATA931_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "TD",
+            "Numero": "4"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "TD",
+            "Numero": "5"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "CM",
+            "Numero": "6"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "TD",
+            "Numero": "6"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "CM",
+            "Numero": "7"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "TD",
+            "Numero": "7"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "CM",
+            "Numero": "8"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "TD",
+            "Numero": "8"
+        },
+        {
+            "Code": "DATA931_IDU",
+            "Type": "TP",
+            "Numero": "4"
+        }
+    ],
+    [
+        {
+            "Code": "INFO932_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "TP",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "TD",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "TP",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "TD",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO932_IDU",
+            "Type": "TP",
+            "Numero": "6"
+        }
+    ],
+    [
+        {
+            "Code": "INFO931_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "TD",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "CM",
+            "Numero": "6"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "TD",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "TD",
+            "Numero": "6"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "CM",
+            "Numero": "7"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "CM",
+            "Numero": "8"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "TD",
+            "Numero": "7"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "TD",
+            "Numero": "8"
+        },
+        {
+            "Code": "INFO931_IDU",
+            "Type": "TP",
+            "Numero": "4"
+        }
+    ],
+    [
+        {
+            "Code": "INFO834_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "TD",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "TD",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "TP",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "TP",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO834_IDU",
+            "Type": "TP",
+            "Numero": "6"
+        }
+    ],
+    [
+        {
+            "Code": "INFO833_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "TD",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "TD",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "CM",
+            "Numero": "6"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "TD",
+            "Numero": "6"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "CM",
+            "Numero": "7"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "TD",
+            "Numero": "7"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "TD",
+            "Numero": "8"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "TD",
+            "Numero": "9"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO833_IDU",
+            "Type": "Exam",
+            "Numero": "1"
+        }
+    ],
+    [
+        {
+            "Code": "INFO831_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "TD",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "TD",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "CM",
+            "Numero": "6"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "TD",
+            "Numero": "6"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO831_IDU",
+            "Type": "Exam",
+            "Numero": "2"
+        }
+    ],
+    [
+        {
+            "Code": "DATA832_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "PROJ",
+            "Numero": "1"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "PROJ",
+            "Numero": "2"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "CM",
+            "Numero": "4"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "TD",
+            "Numero": "4"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "PROJ",
+            "Numero": "3"
+        },
+        {
+            "Code": "DATA832_IDU",
+            "Type": "PROJ",
+            "Numero": "3"
+        }
+    ],
+    [
+        {
+            "Code": "DATA831_IDU",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "DATA831_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "DATA831_IDU",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "DATA831_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "DATA831_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "DATA831_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "DATA831_IDU",
+            "Type": "CM",
+            "Numero": "5"
+        }
+    ],
+    [
+        {
+            "Code": "INFO501_PACY",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO501_PACY",
+            "Type": "TD",
+            "Numero": "1"
+        }
+    ],
+    [
+        {
+            "Code": "INFO502_PACY",
+            "Type": "CM",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO502_PACY",
+            "Type": "CM",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO502_PACY",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO502_PACY",
+            "Type": "CM",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO502_PACY",
+            "Type": "TD",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO502_PACY",
+            "Type": "TD",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO502_PACY",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO502_PACY",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO502_PACY",
+            "Type": "TP",
+            "Numero": "3"
+        }
+    ],
+    [
+        {
+            "Code": "INFO631_IDU",
+            "Type": "TD",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO631_IDU",
+            "Type": "TD",
+            "Numero": "2"
+        }
+    ],
+    [
+        {
+            "Code": "PROJ932_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "PROJ932_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "PROJ932_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "PROJ932_IDU",
+            "Type": "TP",
+            "Numero": "4"
+        },
+        {
+            "Code": "PROJ932_IDU",
+            "Type": "TP",
+            "Numero": "5"
+        },
+        {
+            "Code": "PROJ932_IDU",
+            "Type": "TP",
+            "Numero": "6"
+        },
+        {
+            "Code": "PROJ932_IDU",
+            "Type": "TP",
+            "Numero": "7"
+        },
+        {
+            "Code": "PROJ932_IDU",
+            "Type": "TP",
+            "Numero": "8"
+        },
+        {
+            "Code": "PROJ932_IDU",
+            "Type": "TP",
+            "Numero": "9"
+        },
+        {
+            "Code": "PROJ932_IDU",
+            "Type": "TP",
+            "Numero": "10"
+        },
+        {
+            "Code": "PROJ932_IDU",
+            "Type": "TP",
+            "Numero": "11"
+        }
+    ],
+    [
+        {
+            "Code": "INFO631_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "INFO631_IDU",
+            "Type": "TP",
+            "Numero": "2"
+        },
+        {
+            "Code": "INFO631_IDU",
+            "Type": "TP",
+            "Numero": "3"
+        },
+        {
+            "Code": "INFO631_IDU",
+            "Type": "TP",
+            "Numero": "4"
+        },
+        {
+            "Code": "INFO631_IDU",
+            "Type": "TP",
+            "Numero": "5"
+        },
+        {
+            "Code": "INFO631_IDU",
+            "Type": "TD",
+            "Numero": "6"
+        },
+        {
+            "Code": "INFO631_IDU",
+            "Type": "TD",
+            "Numero": "7"
+        }
+    ],
+    [
+        {
+            "Code": "MATH531_IDU",
+            "Type": "TP",
+            "Numero": "1"
+        },
+        {
+            "Code": "MATH531_IDU",
+            "Type": "CM",
+            "Numero": "3"
+        }
+    ]
+]
