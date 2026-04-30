@@ -56,6 +56,19 @@ def preprocess_data(df):
 
     return df
 
+def keep_important_only(df):
+    df = df[df["Code"].notna()] # Garder que les lignes avec un code de cours
+
+    idu3_mask = df['Year'] == 3
+    groups = df[idu3_mask]["Group"].dropna().unique()
+    # Si on a des groupes pour IDU3, ne garder que les TP qui ont le premier groupe (ou ceux sans groupe).
+    if len(groups) > 0:
+        # Conserver : toutes les lignes hors IDU3, ou les non-TP, ou les TP dont le groupe est null ou = first_group
+        mask = (df['Year'] != 3) | (df['Type'] != 'TP') | ((df['Type'] == 'TP') & (df['Group'].isnull() | (df['Group'] == groups[0])))
+        df = df[mask]
+
+    return df
+
 def load_and_preprocess(file_path):
     data = load_data(file_path)
     return preprocess_data(data)
@@ -72,28 +85,6 @@ def save_data(df, file_path):
 
 
 if __name__ == "__main__":
-    # Tests
-    # IDU3_data = load_and_preprocess('data/json/ADECal_IDU3.json')
-    # print(IDU3_data.head(), IDU3_data.tail())
-
-    # IDU4_data = load_and_preprocess('data/json/ADECal_IDU4.json')
-    # print(IDU4_data.head(), IDU4_data.tail())
-
-    # IDU5_data = load_and_preprocess('data/json/ADECal_IDU5.json')
-    # print(IDU5_data.head(), IDU5_data.tail())
-
-    # print(IDU3_data[IDU3_data['Type'] == 'TP']['Group'].isnull().sum())
-    # print(IDU4_data[IDU4_data['Type'] == 'TP']['Group'].isnull().sum())
-    # print(IDU5_data[IDU5_data['Type'] == 'TP']['Group'].isnull().sum())
-
-    # print(IDU3_data[(IDU3_data['Type'] == 'TP') & (IDU3_data['Group'].isnull())][['Title', 'Description', 'Duration']])
-    # print(IDU4_data[(IDU4_data['Type'] == 'TP') & (IDU4_data['Group'].isnull())][['Title', 'Description', 'Duration']])
-    # print(IDU5_data[(IDU5_data['Type'] == 'TP') & (IDU5_data['Group'].isnull())][['Title', 'Description', 'Duration']])
-
-    # save_data(IDU3_data, 'data/df/ADECal_IDU3_preprocessed.json')
-    # save_data(IDU4_data, 'data/df/ADECal_IDU4_preprocessed.json')
-    # save_data(IDU5_data, 'data/df/ADECal_IDU5_preprocessed.json')
-
     data = load_IDU_cals()
 
     print(data.head(), data.tail())
@@ -102,4 +93,5 @@ if __name__ == "__main__":
     
     save_data(data, 'data/df/ADECal_IDU_all_preprocessed.json')
 
-    # keep_important_only(data)
+    important_only = keep_important_only(data)
+    save_data(important_only, 'data/df/ADECal_IDU_all_important.json')
