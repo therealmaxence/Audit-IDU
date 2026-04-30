@@ -87,8 +87,8 @@ def verif_volume_horaire(ade, nom_module, volume_CM, volume_TD, volume_TP):
     else:
         return (False, f"{nom_module} : CM={count['CM']}h (attendu {volume_CM}h), TD={count['TD']}h (attendu {volume_TD}h), TP={count['TP']}h (attendu {volume_TP}h)")
 
-def count_volume_horaire_toJson(ade, nom_module):
-    count = {'nom': nom_module, 'CM': 0.0, 'TD': 0.0, 'TP': 0.0}
+def count_volume_horaire_toJson(ade, nom_module, volume_CM=0.0, volume_TD=0.0, volume_TP=0.0):
+    count = {'nom': nom_module, 'CM': {'attendu': volume_CM, 'reel': 0.0}, 'TD': {'attendu': volume_TD, 'reel': 0.0}, 'TP': {'attendu': volume_TP, 'reel': 0.0}}
     seen = set()
 
     for seance in ade:
@@ -113,7 +113,7 @@ def count_volume_horaire_toJson(ade, nom_module):
             continue
         seen.add(cle)
 
-        count[seance['Type']] += get_duree_heures(seance['Starts'], seance['Ends'])
+        count[seance['Type']]['reel'] += get_duree_heures(seance['Starts'], seance['Ends'])
 
     return count
     
@@ -179,6 +179,18 @@ def proportion_module_present(ade, modules, annee):
         "absents": modules_absents,
         "invalides": modules_invalides
     }
+def compare_volume_horraire(ade, modules):
+    resultats = []
+
+    for module in modules[2]['data']:
+        code_brut = module['code_module']
+        match = re.match(r'^[^_\s]+', code_brut)
+        
+        if match:
+            nom_module = match.group(0)
+            resultats.append(count_volume_horaire_toJson(ade, nom_module, module['cm'], module['td'], module['tp']))
+
+    return resultats
 
 if __name__ == "__main__":
     
@@ -199,4 +211,5 @@ if __name__ == "__main__":
     #     print(proportion_volume_horaire_correct(ade, modules, annee))
     #     annee += 1
 
-    print(count_volume_horaire_toJson(ade4, 'DATA732'))
+    for ade in [ade3, ade4, ade5]:
+        print(compare_volume_horraire(ade, modules)) #fonction a utiliser pour les futurs traitements de donnees 
