@@ -8,7 +8,7 @@ from pathlib import Path
 from collections import defaultdict
 
  
-from helpers import load_all_ics, find_conflicts
+from helpers import load_all_ics
 
 # ---------------------------------------------------------------------------
 # ICS parsing
@@ -126,6 +126,36 @@ def parse_ics_file(path: Path) -> list[dict]:
         })
 
     return events
+
+
+# ---------------------------------------------------------------------------
+# Conflict detection
+# ---------------------------------------------------------------------------
+
+def find_conflicts(events: list[dict], verbose: bool = True) -> set[int]:
+    """
+    Return the set of event indices involved in scheduling conflicts
+    (same teacher, overlapping time slots).  When *verbose* is True,
+    print each conflict to stdout.
+    """
+    conflicts: set[int] = set()
+    for i, a in enumerate(events):
+        for j, b in enumerate(events):
+            if j <= i:
+                continue
+            shared = set(a['teachers']) & set(b['teachers']) - {'(no instructor)'}
+            if shared and a['start'] < b['end'] and b['start'] < a['end']:
+                conflicts.add(i)
+                conflicts.add(j)
+                if verbose:
+                    d1 = f"{a['start'].strftime('%Y-%m-%d %H:%M')} → {a['end'].strftime('%H:%M')}"
+                    d2 = f"{b['start'].strftime('%Y-%m-%d %H:%M')} → {b['end'].strftime('%H:%M')}"
+                    for teacher in shared:
+                        print(f"\n⚠ OVERLAP for {teacher}:")
+                        print(f"   [{d1}] {a['summary']}  (file: {a['source_file']})")
+                        print(f"   [{d2}] {b['summary']}  (file: {b['source_file']})")
+                        print("-" * 60)
+    return conflicts
 
 # ---------------------------------------------------------------------------
 # CLI

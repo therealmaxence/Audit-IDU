@@ -11,14 +11,13 @@ Sections:
   4. JSON helpers         – safe_read_json, load_responsables
   5. Conflict detection   – find_conflicts
   6. Preprocess / typing  – detect_type, detect_group, preprocess_data (pandas)
-  7. Volume horaire       – get_type_cours, get_duree_heures, normaliser_titre,
-                            verif_seance_module, verif_seance_all_modules,
-                            verif_volume_horaire, proportion_module_present
+ 
 """
 
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from collections import defaultdict
@@ -225,6 +224,12 @@ def safe_read_json(path: Path):
     except Exception as exc:
         print(f"[WARN] Cannot read {path.name}: {exc}")
         return None
+    
+
+def save_data(df, file_path):
+    
+    os.makedirs('data/df', exist_ok=True)
+    df.to_json(file_path, orient='records', indent=2, force_ascii=False)
 
 
 def load_responsables(path: Path) -> list[dict]:
@@ -278,37 +283,7 @@ def walk_count(obj, counter: DefaultDict[str, int], excluded_keys: set[str] | No
 
 
 # ---------------------------------------------------------------------------
-# 5 – Conflict detection
-# ---------------------------------------------------------------------------
-
-def find_conflicts(events: list[dict], verbose: bool = True) -> set[int]:
-    """
-    Return the set of event indices involved in scheduling conflicts
-    (same teacher, overlapping time slots).  When *verbose* is True,
-    print each conflict to stdout.
-    """
-    conflicts: set[int] = set()
-    for i, a in enumerate(events):
-        for j, b in enumerate(events):
-            if j <= i:
-                continue
-            shared = set(a['teachers']) & set(b['teachers']) - {'(no instructor)'}
-            if shared and a['start'] < b['end'] and b['start'] < a['end']:
-                conflicts.add(i)
-                conflicts.add(j)
-                if verbose:
-                    d1 = f"{a['start'].strftime('%Y-%m-%d %H:%M')} → {a['end'].strftime('%H:%M')}"
-                    d2 = f"{b['start'].strftime('%Y-%m-%d %H:%M')} → {b['end'].strftime('%H:%M')}"
-                    for teacher in shared:
-                        print(f"\n⚠ OVERLAP for {teacher}:")
-                        print(f"   [{d1}] {a['summary']}  (file: {a['source_file']})")
-                        print(f"   [{d2}] {b['summary']}  (file: {b['source_file']})")
-                        print("-" * 60)
-    return conflicts
-
-
-# ---------------------------------------------------------------------------
-# 6 – Preprocess / typing  (requires pandas)
+# 5 – Preprocess / typing  (requires pandas)
 # ---------------------------------------------------------------------------
 
 def detect_type(row: dict) -> str | None:
@@ -364,127 +339,3 @@ def preprocess_data(df):
     df.loc[tp_mask, 'Group'] = df[tp_mask].apply(detect_group, axis=1)
 
     return df
-
-
-# ---------------------------------------------------------------------------
-# 7 – Volume horaire verification
-# ---------------------------------------------------------------------------
-
-def get_type_cours(description: str) -> str | None:
-    """Return the session type (CM / TD / TP) from the first line of Description."""
-    first_line = description.split('\n')[0]
-    for t in ('CM', 'TD', 'TP'):
-        if f'({t})' in first_line:
-            return t
-    return None
-
-
-def get_duree_heures(starts: str, ends: str) -> float:
-    """Return the duration in hours between two ISO-format datetime strings."""
-    t1 = datetime.fromisoformat(starts)
-    t2 = datetime.fromisoformat(ends)
-    return (t2 - t1).total_seconds() / 3600
-
-
-def normaliser_titre(seance: dict) -> str | None:
-    """Build a normalised title string 'CODE_TYPE' for deduplication."""
-    if seance.get('code') is None:
-        return None
-    type_seance = seance.get('Type', seance.get('type'))
-    return f"{seance['code']}_{type_seance}"
-
-
-def verif_seance_module(ade: list[dict], nom_module: str) -> bool:
-    """Return True if at least one session in *ade* belongs to *nom_module*."""
-    for seance in ade:
-        match = re.match(r'^[^_\s]+', seance['Title'])
-        if match and match.group(0) == nom_module:
-            return True
-    return False
-
-
-def verif_seance_all_modules(ade: list[dict], modules: list[str]) -> list[str]:
-    """Return the list of modules from *modules* that have NO session in *ade*."""
-    return [m for m in modules if not verif_seance_module(ade, m)]
-
-
-def verif_volume_horaire(
-    ade: list[dict],
-    nom_module: str,
-    volume_CM: float,
-    volume_TD: float,
-    volume_TP: float,
-) -> str:
-    """
-    Check whether the scheduled hours for *nom_module* meet the expected
-    volumes.  Returns 'OK' or a descriptive mismatch string.
-    """
-    count: dict[str, float] = {'CM': 0.0, 'TD': 0.0, 'TP': 0.0}
-    seen: set = set()
-
-    for seance in ade:
-        if seance.get('code') != nom_module:
-            continue
-        type_seance = seance.get('type')
-        if type_seance is None:
-            continue
-
-        date_jour   = seance['Starts'][:10]
-        titre_norm  = normaliser_titre(seance)
-        groupe      = seance.get('groupe', '')
-        cle = (titre_norm, date_jour)
-
-        if cle in seen:
-            continue
-        seen.add(cle)
-        count[type_seance] += get_duree_heures(seance['Starts'], seance['Ends'])
-
-    if count['CM'] >= volume_CM and count['TD'] >= volume_TD and count['TP'] >= volume_TP:
-        return "OK"
-    return (
-        f"Volume horaire incorrect pour {nom_module} : "
-        f"CM={count['CM']}h (attendu {volume_CM}h), "
-        f"TD={count['TD']}h (attendu {volume_TD}h), "
-        f"TP={count['TP']}h (attendu {volume_TP}h)"
-    )
-
-
-def proportion_module_present(ade: list[dict], modules: list[dict]) -> dict:
-    """
-    Compute the fraction of official modules that have at least one session
-    in *ade*.  *modules* must be the raw parsed MAQUETTE_IDU.json list
-    (the table entry with the 'data' key is extracted automatically).
-
-    Returns a dict with keys: proportion, presents, absents, invalides.
-    """
-    # Accept either the raw wrapper list or the flat data list directly
-    data: list[dict] = []
-    if isinstance(modules, list):
-        for entry in modules:
-            if isinstance(entry, dict) and entry.get('type') == 'table' and 'data' in entry:
-                data = entry['data']
-                break
-        if not data:
-            # Assume it's already the flat list
-            data = modules
-
-    presents:  list[str] = []
-    absents:   list[str] = []
-    invalides: list[str] = []
-
-    for module in data:
-        code_brut = module.get('code_module', '')
-        match     = re.match(r'^[^_\s]+', code_brut)
-        if match:
-            nom = match.group(0)
-            (presents if verif_seance_module(ade, nom) else absents).append(nom)
-        else:
-            invalides.append(code_brut)
-
-    total = len(presents) + len(absents)
-    return {
-        "proportion": len(presents) / total if total else 0.0,
-        "presents":   presents,
-        "absents":    absents,
-        "invalides":  invalides,
-    }
