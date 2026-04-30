@@ -26,29 +26,17 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import DefaultDict
 
+from CONSTANT import (
+    GROUP_RE,
+    NAME_RE,
+)
 # ---------------------------------------------------------------------------
 # 1 & 2 – Name normalisation + ICS description parsing
 # ---------------------------------------------------------------------------
 
-# Patterns that look like person names but are actually group / admin codes.
-_GROUP_PATTERNS = {
-    r'^EPU-\d', r'^IDU-\d', r'^MECA-FISE-\d', r'^SNI-\d',
-    r'^FISE\d', r'^FISA\d', r'^N3IE', r'^NTRANS', r'^E\d{4,}',
-    r'^Scolarité', r'^examen_', r'^00000$', r'^\d{10,}$',
-}
-_GROUP_RE = [re.compile(p, re.IGNORECASE) for p in _GROUP_PATTERNS]
-
-# All-uppercase multi-word pattern that matches "SURNAME FIRSTNAME" lines.
-_NAME_RE = re.compile(
-    r'^[A-ZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖÙÚÛÜÝŸŒÆ]'
-    r'[A-ZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖÙÚÛÜÝŸŒÆ\-]+'
-    r'(?: [A-ZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖÙÚÛÜÝŸŒÆ\-]+)+$'
-)
-
-
 def is_group_code(line: str) -> bool:
     """Return True if *line* is a group / admin code rather than a person name."""
-    return any(p.search(line) for p in _GROUP_RE)
+    return any(p.search(line) for p in GROUP_RE)
 
 
 def normalize_name(raw: str) -> str:
@@ -75,7 +63,7 @@ def extract_teachers(description: str) -> list[str]:
             continue
         if is_group_code(line):
             continue
-        if _NAME_RE.match(line):
+        if NAME_RE.match(line):
             names.append(normalize_name(line))
     return names if names else ["(no instructor)"]
 

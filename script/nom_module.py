@@ -9,18 +9,14 @@ from typing import DefaultDict
 
 from helpers import (
     safe_read_json,
-    extract_module_codes_from_text,
-    module_root,
-    module_suffix,
     walk_collect,
     build_variants_by_root,
 )
 
-MODULE_CODE_RE = re.compile(r"\b([A-Z]{3,}\d{3}(?:_[A-Z0-9-]+)*)\b")
-MODULE_ROOT_RE = re.compile(r"^([A-Z]{3,}\d{3})")
-DEFAULT_DATA_DIR = Path(__file__).parent / "../data/json"
-OUTPUT_DATA_DIR = Path(__file__).parent / "../normalized_data"
-
+from CONSTANT import (
+    DEFAULT_DATA_DIR,
+    OUTPUT_DATA_DIR,
+)
 
 def build_official_codes(data_dir: Path, collected: dict[str, set[str]]) -> set[str]:
     official = set()

@@ -8,18 +8,15 @@ from pathlib import Path
 
 from helpers import (
     safe_read_json,
-    extract_codes,
     walk_count,
 )
 
-MODULE_CODE_RE = re.compile(r"\b([A-Z]{3,}\d{3}(?:_[A-Z0-9-]+)*)\b")
-
-DEFAULT_DATA_DIR     = Path(__file__).parent / "../data" / "json"
-DEFAULT_VARIANTS_FILE = Path(__file__).parent / "../normalized_data" / "audit_variants.json"
-DEFAULT_OUTPUT_FILE  = Path(__file__).parent / "../normalized_data" / "count_module_occurence.json"
-
-TARGET_FILES = {"ADECal_IDU3.json", "ADECal_IDU4.json", "ADECal_IDU5.json"}
-EXCLUDED_KEYS = {"description"}
+from CONSTANT import (
+    DEFAULT_DATA_DIR,
+    DEFAULT_VARIANTS_FILE,
+    DEFAULT_OUTPUT_FILE,
+    TARGET_FILES,
+)
 
 # ---------------------------------------------------------------------------
 # Main
