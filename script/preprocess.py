@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+from math import ceil
 from helpers import preprocess_data, save_data, load_data, detect_group, detect_type
 
 def verif_seance_module(ade, nom_module):
@@ -51,27 +52,13 @@ def proportion_module_present(ade: list[dict], modules: list[dict]) -> dict:
     }
 
 if __name__ == "__main__":
-    # Tests
-    IDU3_data = load_data('data/json/ADECal_IDU3.json')
-    preprocess_data(IDU3_data)
-    print(IDU3_data.head(), IDU3_data.tail())
+    data = load_IDU_cals()
 
-    IDU4_data = load_data('data/json/ADECal_IDU4.json')
-    preprocess_data(IDU4_data)
-    print(IDU4_data.head(), IDU4_data.tail())
+    print(data.head(), data.tail())
+    print(data[data['Type'] == 'TP']['Group'].isnull().sum())
+    print(data[(data['Type'] == 'TP') & (data['Group'].isnull())][['Title', 'Description', 'Duration']])
+    
+    save_data(data, 'data/df/ADECal_IDU_all_preprocessed.json')
 
-    IDU5_data = load_data('data/json/ADECal_IDU5.json')
-    preprocess_data(IDU5_data)
-    print(IDU5_data.head(), IDU5_data.tail())
-
-    print(IDU3_data[IDU3_data['Type'] == 'TP']['Group'].isnull().sum())
-    print(IDU4_data[IDU4_data['Type'] == 'TP']['Group'].isnull().sum())
-    print(IDU5_data[IDU5_data['Type'] == 'TP']['Group'].isnull().sum())
-
-    print(IDU3_data[(IDU3_data['Type'] == 'TP') & (IDU3_data['Group'].isnull())][['Title', 'Description', 'Duration']])
-    print(IDU4_data[(IDU4_data['Type'] == 'TP') & (IDU4_data['Group'].isnull())][['Title', 'Description', 'Duration']])
-    print(IDU5_data[(IDU5_data['Type'] == 'TP') & (IDU5_data['Group'].isnull())][['Title', 'Description', 'Duration']])
-
-    save_data(IDU3_data, 'data/df/ADECal_IDU3_preprocessed.json')
-    save_data(IDU4_data, 'data/df/ADECal_IDU4_preprocessed.json')
-    save_data(IDU5_data, 'data/df/ADECal_IDU5_preprocessed.json')
+    important_only = keep_important_only(data)
+    save_data(important_only, 'data/df/ADECal_IDU_all_important.json')
