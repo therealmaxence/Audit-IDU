@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 import os
+from math import ceil
 
 def load_data(file_path):
     return pd.read_json(file_path, orient='records')
@@ -47,35 +48,54 @@ def preprocess_data(df):
     TP_mask = df['Type'] == 'TP'
     df.loc[TP_mask, 'Group'] = df[TP_mask].apply(detect_group, axis=1)
 
+    # Extrait l'année (3, 4 ou 5)
+    df['Year'] = pd.Series(pd.NA, index=df.index, dtype='Int64')
+    semester = df.loc[with_code_mask, 'Code'].str[4].astype(int)
+    df.loc[with_code_mask, 'Year'] = semester.apply(lambda x: ceil(x / 2)).astype('Int64')
+
+    df.sort_values(by=['Starts'], inplace=True)
+
     return df
 
+def keep_important_only(df):
+    df = df[df["Code"].notna()] # Garder que les lignes avec un code de cours
+
+    idu3_mask = df['Year'] == 3
+    groups = df[idu3_mask]["Group"].dropna().unique()
+    # Si on a des groupes pour IDU3, ne garder que les TP qui ont le premier groupe (ou ceux sans groupe).
+    if len(groups) > 0:
+        # Conserver : toutes les lignes hors IDU3, ou les non-TP, ou les TP dont le groupe est null ou = first_group
+        mask = (df['Year'] != 3) | (df['Type'] != 'TP') | ((df['Type'] == 'TP') & (df['Group'].isnull() | (df['Group'] == groups[0])))
+        df = df[mask]
+
+    # Ajoute les numéros
+    df['Numero'] = (df.groupby(['Code', 'Type']).cumcount() + 1).astype('Int64')
+
+    return df
+
+def load_and_preprocess(file_path):
+    data = load_data(file_path)
+    return preprocess_data(data)
+
+def load_IDU_cals():
+    IDU3_data = load_and_preprocess('data/json/ADECal_IDU3.json')
+    IDU4_data = load_and_preprocess('data/json/ADECal_IDU4.json')
+    IDU5_data = load_and_preprocess('data/json/ADECal_IDU5.json')
+    return pd.concat([IDU3_data, IDU4_data, IDU5_data], ignore_index=True)
+
 def save_data(df, file_path):
-    
     os.makedirs('data/df', exist_ok=True)
     df.to_json(file_path, orient='records', indent=2, force_ascii=False)
 
+
 if __name__ == "__main__":
-    # Tests
-    IDU3_data = load_data('data/json/ADECal_IDU3.json')
-    preprocess_data(IDU3_data)
-    print(IDU3_data.head(), IDU3_data.tail())
+    data = load_IDU_cals()
 
-    IDU4_data = load_data('data/json/ADECal_IDU4.json')
-    preprocess_data(IDU4_data)
-    print(IDU4_data.head(), IDU4_data.tail())
+    print(data.head(), data.tail())
+    print(data[data['Type'] == 'TP']['Group'].isnull().sum())
+    print(data[(data['Type'] == 'TP') & (data['Group'].isnull())][['Title', 'Description', 'Duration']])
+    
+    save_data(data, 'data/df/ADECal_IDU_all_preprocessed.json')
 
-    IDU5_data = load_data('data/json/ADECal_IDU5.json')
-    preprocess_data(IDU5_data)
-    print(IDU5_data.head(), IDU5_data.tail())
-
-    print(IDU3_data[IDU3_data['Type'] == 'TP']['Group'].isnull().sum())
-    print(IDU4_data[IDU4_data['Type'] == 'TP']['Group'].isnull().sum())
-    print(IDU5_data[IDU5_data['Type'] == 'TP']['Group'].isnull().sum())
-
-    print(IDU3_data[(IDU3_data['Type'] == 'TP') & (IDU3_data['Group'].isnull())][['Title', 'Description', 'Duration']])
-    print(IDU4_data[(IDU4_data['Type'] == 'TP') & (IDU4_data['Group'].isnull())][['Title', 'Description', 'Duration']])
-    print(IDU5_data[(IDU5_data['Type'] == 'TP') & (IDU5_data['Group'].isnull())][['Title', 'Description', 'Duration']])
-
-    save_data(IDU3_data, 'data/df/ADECal_IDU3_preprocessed.json')
-    save_data(IDU4_data, 'data/df/ADECal_IDU4_preprocessed.json')
-    save_data(IDU5_data, 'data/df/ADECal_IDU5_preprocessed.json')
+    important_only = keep_important_only(data)
+    save_data(important_only, 'data/df/ADECal_IDU_all_important.json')
