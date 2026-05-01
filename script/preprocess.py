@@ -2,9 +2,8 @@ import pandas as pd
 import re
 import os
 from math import ceil
-
-def load_data(file_path):
-    return pd.read_json(file_path, orient='records')
+from utils import JsonParser
+import config
 
 def detect_type(row):
     text = row.get('Title', '') + ' ' + row.get('Description', '')
@@ -73,29 +72,18 @@ def keep_important_only(df):
 
     return df
 
-def load_and_preprocess(file_path):
-    data = load_data(file_path)
-    return preprocess_data(data)
-
-def load_IDU_cals():
-    IDU3_data = load_and_preprocess('data/json/ADECal_IDU3.json')
-    IDU4_data = load_and_preprocess('data/json/ADECal_IDU4.json')
-    IDU5_data = load_and_preprocess('data/json/ADECal_IDU5.json')
-    return pd.concat([IDU3_data, IDU4_data, IDU5_data], ignore_index=True)
-
 def save_data(df, file_path):
     os.makedirs('data/df', exist_ok=True)
     df.to_json(file_path, orient='records', indent=2, force_ascii=False)
 
 
 if __name__ == "__main__":
-    data = load_IDU_cals()
-
-    print(data.head(), data.tail())
-    print(data[data['Type'] == 'TP']['Group'].isnull().sum())
-    print(data[(data['Type'] == 'TP') & (data['Group'].isnull())][['Title', 'Description', 'Duration']])
-    
-    save_data(data, 'data/df/ADECal_IDU_all_preprocessed.json')
-
+    json_parser = JsonParser()
+    data = json_parser.get_dataframe(os.path.join(config.NORMALIZED_FOLDER, 'ade.json'))
+    data = preprocess_data(data)
     important_only = keep_important_only(data)
-    save_data(important_only, 'data/df/ADECal_IDU_all_important.json')
+    
+    data.to_json(os.path.join(config.PREPROCESSED_FOLDER, 'ade.json'),
+                 orient='records', indent=2, force_ascii=False, date_format="iso")
+    important_only.to_json(os.path.join(config.PREPROCESSED_FOLDER, 'ade_essential.json'),
+                 orient='records', indent=2, force_ascii=False, date_format="iso")

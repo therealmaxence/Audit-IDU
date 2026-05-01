@@ -1,7 +1,7 @@
 import json
 import os
 import pandas as pd
-from preprocess import load_IDU_cals, keep_important_only
+from script.preprocess import load_IDU_cals, keep_important_only
 
 def build_sequences():
     with open('data/json/dependance_sequence_IDU.json', 'r', encoding='utf-8') as f:
