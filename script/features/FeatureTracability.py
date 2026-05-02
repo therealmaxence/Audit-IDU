@@ -9,7 +9,7 @@ class FeatureTracability(Feature):
             "moodle" : os.path.join(config.NORMALIZED_FOLDER, "moodle.json"),
             "maquette" : os.path.join(config.NORMALIZED_FOLDER, "learnagement_MAQUETTE_module.json"),
             "responsables" : os.path.join(config.NORMALIZED_FOLDER, "learnagement_LNM_enseignant.json"),
-            "ade" : os.path.join(config.PREPROCESSED_FOLDER, "ade.json")
+            "ade" : os.path.join(config.PREPROCESSED_FOLDER, "module_ade.json")
         })
 
     def compute(self):
@@ -31,9 +31,15 @@ class FeatureTracability(Feature):
             if responsable and moodle_module:
                 teachers = getattr(moodle_module, "teachers", [])
                 has_responsable = any(
-                    t["lastname"].lower() == responsable.nom.lower()
+                    t.get("lastname", "").lower() == responsable.nom.lower()
                     for t in teachers
                 )
+
+            ade_module = next(
+                (m for m in self.df["ade"].itertuples(index=False)
+                    if m.nom == code),
+                None
+            )
 
             # Moodle section
             result = module._asdict()
@@ -45,6 +51,11 @@ class FeatureTracability(Feature):
                         "prenom": responsable.prenom
                     } if has_responsable else None
                 )
+            }
+            result['ade'] = {
+                "cm": ade_module.CM['reel'] if ade_module else None,
+                "td": ade_module.TD['reel'] if ade_module else None,
+                "tp": ade_module.TP['reel'] if ade_module else None
             }
             # ADE section
             results.append(result)

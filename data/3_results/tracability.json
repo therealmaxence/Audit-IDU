@@ -9,6 +9,11 @@
     "moodle":{
       "nom":null,
       "responsable":null
+    },
+    "ade":{
+      "cm":13.5,
+      "td":26.5,
+      "tp":0.0
     }
   },
   {
@@ -21,6 +26,11 @@
     "moodle":{
       "nom":null,
       "responsable":null
+    },
+    "ade":{
+      "cm":6.5,
+      "td":4.5,
+      "tp":16.0
     }
   },
   {
@@ -33,6 +43,11 @@
     "moodle":{
       "nom":null,
       "responsable":null
+    },
+    "ade":{
+      "cm":0.0,
+      "td":0.0,
+      "tp":0.0
     }
   },
   {
@@ -45,6 +60,11 @@
     "moodle":{
       "nom":null,
       "responsable":null
+    },
+    "ade":{
+      "cm":0.0,
+      "td":0.0,
+      "tp":0.0
     }
   },
   {
@@ -60,6 +80,11 @@
         "nom":"SALAMATIAN",
         "prenom":"Kavé"
       }
+    },
+    "ade":{
+      "cm":12.0,
+      "td":12.0,
+      "tp":4.0
     }
   },
   {
@@ -75,6 +100,11 @@
         "nom":"ALLOUI",
         "prenom":"Ilham"
       }
+    },
+    "ade":{
+      "cm":6.0,
+      "td":6.0,
+      "tp":24.0
     }
   },
   {
@@ -90,6 +120,11 @@
         "nom":"VERNIER",
         "prenom":"Flavien"
       }
+    },
+    "ade":{
+      "cm":9.0,
+      "td":9.0,
+      "tp":32.0
     }
   },
   {
@@ -105,6 +140,11 @@
         "nom":"VERNIER",
         "prenom":"Flavien"
       }
+    },
+    "ade":{
+      "cm":12.0,
+      "td":12.0,
+      "tp":16.0
     }
   },
   {
@@ -120,6 +160,11 @@
         "nom":"MONNET",
         "prenom":"Sébastien"
       }
+    },
+    "ade":{
+      "cm":9.0,
+      "td":10.5,
+      "tp":24.0
     }
   },
   {
@@ -135,6 +180,11 @@
         "nom":"SALAMATIAN",
         "prenom":"Kavé"
       }
+    },
+    "ade":{
+      "cm":13.5,
+      "td":12.0,
+      "tp":20.0
     }
   },
   {
@@ -150,6 +200,11 @@
         "nom":"VERNIER",
         "prenom":"Flavien"
       }
+    },
+    "ade":{
+      "cm":0.0,
+      "td":30.0,
+      "tp":0.0
     }
   },
   {
@@ -165,6 +220,11 @@
         "nom":"VERNIER",
         "prenom":"Flavien"
       }
+    },
+    "ade":{
+      "cm":0.0,
+      "td":42.0,
+      "tp":0.0
     }
   },
   {
@@ -180,6 +240,11 @@
         "nom":"ATTO",
         "prenom":"Abdou"
       }
+    },
+    "ade":{
+      "cm":9.0,
+      "td":0.0,
+      "tp":24.0
     }
   },
   {
@@ -195,6 +260,11 @@
         "nom":"SALAMATIAN",
         "prenom":"Kavé"
       }
+    },
+    "ade":{
+      "cm":13.5,
+      "td":32.0,
+      "tp":0.0
     }
   },
   {
@@ -210,6 +280,11 @@
         "nom":"CIMPAN",
         "prenom":"Sorana"
       }
+    },
+    "ade":{
+      "cm":7.5,
+      "td":4.5,
+      "tp":20.0
     }
   },
   {
@@ -222,6 +297,11 @@
     "moodle":{
       "nom":"Flux de Données et Accès Concurrents",
       "responsable":null
+    },
+    "ade":{
+      "cm":0.0,
+      "td":20.0,
+      "tp":0.0
     }
   },
   {
@@ -237,6 +317,11 @@
         "nom":"CIMPAN",
         "prenom":"Sorana"
       }
+    },
+    "ade":{
+      "cm":12.0,
+      "td":19.5,
+      "tp":0.0
     }
   },
   {
@@ -252,6 +337,11 @@
         "nom":"MIAN",
         "prenom":"Ammar"
       }
+    },
+    "ade":{
+      "cm":10.5,
+      "td":24.0,
+      "tp":0.0
     }
   },
   {
@@ -267,6 +357,11 @@
         "nom":"SALAMATIAN",
         "prenom":"Kavé"
       }
+    },
+    "ade":{
+      "cm":16.0,
+      "td":8.0,
+      "tp":0.0
     }
   },
   {
@@ -282,6 +377,11 @@
         "nom":"MONNET",
         "prenom":"Sébastien"
       }
+    },
+    "ade":{
+      "cm":6.0,
+      "td":12.0,
+      "tp":0.0
     }
   },
   {
@@ -297,6 +397,11 @@
         "nom":"BENOIT",
         "prenom":"Alexandre"
       }
+    },
+    "ade":{
+      "cm":7.5,
+      "td":12.5,
+      "tp":4.0
     }
   },
   {
@@ -312,6 +417,11 @@
         "nom":"ATTO",
         "prenom":"Abdou"
       }
+    },
+    "ade":{
+      "cm":10.5,
+      "td":7.5,
+      "tp":12.0
     }
   },
   {
@@ -327,6 +437,11 @@
         "nom":"VERNIER",
         "prenom":"Flavien"
       }
+    },
+    "ade":{
+      "cm":23.5,
+      "td":0.0,
+      "tp":0.0
     }
   },
   {
@@ -342,6 +457,11 @@
         "nom":"VERNIER",
         "prenom":"Flavien"
       }
+    },
+    "ade":{
+      "cm":9.0,
+      "td":17.0,
+      "tp":8.0
     }
   },
   {
@@ -357,6 +477,11 @@
         "nom":"MONNET",
         "prenom":"Sébastien"
       }
+    },
+    "ade":{
+      "cm":10.5,
+      "td":13.5,
+      "tp":8.0
     }
   },
   {
@@ -372,6 +497,11 @@
         "nom":"ALLOUI",
         "prenom":"Ilham"
       }
+    },
+    "ade":{
+      "cm":7.5,
+      "td":7.5,
+      "tp":24.0
     }
   },
   {
@@ -387,6 +517,11 @@
         "nom":"VERNIER",
         "prenom":"Flavien"
       }
+    },
+    "ade":{
+      "cm":0.0,
+      "td":20.0,
+      "tp":0.0
     }
   },
   {
@@ -402,6 +537,11 @@
         "nom":"MONNET",
         "prenom":"Sébastien"
       }
+    },
+    "ade":{
+      "cm":12.0,
+      "td":12.0,
+      "tp":16.0
     }
   },
   {
@@ -417,6 +557,11 @@
         "nom":"MONNET",
         "prenom":"Sébastien"
       }
+    },
+    "ade":{
+      "cm":7.5,
+      "td":6.0,
+      "tp":20.0
     }
   },
   {
@@ -432,6 +577,11 @@
         "nom":"MONNET",
         "prenom":"Sébastien"
       }
+    },
+    "ade":{
+      "cm":0.0,
+      "td":0.0,
+      "tp":0.0
     }
   },
   {
@@ -447,6 +597,11 @@
         "nom":"BENOIT",
         "prenom":"Alexandre"
       }
+    },
+    "ade":{
+      "cm":12.0,
+      "td":12.0,
+      "tp":16.0
     }
   },
   {
@@ -462,6 +617,11 @@
         "nom":"BENOIT",
         "prenom":"Alexandre"
       }
+    },
+    "ade":{
+      "cm":6.0,
+      "td":9.0,
+      "tp":14.0
     }
   },
   {
@@ -477,6 +637,11 @@
         "nom":"MONNET",
         "prenom":"Sébastien"
       }
+    },
+    "ade":{
+      "cm":0.0,
+      "td":0.0,
+      "tp":40.0
     }
   },
   {
@@ -492,6 +657,11 @@
         "nom":"VALET",
         "prenom":"Lionel"
       }
+    },
+    "ade":{
+      "cm":5.0,
+      "td":26.0,
+      "tp":0.0
     }
   },
   {
@@ -504,6 +674,11 @@
     "moodle":{
       "nom":"Projet Recherche et Développement -IDU5 - SNI5 - MMT5",
       "responsable":null
+    },
+    "ade":{
+      "cm":0.0,
+      "td":0.0,
+      "tp":0.0
     }
   },
   {
@@ -516,6 +691,11 @@
     "moodle":{
       "nom":"Flux de Données et Accès Concurrents",
       "responsable":null
+    },
+    "ade":{
+      "cm":4.0,
+      "td":0.0,
+      "tp":12.0
     }
   }
 ]
