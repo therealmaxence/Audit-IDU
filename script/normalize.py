@@ -1,6 +1,6 @@
 import os
 import config
-from utils import MoodleParser, ADEICSParser, BDDJsonParser
+from parser import MoodleParser, ADEICSParser, BDDJsonParser
 
 if __name__ == '__main__':
     # region: Normalize data files

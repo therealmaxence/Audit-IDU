@@ -5,6 +5,7 @@ VENV_DIR=".venv"
 SCRIPTS=(
   "./script/normalize.py"
   "./script/preprocess.py"
+  "./script/feature.py"
 )
 
 # 1. Créer l'environnement virtuel s'il n'existe pas
