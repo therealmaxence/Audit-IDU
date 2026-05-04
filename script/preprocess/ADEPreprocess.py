@@ -20,7 +20,16 @@ class PreprocessADE(Preprocess):
         self.outputs["essential"]["data"] = self.keep_important_only(self.outputs["ade"]["data"])
         self.save()
 
-    def detect_type(self, row):
+    def get_duration(self, row):
+        start = pd.to_datetime(row['Starts'])
+        end = pd.to_datetime(row['Ends'])
+        return (end - start).total_seconds() / 3600.0
+
+    def get_code(self, title):
+        match = re.search(r'([A-Za-z]{4}\d{3})', title)
+        return match.group(0) if match else None
+
+    def get_type(self, row):
         text = row.get('Title', '') + ' ' + row.get('Description', '')
         text = text.upper()
 
@@ -38,7 +47,7 @@ class PreprocessADE(Preprocess):
         else:
             return None
 
-    def detect_group(self, row):
+    def get_group(self, row):
         description = row.get('Description', '').upper()
         
         match = re.search(r'IDU-[345]-([A-Z]+\d?)', description)
@@ -47,25 +56,27 @@ class PreprocessADE(Preprocess):
 
         return None
 
+    def get_year(self, code):
+        if pd.isna(code) or len(code) < 5: return None
+        return int(ceil(int(code[4]) / 2))
+
     def preprocess_data(self, df):
         # Calcul la durée
-        df['Duration'] = pd.to_datetime(df['Ends']) - pd.to_datetime(df['Starts'])
+        df['Duration'] = df.apply(self.get_duration, axis=1)
         
         # Extrait le code du cours
-        df['Code'] = df['Title'].str.extract(r'([A-Za-z]{4}\d{3})', expand=False)
-
+        df['Code'] = df['Title'].apply(self.get_code)
+        
         # Extrait le type de cours
         with_code_mask = df['Code'].notnull()
-        df.loc[with_code_mask, 'Type'] = df[with_code_mask].apply(self.detect_type, axis=1)
+        df.loc[with_code_mask, 'Type'] = df[with_code_mask].apply(self.get_type, axis=1)
 
         # Extrait le groupe de TP
         TP_mask = df['Type'] == 'TP'
-        df.loc[TP_mask, 'Group'] = df[TP_mask].apply(self.detect_group, axis=1)
+        df.loc[TP_mask, 'Group'] = df[TP_mask].apply(self.get_group, axis=1)
 
         # Extrait l'année (3, 4 ou 5)
-        df['Year'] = pd.Series(pd.NA, index=df.index, dtype='Int64')
-        semester = df.loc[with_code_mask, 'Code'].str[4].astype(int)
-        df.loc[with_code_mask, 'Year'] = semester.apply(lambda x: ceil(x / 2)).astype('Int64')
+        df['Year'] = df['Code'].apply(self.get_year).astype('Int64')
 
         df.sort_values(by=['Starts'], inplace=True)
 

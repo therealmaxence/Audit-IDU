@@ -1,42 +1,35 @@
 import os
 import re
-from datetime import datetime
 import config
 import pandas as pd
 from .Preprocess import Preprocess
+from .ADEPreprocess import PreprocessADE
+
 
 class PreprocessModuleADE(Preprocess):
     def __init__(self):
         super().__init__(
             {
-                "ade" : os.path.join(config.PREPROCESSED_FOLDER, 'ade.json'),
-                "modules" : os.path.join(config.NORMALIZED_FOLDER, 'learnagement_MAQUETTE_module.json'),
+                "ade": os.path.join(config.PREPROCESSED_FOLDER, 'ade.json'),
+                "modules": os.path.join(config.NORMALIZED_FOLDER, 'learnagement_MAQUETTE_module.json'),
             },
             {
-                "module_ade" : { "path": os.path.join(config.PREPROCESSED_FOLDER, 'module_ade.json'), "data": None },
+                "module_ade": {"path": os.path.join(config.PREPROCESSED_FOLDER, 'module_ade.json'), "data": None},
             }
         )
-    
+        # helper to reuse ADEPreprocess methods
+        self.ade_helper = PreprocessADE()
+
     def compute(self):
         self.outputs["module_ade"]["data"] = pd.DataFrame(self.compare_volume_horraire(self.df["ade"], self.df["modules"]))
         self.save()
 
-    def get_annee_from_code(self, code):
-        match = re.match(r'^[A-Za-z]{4}(\d{3})', code)
-        
-        if match:
-            premier_chiffre = int(match.group(1)[0])
-            
-            if premier_chiffre in [5, 6]:
-                return 3
-            elif premier_chiffre in [7, 8]:
-                return 4
-            elif premier_chiffre == 9:
-                return 5
-                
-        return None
-
     def verif_seance_module(self, ade, nom_module):
+        if hasattr(ade, 'iterrows'):
+            titles = ade['Title'].astype(str).str.extract(r'^([^_\s]+)')[0]
+            return (titles == nom_module).any()
+
+        # fallback original
         for seance in ade.itertuples(index=False):
             match = re.match(r'^[^_\s]+', seance.Title)
             if match and match.group(0) == nom_module:
@@ -46,93 +39,75 @@ class PreprocessModuleADE(Preprocess):
     def verif_seance_all_modules(self, ade, modules):
         res = []
         for module in modules.itertuples(index=False):
-            if not self.verif_seance_module(ade, module):
-                res.append(module)
+            code_brut = module.code_module
+            match = re.match(r'^[^_\s]+', code_brut)
+            nom_module = match.group(0) if match else code_brut
+            if not self.verif_seance_module(ade, nom_module):
+                res.append(nom_module)
         return res
 
-    def get_Type_cours(self, description):
-        first_line = description.split('\n')[0]
-        for Type_str in ('CM', 'TD', 'TP'):
-            if f'({Type_str})' in first_line:
-                return Type_str
-        return None
-
-    def get_duree_heures(self, starts, ends):
-        t1 = datetime.fromisoformat(starts)
-        t2 = datetime.fromisoformat(ends)
-        return (t2 - t1).total_seconds() / 3600
-
     def normaliser_titre(self, seance):
+        code = seance['Code'] if isinstance(seance, pd.Series) else getattr(seance, 'Code', None)
+        if pd.isna(code): return None
 
-        if pd.isna(seance.Code):
-            return None
-        
-        Type_seance = seance.Type
-        return f"{seance.Code}_{Type_seance}"
+        Type_seance = seance['Type'] if isinstance(seance, pd.Series) else getattr(seance, 'Type', None)
+        return f"{code}_{Type_seance}"
 
     def verif_volume_horaire(self, ade, nom_module, volume_CM, volume_TD, volume_TP):
-        count = {'CM': 0.0, 'TD': 0.0, 'TP': 0.0}
-        seen = set()
+        # ensure dataframe
+        df = ade if hasattr(ade, 'iterrows') else pd.DataFrame(ade)
+        df = df[df['Code'] == nom_module].dropna(subset=['Type']).copy()
+        if df.empty:
+            return (False, f"{nom_module} : CM=0.0h (attendu {volume_CM}h), TD=0.0h (attendu {volume_TD}h), TP=0.0h (attendu {volume_TP}h)")
 
-        for seance in ade:
-            if seance.Code != nom_module:
-                continue
+        # compute normalized title and date
+        df['date_jour'] = df['Starts'].astype(str).str[:10]
+        df['titre_norm'] = df.apply(lambda r: self.normaliser_titre(r), axis=1)
 
-            if pd.isna(seance.Type):
-                continue
+        # compute duration using ADE helper
+        df['duration_h'] = df.apply(lambda r: float(self.ade_helper.get_duration(r)), axis=1)
 
-            date_jour = seance.Starts[:10]  # "2025-11-24"
-            titre_norm = self.normaliser_titre(seance)
-            Type_seance = seance.Type
-            groupe = seance.Group
+        # build deduplication key
+        def make_key(r):
+            return f"{r['titre_norm']}_{r['date_jour']}"
 
-            if Type_seance == 'TP' and re.match(r'^G[12]$', groupe):
-                cle = titre_norm 
-            else:
-                cle = (titre_norm, date_jour)
-            cle = (titre_norm, date_jour)
+        df['key'] = df.apply(make_key, axis=1)
+        df = df.drop_duplicates(subset=['key'])
 
-            if cle in seen:
-                continue
-            seen.add(cle)
+        sums = df.groupby('Type')['duration_h'].sum().to_dict()
+        cm = float(sums.get('CM', 0.0))
+        td = float(sums.get('TD', 0.0))
+        tp = float(sums.get('TP', 0.0))
 
-            count[seance.Type] += self.get_duree_heures(seance.Starts, seance.Ends)
-
-        if count['CM'] >= volume_CM and count['TD'] >= volume_TD and count['TP'] >= volume_TP:
-            return (True, f"OK pour {nom_module} : CM={count['CM']}h (attendu {volume_CM}h), TD={count['TD']}h (attendu {volume_TD}h), TP={count['TP']}h (attendu {volume_TP}h)")
+        if cm >= float(volume_CM) and td >= float(volume_TD) and tp >= float(volume_TP):
+            return (True, f"OK pour {nom_module} : CM={cm}h (attendu {volume_CM}h), TD={td}h (attendu {volume_TD}h), TP={tp}h (attendu {volume_TP}h)")
         else:
-            return (False, f"{nom_module} : CM={count['CM']}h (attendu {volume_CM}h), TD={count['TD']}h (attendu {volume_TD}h), TP={count['TP']}h (attendu {volume_TP}h)")
+            return (False, f"{nom_module} : CM={cm}h (attendu {volume_CM}h), TD={td}h (attendu {volume_TD}h), TP={tp}h (attendu {volume_TP}h)")
 
     def count_volume_horaire_toJson(self, ade, nom_module, volume_CM=0.0, volume_TD=0.0, volume_TP=0.0):
+        df = ade if hasattr(ade, 'iterrows') else pd.DataFrame(ade)
+        df = df[df['Code'] == nom_module].dropna(subset=['Type']).copy()
         count = {'nom': nom_module, 'CM': {'attendu': float(volume_CM), 'reel': 0.0}, 'TD': {'attendu': float(volume_TD), 'reel': 0.0}, 'TP': {'attendu': float(volume_TP), 'reel': 0.0}}
-        seen = set()
+        if df.empty:
+            return count
 
-        for seance in ade.itertuples(index=False):
-            if seance.Code != nom_module:
-                continue
+        df['date_jour'] = df['Starts'].astype(str).str[:10]
+        df['titre_norm'] = df.apply(lambda r: self.normaliser_titre(r), axis=1)
+        df['duration_h'] = df.apply(lambda r: float(self.ade_helper.get_duration(r)), axis=1)
 
-            if pd.isna(seance.Type):
-                continue
+        def make_key(r):
+            return f"{r['titre_norm']}_{r['date_jour']}"
 
-            date_jour = seance.Starts[:10]  # "2025-11-24"
-            titre_norm = self.normaliser_titre(seance)
-            Type_seance = seance.Type
-            groupe = seance.Group
+        df['key'] = df.apply(make_key, axis=1)
+        df = df.drop_duplicates(subset=['key'])
 
-            if Type_seance == 'TP' and re.match(r'^G[12]$', groupe):
-                cle = titre_norm 
-            else:
-                cle = (titre_norm, date_jour)
-            cle = (titre_norm, date_jour)
-
-            if cle in seen:
-                continue
-            seen.add(cle)
-
-            count[seance.Type]['reel'] += self.get_duree_heures(seance.Starts, seance.Ends)
+        sums = df.groupby('Type')['duration_h'].sum().to_dict()
+        count['CM']['reel'] = float(sums.get('CM', 0.0))
+        count['TD']['reel'] = float(sums.get('TD', 0.0))
+        count['TP']['reel'] = float(sums.get('TP', 0.0))
 
         return count
-        
+
     def proportion_volume_horaire_correct(self, ade, modules, annee):
         total_modules = 0
         modules_corrects = 0
@@ -141,19 +116,17 @@ class PreprocessModuleADE(Preprocess):
         for module in modules.itertuples(index=False):
             code_brut = module.code_module
             match = re.match(r'^[^_\s]+', code_brut)
-            
             if match:
                 nom_module = match.group(0)
-                if self.get_annee_from_code(nom_module) == annee:
+                if self.ade_helper.get_year(nom_module) == annee:
                     total_modules += 1
-                    if self.verif_volume_horaire(ade, nom_module, float(module.cm), float(module.td), float(module.tp))[0]:
+                    ok, msg = self.verif_volume_horaire(ade, nom_module, float(module.cm), float(module.td), float(module.tp))
+                    if ok:
                         modules_corrects += 1
                     else:
-                        details_modules_incorrects.append(self.verif_volume_horaire(ade, nom_module, float(module.cm), float(module.td), float(module.tp))[1])
-        if total_modules > 0:
-            proportion = modules_corrects / total_modules
-        else:
-            proportion = 0.0
+                        details_modules_incorrects.append(msg)
+
+        proportion = (modules_corrects / total_modules) if total_modules > 0 else 0.0
 
         return {
             "proportion": proportion,
@@ -163,47 +136,38 @@ class PreprocessModuleADE(Preprocess):
         }
 
     def proportion_module_present(self, ade, modules, annee):
-
         modules_presents = []
         modules_absents = []
         modules_invalides = []
-        
+
         for module in modules.itertuples(index=False):
             code_brut = module.code_module
             match = re.match(r'^[^_\s]+', code_brut)
-            
             if match:
                 nom_module = match.group(0)
-                
                 if self.verif_seance_module(ade, nom_module):
                     modules_presents.append(nom_module)
-                elif self.get_annee_from_code(nom_module) == annee:
+                elif self.ade_helper.get_year(nom_module) == annee:
                     modules_absents.append(nom_module)
             else:
                 modules_invalides.append(code_brut)
-                
+
         total_valides = len(modules_presents) + len(modules_absents)
-        
-        if total_valides > 0:
-            proportion = len(modules_presents) / total_valides 
-        else:
-            proportion = 0.0
-            
+        proportion = (len(modules_presents) / total_valides) if total_valides > 0 else 0.0
+
         return {
             "proportion": proportion,
             "presents": modules_presents,
             "absents": modules_absents,
             "invalides": modules_invalides
         }
+
     def compare_volume_horraire(self, ade, modules):
         resultats = []
-
         for module in modules.itertuples(index=False):
             code_brut = module.code_module
             match = re.match(r'^[^_\s]+', code_brut)
-            
             if match:
                 nom_module = match.group(0)
                 resultats.append(self.count_volume_horaire_toJson(ade, nom_module, module.cm, module.td, module.tp))
-
         return resultats
