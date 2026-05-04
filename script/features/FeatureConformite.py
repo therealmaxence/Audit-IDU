@@ -25,6 +25,7 @@ class FeatureConformite(Feature):
             for code, issues in non_conformites.items()
         ])
         self.save() 
+        return self.outputs["conformite"]["data"]
 
 
     def build_sequences(self):

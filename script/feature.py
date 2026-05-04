@@ -1,9 +1,16 @@
-from features import FeatureTracability, FeatureConformite
+from features import (
+    FeatureConformite,
+    FeatureCountModuleOccurence,
+    FeaturePersonUnicityADE,
+    FeatureTracability,
+)
 
 if __name__ == "__main__":
     features = [
+        FeatureCountModuleOccurence(),
+        FeaturePersonUnicityADE(),
         FeatureTracability(),
-        FeatureConformite()
+        FeatureConformite(),
     ]
     for feature in features:
-        print(feature.compute())
+        feature.compute()

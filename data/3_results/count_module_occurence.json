@@ -1,0 +1,1858 @@
+[
+  {
+    "racine": "DATA731",
+    "total_occurences": 13,
+    "variantes": [
+      {
+        "code": "DATA731_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 7
+      },
+      {
+        "code": "DATA731_INGE_TP1",
+        "suffixe": "_INGE_TP1",
+        "occurences": 6
+      }
+    ]
+  },
+  {
+    "racine": "DATA732",
+    "total_occurences": 16,
+    "variantes": [
+      {
+        "code": "DATA732_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 8
+      },
+      {
+        "code": "DATA732_INGE_TD",
+        "suffixe": "_INGE_TD",
+        "occurences": 5
+      },
+      {
+        "code": "DATA732_INGE_Proj",
+        "suffixe": "_INGE_Proj",
+        "occurences": 3
+      }
+    ]
+  },
+  {
+    "racine": "DATA831",
+    "total_occurences": 7,
+    "variantes": [
+      {
+        "code": "DATA831_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 4
+      },
+      {
+        "code": "DATA831_INGE_TDTP",
+        "suffixe": "_INGE_TDTP",
+        "occurences": 3
+      }
+    ]
+  },
+  {
+    "racine": "DATA832",
+    "total_occurences": 15,
+    "variantes": [
+      {
+        "code": "DATA832_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 5
+      },
+      {
+        "code": "DATA832_INGE_TD",
+        "suffixe": "_INGE_TD",
+        "occurences": 4
+      },
+      {
+        "code": "DATA832_INGE_TPTD_2h",
+        "suffixe": "_INGE_TPTD_2h",
+        "occurences": 4
+      },
+      {
+        "code": "DATA832_INGE_TPPTD_2h",
+        "suffixe": "_INGE_TPPTD_2h",
+        "occurences": 2
+      }
+    ]
+  },
+  {
+    "racine": "DATA931",
+    "total_occurences": 20,
+    "variantes": [
+      {
+        "code": "DATA931_CM",
+        "suffixe": "_CM",
+        "occurences": 8
+      },
+      {
+        "code": "DATA931_TD",
+        "suffixe": "_TD",
+        "occurences": 8
+      },
+      {
+        "code": "DATA931_TP",
+        "suffixe": "_TP",
+        "occurences": 4
+      }
+    ]
+  },
+  {
+    "racine": "DDRS501",
+    "total_occurences": 20,
+    "variantes": [
+      {
+        "code": "DDRS501_TDG_3-6",
+        "suffixe": "_TDG_3-6",
+        "occurences": 4
+      },
+      {
+        "code": "DDRS501_CM_DG",
+        "suffixe": "_CM_DG",
+        "occurences": 2
+      },
+      {
+        "code": "DDRS501_CM_ER",
+        "suffixe": "_CM_ER",
+        "occurences": 2
+      },
+      {
+        "code": "DDRS501_CM_JLB",
+        "suffixe": "_CM_JLB",
+        "occurences": 2
+      },
+      {
+        "code": "DDRS501_CM_PerrinBaptiste",
+        "suffixe": "_CM_PerrinBaptiste",
+        "occurences": 2
+      },
+      {
+        "code": "DDRS501_TDG_1-2",
+        "suffixe": "_TDG_1-2",
+        "occurences": 2
+      },
+      {
+        "code": "DDRS501_TDG_7-8",
+        "suffixe": "_TDG_7-8",
+        "occurences": 2
+      },
+      {
+        "code": "DDRS501_CM_Conf_SNI-IDU",
+        "suffixe": "_CM_Conf_SNI-IDU",
+        "occurences": 1
+      },
+      {
+        "code": "DDRS501_CT",
+        "suffixe": "_CT",
+        "occurences": 1
+      },
+      {
+        "code": "DDRS501_CT_2emeSession",
+        "suffixe": "_CT_2emeSession",
+        "occurences": 1
+      },
+      {
+        "code": "DDRS501_CT_TierTemps",
+        "suffixe": "_CT_TierTemps",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "EASI501",
+    "total_occurences": 26,
+    "variantes": [
+      {
+        "code": "EASI501_TDG",
+        "suffixe": "_TDG",
+        "occurences": 10
+      },
+      {
+        "code": "EASI501_CM",
+        "suffixe": "_CM",
+        "occurences": 6
+      },
+      {
+        "code": "EASI501_TPG1_2-3",
+        "suffixe": "_TPG1_2-3",
+        "occurences": 2
+      },
+      {
+        "code": "EASI501_CC",
+        "suffixe": "_CC",
+        "occurences": 1
+      },
+      {
+        "code": "EASI501_CC_tiers_temps",
+        "suffixe": "_CC_tiers_temps",
+        "occurences": 1
+      },
+      {
+        "code": "EASI501_CM_7",
+        "suffixe": "_CM_7",
+        "occurences": 1
+      },
+      {
+        "code": "EASI501_ET",
+        "suffixe": "_ET",
+        "occurences": 1
+      },
+      {
+        "code": "EASI501_ET_2session",
+        "suffixe": "_ET_2session",
+        "occurences": 1
+      },
+      {
+        "code": "EASI501_ET_tiers_temps",
+        "suffixe": "_ET_tiers_temps",
+        "occurences": 1
+      },
+      {
+        "code": "EASI501_Ex_session2_tier_tps",
+        "suffixe": "_Ex_session2_tier_tps",
+        "occurences": 1
+      },
+      {
+        "code": "EASI501_TPG1_1",
+        "suffixe": "_TPG1_1",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "EASI541",
+    "total_occurences": 20,
+    "variantes": [
+      {
+        "code": "EASI541_TDG_3-7",
+        "suffixe": "_TDG_3-7",
+        "occurences": 5
+      },
+      {
+        "code": "EASI541_TPG1",
+        "suffixe": "_TPG1",
+        "occurences": 5
+      },
+      {
+        "code": "EASI541_CM_1-2",
+        "suffixe": "_CM_1-2",
+        "occurences": 2
+      },
+      {
+        "code": "EASI541_TDG_1-2",
+        "suffixe": "_TDG_1-2",
+        "occurences": 2
+      },
+      {
+        "code": "EASI541_CM_3_Ex",
+        "suffixe": "_CM_3_Ex",
+        "occurences": 1
+      },
+      {
+        "code": "EASI541_CM_3_Ex_TiersTps",
+        "suffixe": "_CM_3_Ex_TiersTps",
+        "occurences": 1
+      },
+      {
+        "code": "EASI541_CM_4_Ex",
+        "suffixe": "_CM_4_Ex",
+        "occurences": 1
+      },
+      {
+        "code": "EASI541_CM_4_Ex_TierTemps",
+        "suffixe": "_CM_4_Ex_TierTemps",
+        "occurences": 1
+      },
+      {
+        "code": "EASI541_TDG_8",
+        "suffixe": "_TDG_8",
+        "occurences": 1
+      },
+      {
+        "code": "EASI541_TDG_9",
+        "suffixe": "_TDG_9",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "INFO501",
+    "total_occurences": 23,
+    "variantes": [
+      {
+        "code": "INFO501_CM_SNI-IDU",
+        "suffixe": "_CM_SNI-IDU",
+        "occurences": 8
+      },
+      {
+        "code": "INFO501_TDG",
+        "suffixe": "_TDG",
+        "occurences": 7
+      },
+      {
+        "code": "INFO501_TPPG",
+        "suffixe": "_TPPG",
+        "occurences": 4
+      },
+      {
+        "code": "INFO501_ET_2emeSession",
+        "suffixe": "_ET_2emeSession",
+        "occurences": 1
+      },
+      {
+        "code": "INFO501_ET_2emeSession_tiersTemps",
+        "suffixe": "_ET_2emeSession_tiersTemps",
+        "occurences": 1
+      },
+      {
+        "code": "INFO501_ET_SNI-IDU",
+        "suffixe": "_ET_SNI-IDU",
+        "occurences": 1
+      },
+      {
+        "code": "INFO501_ET_SNI-IDU_tier_tps",
+        "suffixe": "_ET_SNI-IDU_tier_tps",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "INFO502",
+    "total_occurences": 13,
+    "variantes": [
+      {
+        "code": "INFO502_CM",
+        "suffixe": "_CM",
+        "occurences": 3
+      },
+      {
+        "code": "INFO502_TDG",
+        "suffixe": "_TDG",
+        "occurences": 3
+      },
+      {
+        "code": "INFO502_TPG1",
+        "suffixe": "_TPG1",
+        "occurences": 3
+      },
+      {
+        "code": "INFO502_Ex",
+        "suffixe": "_Ex",
+        "occurences": 1
+      },
+      {
+        "code": "INFO502_Ex_Session2",
+        "suffixe": "_Ex_Session2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO502_Ex_Tiers_Temps",
+        "suffixe": "_Ex_Tiers_Temps",
+        "occurences": 1
+      },
+      {
+        "code": "INFO502_Ex_session2_tier_tps",
+        "suffixe": "_Ex_session2_tier_tps",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "INFO631",
+    "total_occurences": 20,
+    "variantes": [
+      {
+        "code": "INFO631_INGE_TDG",
+        "suffixe": "_INGE_TDG",
+        "occurences": 7
+      },
+      {
+        "code": "INFO631_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 6
+      },
+      {
+        "code": "INFO631_INGE_TPG1",
+        "suffixe": "_INGE_TPG1",
+        "occurences": 5
+      },
+      {
+        "code": "INFO631_INGE_CT",
+        "suffixe": "_INGE_CT",
+        "occurences": 1
+      },
+      {
+        "code": "INFO631_INGE_CT_1/3_Temps",
+        "suffixe": "_INGE_CT_1/3_Temps",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "INFO632",
+    "total_occurences": 20,
+    "variantes": [
+      {
+        "code": "INFO632_INGE_TDG",
+        "suffixe": "_INGE_TDG",
+        "occurences": 9
+      },
+      {
+        "code": "INFO632_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 7
+      },
+      {
+        "code": "INFO632_INGE_TPG1",
+        "suffixe": "_INGE_TPG1",
+        "occurences": 4
+      }
+    ]
+  },
+  {
+    "racine": "INFO633",
+    "total_occurences": 48,
+    "variantes": [
+      {
+        "code": "INFO633_A01_G1",
+        "suffixe": "_A01_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A01_G2",
+        "suffixe": "_A01_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A02_G1",
+        "suffixe": "_A02_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A02_G2",
+        "suffixe": "_A02_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A03_G1",
+        "suffixe": "_A03_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A03_G2",
+        "suffixe": "_A03_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A04_G1",
+        "suffixe": "_A04_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A04_G2",
+        "suffixe": "_A04_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A05_G1",
+        "suffixe": "_A05_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A05_G2",
+        "suffixe": "_A05_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A06_G1",
+        "suffixe": "_A06_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A06_G2",
+        "suffixe": "_A06_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A07_G1",
+        "suffixe": "_A07_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A07_G2",
+        "suffixe": "_A07_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A08_G1",
+        "suffixe": "_A08_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A08_G2",
+        "suffixe": "_A08_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A09_G1",
+        "suffixe": "_A09_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A09_G2",
+        "suffixe": "_A09_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A10_G1",
+        "suffixe": "_A10_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A10_G2",
+        "suffixe": "_A10_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A11_G1",
+        "suffixe": "_A11_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A11_G2",
+        "suffixe": "_A11_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A12_G1",
+        "suffixe": "_A12_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A12_G2",
+        "suffixe": "_A12_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A13_G1",
+        "suffixe": "_A13_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A13_G2",
+        "suffixe": "_A13_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A14_G1",
+        "suffixe": "_A14_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A14_G2",
+        "suffixe": "_A14_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A15_G1",
+        "suffixe": "_A15_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A15_G2",
+        "suffixe": "_A15_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A16_G1",
+        "suffixe": "_A16_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_A16_G2",
+        "suffixe": "_A16_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_CC1",
+        "suffixe": "_CC1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_CC1_Tiers-temps",
+        "suffixe": "_CC1_Tiers-temps",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_CC2",
+        "suffixe": "_CC2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_CC2_Tiers-temps",
+        "suffixe": "_CC2_Tiers-temps",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_CC3",
+        "suffixe": "_CC3",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_CC3_Tiers-temps",
+        "suffixe": "_CC3_Tiers-temps",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_CC4",
+        "suffixe": "_CC4",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_CC4_Tiers-temps",
+        "suffixe": "_CC4_Tiers-temps",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_P01_G1",
+        "suffixe": "_P01_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_P01_G2",
+        "suffixe": "_P01_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_P02_G1",
+        "suffixe": "_P02_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_P02_G2",
+        "suffixe": "_P02_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_P03_G1",
+        "suffixe": "_P03_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_P03_G2",
+        "suffixe": "_P03_G2",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_P04_G1",
+        "suffixe": "_P04_G1",
+        "occurences": 1
+      },
+      {
+        "code": "INFO633_P04_G2",
+        "suffixe": "_P04_G2",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "INFO641",
+    "total_occurences": 18,
+    "variantes": [
+      {
+        "code": "INFO641_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 5
+      },
+      {
+        "code": "INFO641_INGE_TD_G_1-5",
+        "suffixe": "_INGE_TD_G_1-5",
+        "occurences": 5
+      },
+      {
+        "code": "INFO641_INGE_TP_G1",
+        "suffixe": "_INGE_TP_G1",
+        "occurences": 5
+      },
+      {
+        "code": "INFO641_INGE_CT",
+        "suffixe": "_INGE_CT",
+        "occurences": 1
+      },
+      {
+        "code": "INFO641_INGE_CT_1/3_Temps",
+        "suffixe": "_INGE_CT_1/3_Temps",
+        "occurences": 1
+      },
+      {
+        "code": "INFO641_INGE_TD_G_6",
+        "suffixe": "_INGE_TD_G_6",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "INFO731",
+    "total_occurences": 17,
+    "variantes": [
+      {
+        "code": "INFO731_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 8
+      },
+      {
+        "code": "INFO731_INGE_TDTP",
+        "suffixe": "_INGE_TDTP",
+        "occurences": 5
+      },
+      {
+        "code": "INFO731_INGE_Proj",
+        "suffixe": "_INGE_Proj",
+        "occurences": 3
+      },
+      {
+        "code": "INFO731_INGE_CMEX",
+        "suffixe": "_INGE_CMEX",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "INFO732",
+    "total_occurences": 16,
+    "variantes": [
+      {
+        "code": "INFO732_INGE_TP1",
+        "suffixe": "_INGE_TP1",
+        "occurences": 6
+      },
+      {
+        "code": "INFO732_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 4
+      },
+      {
+        "code": "INFO732_INGE_TD",
+        "suffixe": "_INGE_TD",
+        "occurences": 4
+      },
+      {
+        "code": "INFO732_INGE_EX",
+        "suffixe": "_INGE_EX",
+        "occurences": 1
+      },
+      {
+        "code": "INFO732_INGE_EX_TIERS_TEMPS",
+        "suffixe": "_INGE_EX_TIERS_TEMPS",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "INFO734",
+    "total_occurences": 13,
+    "variantes": [
+      {
+        "code": "INFO734_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 7
+      },
+      {
+        "code": "INFO734_INGE_Proj",
+        "suffixe": "_INGE_Proj",
+        "occurences": 6
+      }
+    ]
+  },
+  {
+    "racine": "INFO743",
+    "total_occurences": 18,
+    "variantes": [
+      {
+        "code": "INFO743_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 12
+      },
+      {
+        "code": "INFO743_INGE_IDU",
+        "suffixe": "_INGE_IDU",
+        "occurences": 4
+      },
+      {
+        "code": "INFO743_INGE_EX",
+        "suffixe": "_INGE_EX",
+        "occurences": 1
+      },
+      {
+        "code": "INFO743_INGE_TD_SNI",
+        "suffixe": "_INGE_TD_SNI",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "INFO831",
+    "total_occurences": 15,
+    "variantes": [
+      {
+        "code": "INFO831_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 6
+      },
+      {
+        "code": "INFO831_INGE_TD",
+        "suffixe": "_INGE_TD",
+        "occurences": 5
+      },
+      {
+        "code": "INFO831_INGE_TP1",
+        "suffixe": "_INGE_TP1",
+        "occurences": 3
+      },
+      {
+        "code": "INFO831_INGE_Exam",
+        "suffixe": "_INGE_Exam",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "INFO832",
+    "total_occurences": 17,
+    "variantes": [
+      {
+        "code": "INFO832_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 6
+      },
+      {
+        "code": "INFO832_INGE_TD",
+        "suffixe": "_INGE_TD",
+        "occurences": 6
+      },
+      {
+        "code": "INFO832_INGE_TP1",
+        "suffixe": "_INGE_TP1",
+        "occurences": 2
+      },
+      {
+        "code": "INFO832_INGE_TPTD",
+        "suffixe": "_INGE_TPTD",
+        "occurences": 2
+      },
+      {
+        "code": "INFO832_INGE_Exam",
+        "suffixe": "_INGE_Exam",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "INFO833",
+    "total_occurences": 19,
+    "variantes": [
+      {
+        "code": "INFO833_INGE_TD",
+        "suffixe": "_INGE_TD",
+        "occurences": 9
+      },
+      {
+        "code": "INFO833_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 7
+      },
+      {
+        "code": "INFO833_INGE_TP1",
+        "suffixe": "_INGE_TP1",
+        "occurences": 3
+      }
+    ]
+  },
+  {
+    "racine": "INFO834",
+    "total_occurences": 16,
+    "variantes": [
+      {
+        "code": "INFO834_INGE_TP1",
+        "suffixe": "_INGE_TP1",
+        "occurences": 6
+      },
+      {
+        "code": "INFO834_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 5
+      },
+      {
+        "code": "INFO834_INGE_TD",
+        "suffixe": "_INGE_TD",
+        "occurences": 5
+      }
+    ]
+  },
+  {
+    "racine": "INFO931",
+    "total_occurences": 20,
+    "variantes": [
+      {
+        "code": "CM INFO931",
+        "suffixe": "931",
+        "occurences": 8
+      },
+      {
+        "code": "TD INFO931",
+        "suffixe": "931",
+        "occurences": 8
+      },
+      {
+        "code": "TP INFO931",
+        "suffixe": "931",
+        "occurences": 4
+      }
+    ]
+  },
+  {
+    "racine": "INFO932",
+    "total_occurences": 16,
+    "variantes": [
+      {
+        "code": "TP INFO932",
+        "suffixe": "932",
+        "occurences": 6
+      },
+      {
+        "code": "CM INFO932",
+        "suffixe": "932",
+        "occurences": 5
+      },
+      {
+        "code": "TD INFO932",
+        "suffixe": "932",
+        "occurences": 5
+      }
+    ]
+  },
+  {
+    "racine": "ISOC531",
+    "total_occurences": 25,
+    "variantes": [
+      {
+        "code": "ISOC531_TDG",
+        "suffixe": "_TDG",
+        "occurences": 15
+      },
+      {
+        "code": "ISOC531_CM",
+        "suffixe": "_CM",
+        "occurences": 9
+      },
+      {
+        "code": "ISOC531_TPG1",
+        "suffixe": "_TPG1",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "ISOC631",
+    "total_occurences": 20,
+    "variantes": [
+      {
+        "code": "ISOC631_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 9
+      },
+      {
+        "code": "ISOC631_INGE_TDG",
+        "suffixe": "_INGE_TDG",
+        "occurences": 8
+      },
+      {
+        "code": "ISOC631_INGE_TPG1",
+        "suffixe": "_INGE_TPG1",
+        "occurences": 3
+      }
+    ]
+  },
+  {
+    "racine": "ISOC731",
+    "total_occurences": 12,
+    "variantes": [
+      {
+        "code": "ISOC731_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 10
+      },
+      {
+        "code": "ISOC731_INGE_Proj",
+        "suffixe": "_INGE_Proj",
+        "occurences": 2
+      }
+    ]
+  },
+  {
+    "racine": "ISOC831",
+    "total_occurences": 8,
+    "variantes": [
+      {
+        "code": "ISOC831_Product_Management",
+        "suffixe": "_Product_Management",
+        "occurences": 2
+      },
+      {
+        "code": "ISOC831_Sopra_Urba_Archi",
+        "suffixe": "_Sopra_Urba_Archi",
+        "occurences": 2
+      },
+      {
+        "code": "ISOC831_Ingénieur BI",
+        "suffixe": "_Ingénieur BI",
+        "occurences": 1
+      },
+      {
+        "code": "ISOC831_Sopra_AdminLinux",
+        "suffixe": "_Sopra_AdminLinux",
+        "occurences": 1
+      },
+      {
+        "code": "ISOC831_Sopra_Consultant",
+        "suffixe": "_Sopra_Consultant",
+        "occurences": 1
+      },
+      {
+        "code": "ISOC831_Sopra_PowerBI",
+        "suffixe": "_Sopra_PowerBI",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "ISOC931",
+    "total_occurences": 18,
+    "variantes": [
+      {
+        "code": "ISOC931_TD",
+        "suffixe": "_TD",
+        "occurences": 8
+      },
+      {
+        "code": "ISOC931_CM",
+        "suffixe": "_CM",
+        "occurences": 4
+      },
+      {
+        "code": "ISOC931_TP",
+        "suffixe": "_TP",
+        "occurences": 2
+      },
+      {
+        "code": "ISOC931_TP_BU",
+        "suffixe": "_TP_BU",
+        "occurences": 2
+      },
+      {
+        "code": "ISOC931_TP_Restitution",
+        "suffixe": "_TP_Restitution",
+        "occurences": 2
+      }
+    ]
+  },
+  {
+    "racine": "LANG500",
+    "total_occurences": 16,
+    "variantes": [
+      {
+        "code": "LANG500_PACY (Soutien)",
+        "suffixe": "_PACY (Soutien)",
+        "occurences": 16
+      }
+    ]
+  },
+  {
+    "racine": "LANG501",
+    "total_occurences": 22,
+    "variantes": [
+      {
+        "code": "LANG501_PACY",
+        "suffixe": "_PACY",
+        "occurences": 18
+      },
+      {
+        "code": "LANG501_PACY toeic blanc",
+        "suffixe": "_PACY toeic blanc",
+        "occurences": 2
+      },
+      {
+        "code": "LANG501  Toeic  décembre",
+        "suffixe": "  Toeic  décembre",
+        "occurences": 1
+      },
+      {
+        "code": "LANG501_PACY  (Toeic 0)",
+        "suffixe": "_PACY  (Toeic 0)",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "LANG600",
+    "total_occurences": 16,
+    "variantes": [
+      {
+        "code": "LANG600_PACY (soutien)",
+        "suffixe": "_PACY (soutien)",
+        "occurences": 16
+      }
+    ]
+  },
+  {
+    "racine": "LANG601",
+    "total_occurences": 25,
+    "variantes": [
+      {
+        "code": "LANG601_PACY + 602",
+        "suffixe": "_PACY + 602",
+        "occurences": 19
+      },
+      {
+        "code": "LANG601_PACY",
+        "suffixe": "_PACY",
+        "occurences": 3
+      },
+      {
+        "code": "LANG601_PACY  (Toeic seuil)+602",
+        "suffixe": "_PACY  (Toeic seuil)+602",
+        "occurences": 2
+      },
+      {
+        "code": "LANG601 Toeic de Mai",
+        "suffixe": " Toeic de Mai",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "LANG602",
+    "total_occurences": 72,
+    "variantes": [
+      {
+        "code": "LANG602-802_LV2 lundi",
+        "suffixe": "-802_LV2 lundi",
+        "occurences": 24
+      },
+      {
+        "code": "LANG602-802_LV2 mardi",
+        "suffixe": "-802_LV2 mardi",
+        "occurences": 24
+      },
+      {
+        "code": "LANG602-802_LV2 mercredi",
+        "suffixe": "-802_LV2 mercredi",
+        "occurences": 24
+      }
+    ]
+  },
+  {
+    "racine": "LANG700",
+    "total_occurences": 8,
+    "variantes": [
+      {
+        "code": "LANG700_PACY (soutien)",
+        "suffixe": "_PACY (soutien)",
+        "occurences": 8
+      }
+    ]
+  },
+  {
+    "racine": "LANG701",
+    "total_occurences": 25,
+    "variantes": [
+      {
+        "code": "LANG701_PACY+ 702",
+        "suffixe": "_PACY+ 702",
+        "occurences": 22
+      },
+      {
+        "code": "LANG701_PACY TOEIC déc",
+        "suffixe": "_PACY TOEIC déc",
+        "occurences": 1
+      },
+      {
+        "code": "LANG701_PACY seuls",
+        "suffixe": "_PACY seuls",
+        "occurences": 1
+      },
+      {
+        "code": "LANG701_PACY stage toeic",
+        "suffixe": "_PACY stage toeic",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "LANG702",
+    "total_occurences": 70,
+    "variantes": [
+      {
+        "code": "LANG702-902_LV2 lundi",
+        "suffixe": "-902_LV2 lundi",
+        "occurences": 24
+      },
+      {
+        "code": "LANG702-902_LV2 mercredi",
+        "suffixe": "-902_LV2 mercredi",
+        "occurences": 24
+      },
+      {
+        "code": "LANG702-902_LV2 mardi",
+        "suffixe": "-902_LV2 mardi",
+        "occurences": 22
+      }
+    ]
+  },
+  {
+    "racine": "LANG800",
+    "total_occurences": 8,
+    "variantes": [
+      {
+        "code": "LANG800_PACY (soutien)",
+        "suffixe": "_PACY (soutien)",
+        "occurences": 8
+      }
+    ]
+  },
+  {
+    "racine": "LANG801",
+    "total_occurences": 23,
+    "variantes": [
+      {
+        "code": "LANG801_PACY + 802",
+        "suffixe": "_PACY + 802",
+        "occurences": 14
+      },
+      {
+        "code": "LANG801_PACY stage toeic avril+ cours 802",
+        "suffixe": "_PACY stage toeic avril+ cours 802",
+        "occurences": 5
+      },
+      {
+        "code": "LANG801_Toeic_Avril",
+        "suffixe": "_Toeic_Avril",
+        "occurences": 2
+      },
+      {
+        "code": "LANG801_PACY seuls",
+        "suffixe": "_PACY seuls",
+        "occurences": 1
+      },
+      {
+        "code": "LANG801_PACY stage toeic avril 801 seuls",
+        "suffixe": "_PACY stage toeic avril 801 seuls",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "LANG901",
+    "total_occurences": 20,
+    "variantes": [
+      {
+        "code": "LANG901 +902",
+        "suffixe": " +902",
+        "occurences": 20
+      }
+    ]
+  },
+  {
+    "racine": "MATH501",
+    "total_occurences": 33,
+    "variantes": [
+      {
+        "code": "MATH501_TDG",
+        "suffixe": "_TDG",
+        "occurences": 13
+      },
+      {
+        "code": "MATH501_CM",
+        "suffixe": "_CM",
+        "occurences": 12
+      },
+      {
+        "code": "MATH501_CC1",
+        "suffixe": "_CC1",
+        "occurences": 1
+      },
+      {
+        "code": "MATH501_CC1_2eme_Session",
+        "suffixe": "_CC1_2eme_Session",
+        "occurences": 1
+      },
+      {
+        "code": "MATH501_CC1_tiers_temps",
+        "suffixe": "_CC1_tiers_temps",
+        "occurences": 1
+      },
+      {
+        "code": "MATH501_CC2",
+        "suffixe": "_CC2",
+        "occurences": 1
+      },
+      {
+        "code": "MATH501_CC2_tiers_temps",
+        "suffixe": "_CC2_tiers_temps",
+        "occurences": 1
+      },
+      {
+        "code": "MATH501_ET",
+        "suffixe": "_ET",
+        "occurences": 1
+      },
+      {
+        "code": "MATH501_ET-2emeSession",
+        "suffixe": "_ET-2emeSession",
+        "occurences": 1
+      },
+      {
+        "code": "MATH501_ET_tiers_temps",
+        "suffixe": "_ET_tiers_temps",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "MATH531",
+    "total_occurences": 21,
+    "variantes": [
+      {
+        "code": "MATH531_CM",
+        "suffixe": "_CM",
+        "occurences": 7
+      },
+      {
+        "code": "MATH531_TDG_1-5",
+        "suffixe": "_TDG_1-5",
+        "occurences": 5
+      },
+      {
+        "code": "MATH531_TPG1",
+        "suffixe": "_TPG1",
+        "occurences": 4
+      },
+      {
+        "code": "MATH531_TDG_6-8",
+        "suffixe": "_TDG_6-8",
+        "occurences": 3
+      },
+      {
+        "code": "MATH531_CM8-Exam_TiersTps",
+        "suffixe": "_CM8-Exam_TiersTps",
+        "occurences": 1
+      },
+      {
+        "code": "MATH531_CM8-exam",
+        "suffixe": "_CM8-exam",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "MATH641",
+    "total_occurences": 26,
+    "variantes": [
+      {
+        "code": "MATH641_INGE_TD_G",
+        "suffixe": "_INGE_TD_G",
+        "occurences": 12
+      },
+      {
+        "code": "MATH641_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 8
+      },
+      {
+        "code": "MATH641_INGE_CM-CC",
+        "suffixe": "_INGE_CM-CC",
+        "occurences": 3
+      },
+      {
+        "code": "MATH641_INGE_CC (rattrapage)",
+        "suffixe": "_INGE_CC (rattrapage)",
+        "occurences": 1
+      },
+      {
+        "code": "MATH641_INGE_CT_Session1",
+        "suffixe": "_INGE_CT_Session1",
+        "occurences": 1
+      },
+      {
+        "code": "MATH641_INGE_CT_Session1_1/3_Tps",
+        "suffixe": "_INGE_CT_Session1_1/3_Tps",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "MATH741",
+    "total_occurences": 17,
+    "variantes": [
+      {
+        "code": "MATH741_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 8
+      },
+      {
+        "code": "MATH741_INGE_EX",
+        "suffixe": "_INGE_EX",
+        "occurences": 3
+      },
+      {
+        "code": "MATH741_INGE_TD_IDU",
+        "suffixe": "_INGE_TD_IDU",
+        "occurences": 2
+      },
+      {
+        "code": "MATH741_INGE_ET",
+        "suffixe": "_INGE_ET",
+        "occurences": 1
+      },
+      {
+        "code": "MATH741_INGE_EX Tiers temps",
+        "suffixe": "_INGE_EX Tiers temps",
+        "occurences": 1
+      },
+      {
+        "code": "MATH741_INGE_EX_Session2",
+        "suffixe": "_INGE_EX_Session2",
+        "occurences": 1
+      },
+      {
+        "code": "MATH741_INGE_EX_Session2 (remplacement)",
+        "suffixe": "_INGE_EX_Session2 (remplacement)",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "Math500",
+    "total_occurences": 13,
+    "variantes": [
+      {
+        "code": "Math500_IDU",
+        "suffixe": "_IDU",
+        "occurences": 13
+      }
+    ]
+  },
+  {
+    "racine": "PROJ531",
+    "total_occurences": 15,
+    "variantes": [
+      {
+        "code": "PROJ531_TPG1",
+        "suffixe": "_TPG1",
+        "occurences": 7
+      },
+      {
+        "code": "PROJ531_CM",
+        "suffixe": "_CM",
+        "occurences": 4
+      },
+      {
+        "code": "PROJ531_TDG_1",
+        "suffixe": "_TDG_1",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ531_TDG_2",
+        "suffixe": "_TDG_2",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ531_TDG_3",
+        "suffixe": "_TDG_3",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ531_TDG_4",
+        "suffixe": "_TDG_4",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "PROJ631",
+    "total_occurences": 12,
+    "variantes": [
+      {
+        "code": "PROJ631_IDU_01_4H1",
+        "suffixe": "_IDU_01_4H1",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ631_IDU_02_4H2",
+        "suffixe": "_IDU_02_4H2",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ631_IDU_03_4H3",
+        "suffixe": "_IDU_03_4H3",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ631_IDU_04_3H1",
+        "suffixe": "_IDU_04_3H1",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ631_IDU_05_4H4",
+        "suffixe": "_IDU_05_4H4",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ631_IDU_06_4H5",
+        "suffixe": "_IDU_06_4H5",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ631_IDU_07_4H6",
+        "suffixe": "_IDU_07_4H6",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ631_IDU_08_3H2",
+        "suffixe": "_IDU_08_3H2",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ631_IDU_09_4H7",
+        "suffixe": "_IDU_09_4H7",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ631_IDU_10_2H1",
+        "suffixe": "_IDU_10_2H1",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ631_IDU_11_2H2",
+        "suffixe": "_IDU_11_2H2",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ631_IDU_12_4H8",
+        "suffixe": "_IDU_12_4H8",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "PROJ632",
+    "total_occurences": 8,
+    "variantes": [
+      {
+        "code": "PROJ632_INGE_TDG_1-7_4h",
+        "suffixe": "_INGE_TDG_1-7_4h",
+        "occurences": 7
+      },
+      {
+        "code": "PROJ632_INGE_TDG_8_2h",
+        "suffixe": "_INGE_TDG_8_2h",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "PROJ731",
+    "total_occurences": 5,
+    "variantes": [
+      {
+        "code": "PROJ731_INGE_APP",
+        "suffixe": "_INGE_APP",
+        "occurences": 5
+      }
+    ]
+  },
+  {
+    "racine": "PROJ831",
+    "total_occurences": 6,
+    "variantes": [
+      {
+        "code": "PROJ831_INGE_TPD",
+        "suffixe": "_INGE_TPD",
+        "occurences": 5
+      },
+      {
+        "code": "PROJ831_INGE_Auto",
+        "suffixe": "_INGE_Auto",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "PROJ832",
+    "total_occurences": 6,
+    "variantes": [
+      {
+        "code": "PROJ832_INGE_Projet",
+        "suffixe": "_INGE_Projet",
+        "occurences": 4
+      },
+      {
+        "code": "PROJ832_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 2
+      }
+    ]
+  },
+  {
+    "racine": "PROJ932",
+    "total_occurences": 11,
+    "variantes": [
+      {
+        "code": "PROJ932_TP",
+        "suffixe": "_TP",
+        "occurences": 9
+      },
+      {
+        "code": "PROJ932_Intro",
+        "suffixe": "_Intro",
+        "occurences": 1
+      },
+      {
+        "code": "PROJ932_eval",
+        "suffixe": "_eval",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "SHES501",
+    "total_occurences": 21,
+    "variantes": [
+      {
+        "code": "SHES501_Bus_sport_TDG",
+        "suffixe": "_Bus_sport_TDG",
+        "occurences": 14
+      },
+      {
+        "code": "SHES501_Sport_TDG",
+        "suffixe": "_Sport_TDG",
+        "occurences": 7
+      }
+    ]
+  },
+  {
+    "racine": "SHES505",
+    "total_occurences": 6,
+    "variantes": [
+      {
+        "code": "SHES505_Simu_Apresm_TDG",
+        "suffixe": "_Simu_Apresm_TDG",
+        "occurences": 2
+      },
+      {
+        "code": "SHES505_Simu_Matin_TDG",
+        "suffixe": "_Simu_Matin_TDG",
+        "occurences": 2
+      },
+      {
+        "code": "SHES505_Presentation_TDG",
+        "suffixe": "_Presentation_TDG",
+        "occurences": 1
+      },
+      {
+        "code": "SHES505_Soutenance-TDG",
+        "suffixe": "_Soutenance-TDG",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "SHES601",
+    "total_occurences": 13,
+    "variantes": [
+      {
+        "code": "SHES601_PACY_CM",
+        "suffixe": "_PACY_CM",
+        "occurences": 7
+      },
+      {
+        "code": "SHES601_PACY_TD2-4_IDU_G",
+        "suffixe": "_PACY_TD2-4_IDU_G",
+        "occurences": 3
+      },
+      {
+        "code": "SHES601_PACY_TD5-6_IDU_G",
+        "suffixe": "_PACY_TD5-6_IDU_G",
+        "occurences": 2
+      },
+      {
+        "code": "SHES601_PACY_TD1_IDU_G",
+        "suffixe": "_PACY_TD1_IDU_G",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "SHES602",
+    "total_occurences": 14,
+    "variantes": [
+      {
+        "code": "SHES602_PACY_CM",
+        "suffixe": "_PACY_CM",
+        "occurences": 9
+      },
+      {
+        "code": "SHES602_PACY_IDU_TD_G",
+        "suffixe": "_PACY_IDU_TD_G",
+        "occurences": 3
+      },
+      {
+        "code": "SHES602_PACY_CT_Session1",
+        "suffixe": "_PACY_CT_Session1",
+        "occurences": 1
+      },
+      {
+        "code": "SHES602_PACY_CT_Session1_Tiers_Tps",
+        "suffixe": "_PACY_CT_Session1_Tiers_Tps",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "SHES703",
+    "total_occurences": 10,
+    "variantes": [
+      {
+        "code": "SHES703 MON PROJET PROFESSIONNEL",
+        "suffixe": " MON PROJET PROFESSIONNEL",
+        "occurences": 2
+      },
+      {
+        "code": "SHES703 STRATAGÈME",
+        "suffixe": " STRATAGÈME",
+        "occurences": 2
+      },
+      {
+        "code": "SHES703 BIBI SUR LA TOILE - CRÉEZ UN PROFIL LINKEDIN",
+        "suffixe": " BIBI SUR LA TOILE - CRÉEZ UN PROFIL LINKEDIN",
+        "occurences": 1
+      },
+      {
+        "code": "SHES703 BOOSTE TES DÉMARCHES DE RECHERCHE DE STAGE",
+        "suffixe": " BOOSTE TES DÉMARCHES DE RECHERCHE DE STAGE",
+        "occurences": 1
+      },
+      {
+        "code": "SHES703 MON ENVIRONNEMENT PROFESSIONNEL",
+        "suffixe": " MON ENVIRONNEMENT PROFESSIONNEL",
+        "occurences": 1
+      },
+      {
+        "code": "SHES703 SHERLOCK",
+        "suffixe": " SHERLOCK",
+        "occurences": 1
+      },
+      {
+        "code": "SHES703 Simulation Entretiens TP1",
+        "suffixe": " Simulation Entretiens TP1",
+        "occurences": 1
+      },
+      {
+        "code": "SHES703 Stage découverte - Soutenance stage A1",
+        "suffixe": " Stage découverte - Soutenance stage A1",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "SHES704",
+    "total_occurences": 6,
+    "variantes": [
+      {
+        "code": "SHES704_TD_LeGoff_Perrine",
+        "suffixe": "_TD_LeGoff_Perrine",
+        "occurences": 6
+      }
+    ]
+  },
+  {
+    "racine": "SHES802",
+    "total_occurences": 13,
+    "variantes": [
+      {
+        "code": "SHES802_INGE_CM_SMQ",
+        "suffixe": "_INGE_CM_SMQ",
+        "occurences": 3
+      },
+      {
+        "code": "SHES802_INGE_CM_SST",
+        "suffixe": "_INGE_CM_SST",
+        "occurences": 3
+      },
+      {
+        "code": "SHES802_INGE_TD-IDU-A-SMQ",
+        "suffixe": "_INGE_TD-IDU-A-SMQ",
+        "occurences": 3
+      },
+      {
+        "code": "SHES802_INGE_TD-IDU-A-SST",
+        "suffixe": "_INGE_TD-IDU-A-SST",
+        "occurences": 3
+      },
+      {
+        "code": "SHES802_INGE_TD-IDU-A-SST-1",
+        "suffixe": "_INGE_TD-IDU-A-SST-1",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "SHES803",
+    "total_occurences": 13,
+    "variantes": [
+      {
+        "code": "SHES803_INGE_CM",
+        "suffixe": "_INGE_CM",
+        "occurences": 6
+      },
+      {
+        "code": "SHES803_INGE_TD-IDU-A",
+        "suffixe": "_INGE_TD-IDU-A",
+        "occurences": 6
+      },
+      {
+        "code": "SHES803_INGE_CM_Preparation",
+        "suffixe": "_INGE_CM_Preparation",
+        "occurences": 1
+      }
+    ]
+  },
+  {
+    "racine": "SHES901",
+    "total_occurences": 18,
+    "variantes": [
+      {
+        "code": "SHES901_PACY_CM",
+        "suffixe": "_PACY_CM",
+        "occurences": 11
+      },
+      {
+        "code": "SHES901_PACY_TD",
+        "suffixe": "_PACY_TD",
+        "occurences": 5
+      },
+      {
+        "code": "SHES901_PACY_CT",
+        "suffixe": "_PACY_CT",
+        "occurences": 1
+      },
+      {
+        "code": "SHES901_PACY_CT_1/3_temps",
+        "suffixe": "_PACY_CT_1/3_temps",
+        "occurences": 1
+      }
+    ]
+  }
+]
