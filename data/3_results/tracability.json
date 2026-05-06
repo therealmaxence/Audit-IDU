@@ -1,0 +1,701 @@
+[
+  {
+    "code_module":"INFO501_PACY",
+    "nom":"Algorithmes et Structures de données",
+    "ects":"1.50",
+    "cm":"12",
+    "td":"10.5",
+    "tp":"16",
+    "moodle":{
+      "nom":null,
+      "responsable":null
+    },
+    "ade":{
+      "cm":13.5,
+      "td":26.5,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"INFO502_PACY",
+    "nom":"Initiation aux BD (base de l'info gestion des entreprises)",
+    "ects":"2.00",
+    "cm":"6",
+    "td":"4.5",
+    "tp":"12",
+    "moodle":{
+      "nom":null,
+      "responsable":null
+    },
+    "ade":{
+      "cm":6.5,
+      "td":4.5,
+      "tp":16.0
+    }
+  },
+  {
+    "code_module":"INFO634_IDU",
+    "nom":"Conception et Programmation Orienté Objet",
+    "ects":"2.75",
+    "cm":"9",
+    "td":"21",
+    "tp":"8",
+    "moodle":{
+      "nom":null,
+      "responsable":null
+    },
+    "ade":{
+      "cm":0.0,
+      "td":0.0,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"INFO733_IDU",
+    "nom":"Réseaux et Systèmes répartis",
+    "ects":"2.50",
+    "cm":"18",
+    "td":"16",
+    "tp":"4",
+    "moodle":{
+      "nom":null,
+      "responsable":null
+    },
+    "ade":{
+      "cm":0.0,
+      "td":0.0,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"ISOC531_IDU",
+    "nom":"Sociétés numériques",
+    "ects":"3.00",
+    "cm":"13.5",
+    "td":"22.5",
+    "tp":"4",
+    "moodle":{
+      "nom":"Sociétés numériques",
+      "responsable":{
+        "nom":"SALAMATIAN",
+        "prenom":"Kavé"
+      }
+    },
+    "ade":{
+      "cm":12.0,
+      "td":12.0,
+      "tp":4.0
+    }
+  },
+  {
+    "code_module":"PROJ531_IDU",
+    "nom":"Gestion de projets",
+    "ects":"3.00",
+    "cm":"6",
+    "td":"6",
+    "tp":"28",
+    "moodle":{
+      "nom":"Gestion de projets",
+      "responsable":{
+        "nom":"ALLOUI",
+        "prenom":"Ilham"
+      }
+    },
+    "ade":{
+      "cm":6.0,
+      "td":6.0,
+      "tp":24.0
+    }
+  },
+  {
+    "code_module":"INFO631_IDU",
+    "nom":"Logique et Programmation",
+    "ects":"2.75",
+    "cm":"10.5",
+    "td":"10.5",
+    "tp":"20",
+    "moodle":{
+      "nom":"Logique et Programmation",
+      "responsable":{
+        "nom":"VERNIER",
+        "prenom":"Flavien"
+      }
+    },
+    "ade":{
+      "cm":9.0,
+      "td":9.0,
+      "tp":32.0
+    }
+  },
+  {
+    "code_module":"MATH531_IDU",
+    "nom":"Graphes et Langages",
+    "ects":"3.00",
+    "cm":"12",
+    "td":"12",
+    "tp":"16",
+    "moodle":{
+      "nom":"Graphes et Langages",
+      "responsable":{
+        "nom":"VERNIER",
+        "prenom":"Flavien"
+      }
+    },
+    "ade":{
+      "cm":12.0,
+      "td":12.0,
+      "tp":16.0
+    }
+  },
+  {
+    "code_module":"INFO632_IDU",
+    "nom":"Systèmes d’exploitation et Virtualisation",
+    "ects":"3.00",
+    "cm":"10.5",
+    "td":"13.5",
+    "tp":"16",
+    "moodle":{
+      "nom":"Systèmes d’exploitation et Virtualisation",
+      "responsable":{
+        "nom":"MONNET",
+        "prenom":"Sébastien"
+      }
+    },
+    "ade":{
+      "cm":9.0,
+      "td":10.5,
+      "tp":24.0
+    }
+  },
+  {
+    "code_module":"ISOC631_IDU",
+    "nom":"Plateformes collaboratives",
+    "ects":"3.00",
+    "cm":"13.5",
+    "td":"15",
+    "tp":"12",
+    "moodle":{
+      "nom":"Plateformes collaboratives",
+      "responsable":{
+        "nom":"SALAMATIAN",
+        "prenom":"Kavé"
+      }
+    },
+    "ade":{
+      "cm":13.5,
+      "td":12.0,
+      "tp":20.0
+    }
+  },
+  {
+    "code_module":"PROJ632_IDU",
+    "nom":"APP - Projet Data Science",
+    "ects":"2.50",
+    "cm":"0",
+    "td":"30",
+    "tp":"0",
+    "moodle":{
+      "nom":"Projet Data Science",
+      "responsable":{
+        "nom":"VERNIER",
+        "prenom":"Flavien"
+      }
+    },
+    "ade":{
+      "cm":0.0,
+      "td":30.0,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"PROJ631_IDU",
+    "nom":"Projet Algorithmique",
+    "ects":"2.75",
+    "cm":"0",
+    "td":"42",
+    "tp":"0",
+    "moodle":{
+      "nom":"Projet algorithmique",
+      "responsable":{
+        "nom":"VERNIER",
+        "prenom":"Flavien"
+      }
+    },
+    "ade":{
+      "cm":0.0,
+      "td":42.0,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"DATA731_IDU",
+    "nom":"Modélisation Stochastique",
+    "ects":"3.00",
+    "cm":"12",
+    "td":"0",
+    "tp":"24",
+    "moodle":{
+      "nom":"Modélisation Stochastique",
+      "responsable":{
+        "nom":"ATTO",
+        "prenom":"Abdou"
+      }
+    },
+    "ade":{
+      "cm":9.0,
+      "td":0.0,
+      "tp":24.0
+    }
+  },
+  {
+    "code_module":"INFO731_IDU",
+    "nom":"Sécurité et Cryptographie",
+    "ects":"3.00",
+    "cm":"13.5",
+    "td":"22.5",
+    "tp":"4",
+    "moodle":{
+      "nom":"Sécurité et Cryptographie",
+      "responsable":{
+        "nom":"SALAMATIAN",
+        "prenom":"Kavé"
+      }
+    },
+    "ade":{
+      "cm":13.5,
+      "td":32.0,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"INFO732_IDU",
+    "nom":"Comportement et Modélisation Dynamique",
+    "ects":"2.50",
+    "cm":"7.5",
+    "td":"6",
+    "tp":"24",
+    "moodle":{
+      "nom":"Comportement et Modélisation Dynamique",
+      "responsable":{
+        "nom":"CIMPAN",
+        "prenom":"Sorana"
+      }
+    },
+    "ade":{
+      "cm":7.5,
+      "td":4.5,
+      "tp":20.0
+    }
+  },
+  {
+    "code_module":"PROJ731_IDU",
+    "nom":"APP Analyse et visualisation de données",
+    "ects":"2.00",
+    "cm":"0",
+    "td":"20",
+    "tp":"0",
+    "moodle":{
+      "nom":"Flux de Données et Accès Concurrents",
+      "responsable":null
+    },
+    "ade":{
+      "cm":0.0,
+      "td":20.0,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"DATA732_IDU",
+    "nom":"Analyse et visualisation de données",
+    "ects":"3.00",
+    "cm":"12",
+    "td":"23.5",
+    "tp":"0",
+    "moodle":{
+      "nom":"Analyse et visualisation de données",
+      "responsable":{
+        "nom":"CIMPAN",
+        "prenom":"Sorana"
+      }
+    },
+    "ade":{
+      "cm":12.0,
+      "td":19.5,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"INFO734_IDU",
+    "nom":"Développement Full Stack",
+    "ects":"3.00",
+    "cm":"12",
+    "td":"24",
+    "tp":"0",
+    "moodle":{
+      "nom":"Développement Full Stack",
+      "responsable":{
+        "nom":"MIAN",
+        "prenom":"Ammar"
+      }
+    },
+    "ade":{
+      "cm":10.5,
+      "td":24.0,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"ISOC731_IDU",
+    "nom":"Économie et gouvernance de la donnée",
+    "ects":"3.00",
+    "cm":"15",
+    "td":"21",
+    "tp":"4",
+    "moodle":{
+      "nom":"Économie et gouvernance de la donnée",
+      "responsable":{
+        "nom":"SALAMATIAN",
+        "prenom":"Kavé"
+      }
+    },
+    "ade":{
+      "cm":16.0,
+      "td":8.0,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"DATA831_IDU",
+    "nom":"Big Data",
+    "ects":"1.00",
+    "cm":"7.5",
+    "td":"0",
+    "tp":"12",
+    "moodle":{
+      "nom":"Big Data",
+      "responsable":{
+        "nom":"MONNET",
+        "prenom":"Sébastien"
+      }
+    },
+    "ade":{
+      "cm":6.0,
+      "td":12.0,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"DATA832_IDU",
+    "nom":"Machine Learning",
+    "ects":"2.50",
+    "cm":"9",
+    "td":"9",
+    "tp":"12",
+    "moodle":{
+      "nom":"Machine Learning",
+      "responsable":{
+        "nom":"BENOIT",
+        "prenom":"Alexandre"
+      }
+    },
+    "ade":{
+      "cm":7.5,
+      "td":12.5,
+      "tp":4.0
+    }
+  },
+  {
+    "code_module":"INFO831_IDU",
+    "nom":"Informatique décisionnelle",
+    "ects":"2.50",
+    "cm":"9",
+    "td":"9",
+    "tp":"12",
+    "moodle":{
+      "nom":"Informatique décisionnelle",
+      "responsable":{
+        "nom":"ATTO",
+        "prenom":"Abdou"
+      }
+    },
+    "ade":{
+      "cm":10.5,
+      "td":7.5,
+      "tp":12.0
+    }
+  },
+  {
+    "code_module":"ISOC831_IDU",
+    "nom":"Dimension métiers",
+    "ects":"1.50",
+    "cm":"30",
+    "td":"0",
+    "tp":"0",
+    "moodle":{
+      "nom":"Dimension métiers",
+      "responsable":{
+        "nom":"VERNIER",
+        "prenom":"Flavien"
+      }
+    },
+    "ade":{
+      "cm":23.5,
+      "td":0.0,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"INFO832_IDU",
+    "nom":"Qualité et tests logiciel",
+    "ects":"2.50",
+    "cm":"12",
+    "td":"12",
+    "tp":"16",
+    "moodle":{
+      "nom":"Qualité et tests logiciel",
+      "responsable":{
+        "nom":"VERNIER",
+        "prenom":"Flavien"
+      }
+    },
+    "ade":{
+      "cm":9.0,
+      "td":17.0,
+      "tp":8.0
+    }
+  },
+  {
+    "code_module":"INFO833_IDU",
+    "nom":"Systèmes distribués à large échelle",
+    "ects":"2.50",
+    "cm":"12",
+    "td":"13.5",
+    "tp":"15",
+    "moodle":{
+      "nom":"Systèmes distribués à large échelle",
+      "responsable":{
+        "nom":"MONNET",
+        "prenom":"Sébastien"
+      }
+    },
+    "ade":{
+      "cm":10.5,
+      "td":13.5,
+      "tp":8.0
+    }
+  },
+  {
+    "code_module":"INFO834_IDU",
+    "nom":"Bases de données distribuées",
+    "ects":"2.50",
+    "cm":"6",
+    "td":"6",
+    "tp":"28",
+    "moodle":{
+      "nom":"Bases de données distribuées",
+      "responsable":{
+        "nom":"ALLOUI",
+        "prenom":"Ilham"
+      }
+    },
+    "ade":{
+      "cm":7.5,
+      "td":7.5,
+      "tp":24.0
+    }
+  },
+  {
+    "code_module":"PROJ831_IDU",
+    "nom":"APP Projet Informatique Données et Usages",
+    "ects":"1.50",
+    "cm":"0",
+    "td":"20",
+    "tp":"0",
+    "moodle":{
+      "nom":"Projet Informatique Données et Usages",
+      "responsable":{
+        "nom":"VERNIER",
+        "prenom":"Flavien"
+      }
+    },
+    "ade":{
+      "cm":0.0,
+      "td":20.0,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"INFO931_IDU",
+    "nom":"Optimisation et aide à la décision multicritère",
+    "ects":"3.00",
+    "cm":"12",
+    "td":"12",
+    "tp":"16",
+    "moodle":{
+      "nom":"Optimisation et aide à la décision multicritère",
+      "responsable":{
+        "nom":"MONNET",
+        "prenom":"Sébastien"
+      }
+    },
+    "ade":{
+      "cm":12.0,
+      "td":12.0,
+      "tp":16.0
+    }
+  },
+  {
+    "code_module":"INFO932_IDU",
+    "nom":"Calcul haute performance et Cloud Computing",
+    "ects":"3.00",
+    "cm":"7.5",
+    "td":"7.5",
+    "tp":"24",
+    "moodle":{
+      "nom":"Calcul haute performance et Cloud Computing",
+      "responsable":{
+        "nom":"MONNET",
+        "prenom":"Sébastien"
+      }
+    },
+    "ade":{
+      "cm":7.5,
+      "td":6.0,
+      "tp":20.0
+    }
+  },
+  {
+    "code_module":"PROJ931_IDU",
+    "nom":"Projet Usages",
+    "ects":"4.00",
+    "cm":"0",
+    "td":"0",
+    "tp":"40",
+    "moodle":{
+      "nom":"Projet Usages",
+      "responsable":{
+        "nom":"MONNET",
+        "prenom":"Sébastien"
+      }
+    },
+    "ade":{
+      "cm":0.0,
+      "td":0.0,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"DATA931_IDU",
+    "nom":"Machine Learning",
+    "ects":"3.00",
+    "cm":"12",
+    "td":"12",
+    "tp":"16",
+    "moodle":{
+      "nom":"Machine Learning",
+      "responsable":{
+        "nom":"BENOIT",
+        "prenom":"Alexandre"
+      }
+    },
+    "ade":{
+      "cm":12.0,
+      "td":12.0,
+      "tp":16.0
+    }
+  },
+  {
+    "code_module":"ISOC931_IDU",
+    "nom":"Innovation et Recherche",
+    "ects":"3.00",
+    "cm":"6",
+    "td":"12",
+    "tp":"20",
+    "moodle":{
+      "nom":"Innovation et recherche",
+      "responsable":{
+        "nom":"BENOIT",
+        "prenom":"Alexandre"
+      }
+    },
+    "ade":{
+      "cm":6.0,
+      "td":9.0,
+      "tp":14.0
+    }
+  },
+  {
+    "code_module":"PROJ932_IDU",
+    "nom":"Projet Data Science",
+    "ects":"4.00",
+    "cm":"0",
+    "td":"0",
+    "tp":"40",
+    "moodle":{
+      "nom":"Projet Data Science",
+      "responsable":{
+        "nom":"MONNET",
+        "prenom":"Sébastien"
+      }
+    },
+    "ade":{
+      "cm":0.0,
+      "td":0.0,
+      "tp":40.0
+    }
+  },
+  {
+    "code_module":"INFO633_IDU",
+    "nom":"Programmation bases de données et conception de site web",
+    "ects":"2.50",
+    "cm":"0",
+    "td":"13.5",
+    "tp":"10",
+    "moodle":{
+      "nom":"Bases de données et technologies web",
+      "responsable":{
+        "nom":"VALET",
+        "prenom":"Lionel"
+      }
+    },
+    "ade":{
+      "cm":5.0,
+      "td":26.0,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"PROJ901_PACY",
+    "nom":"Projet Recherche et Développement ",
+    "ects":"7.00",
+    "cm":"0",
+    "td":"0",
+    "tp":"40",
+    "moodle":{
+      "nom":"Projet Recherche et Développement -IDU5 - SNI5 - MMT5",
+      "responsable":null
+    },
+    "ade":{
+      "cm":0.0,
+      "td":0.0,
+      "tp":0.0
+    }
+  },
+  {
+    "code_module":"PROJ832_IDU",
+    "nom":"Flux de Données et Accès Concurrents",
+    "ects":"1.50",
+    "cm":"4",
+    "td":"16",
+    "tp":"0",
+    "moodle":{
+      "nom":"Flux de Données et Accès Concurrents",
+      "responsable":null
+    },
+    "ade":{
+      "cm":4.0,
+      "td":0.0,
+      "tp":12.0
+    }
+  }
+]
