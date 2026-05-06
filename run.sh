@@ -15,7 +15,11 @@ if [ ! -d "$VENV_DIR" ]; then
 fi
 
 # 2. Activer l'environnement virtuel
-source "$VENV_DIR/Scripts/activate"
+if [ -f "$VENV_DIR/Scripts/activate" ]; then
+    source "$VENV_DIR/Scripts/activate"   # Windows/Git Bash
+else
+    source "$VENV_DIR/bin/activate"        # Linux/macOS
+fi
 
 # 3. Installer les dépendances si requirements.txt existe
 if [ -f "requirements.txt" ]; then

@@ -5,7 +5,7 @@ from .Parser import Parser
 
 class MoodleParser(Parser):
     def __init__(self):
-        super().__init__(supported_extensions=[".html"])
+        super().__init__(supported_extensions=[".html", ".htm"])
 
     def __preprocess__(self, f):
         """Lit le contenu du fichier HTML et le convertit en une liste de dictionnaires."""
