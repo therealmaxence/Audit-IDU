@@ -2,4 +2,4 @@ from .Feature import Feature
 from .FeatureConformite import FeatureConformite
 from .FeatureTracability import FeatureTracability
 from .FeatureCountModuleOccurence import FeatureCountModuleOccurence
-from .FeaturePersonUnicityADE import FeaturePersonUnicityADE
+from .FeaturePersonUnicityAde import FeaturePersonUnicityADE
